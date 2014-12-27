@@ -175,7 +175,7 @@ function cleanUpNamespaces($xml_root)
 }
 
 class NSPHPClient {
-    private $nsversion = "2014_1r1";    
+    private $nsversion = "2014_2r1";    
 
     public $client = null;
     public $passport = null;

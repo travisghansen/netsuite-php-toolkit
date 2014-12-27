@@ -2,7 +2,7 @@
 namespace NetSuite\WebServices;
 
 class  NSconfig {
-    public $endpoint = "2014_1";
+    public $endpoint = "2014_2";
     public $host = "https://webservices.netsuite.com";
     public $email = "jDoe@netsuite.com";
     public $password = "mySecretPwd";

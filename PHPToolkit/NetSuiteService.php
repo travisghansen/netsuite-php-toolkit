@@ -1009,6 +1009,10 @@ class GetAllRecordType {
 	/**
 	 * @var string
 	 */
+	const taxAcct = "taxAcct";
+	/**
+	 * @var string
+	 */
 	const taxGroup = "taxGroup";
 	/**
 	 * @var string
@@ -2827,15 +2831,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
-	const TWO_FA_AUTH_REQD = "TWO_FA_AUTH_REQD";
-	/**
-	 * @var string
-	 */
 	const ABORT_SEARCH_EXCEEDED_MAX_TIME = "ABORT_SEARCH_EXCEEDED_MAX_TIME";
 	/**
 	 * @var string
 	 */
 	const ABORT_UPLOAD_VIRUS_DETECTED = "ABORT_UPLOAD_VIRUS_DETECTED";
+	/**
+	 * @var string
+	 */
+	const ACCESS_DENIED = "ACCESS_DENIED";
 	/**
 	 * @var string
 	 */
@@ -2847,11 +2851,19 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const ACCT_MERGE_DUP = "ACCT_MERGE_DUP";
+	/**
+	 * @var string
+	 */
 	const ACCT_NAME_REQD = "ACCT_NAME_REQD";
 	/**
 	 * @var string
 	 */
 	const ACCT_NEEDS_CAMPAIGN_PROVISION = "ACCT_NEEDS_CAMPAIGN_PROVISION";
+	/**
+	 * @var string
+	 */
+	const ACCT_NOT_CREATED = "ACCT_NOT_CREATED";
 	/**
 	 * @var string
 	 */
@@ -2883,7 +2895,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const ACH_NOT_AVAILBL = "ACH_NOT_AVAILBL";
+	/**
+	 * @var string
+	 */
 	const ACH_SETUP_REQD = "ACH_SETUP_REQD";
+	/**
+	 * @var string
+	 */
+	const ACTIVE_AP_ACCT_REQD = "ACTIVE_AP_ACCT_REQD";
 	/**
 	 * @var string
 	 */
@@ -2892,6 +2912,14 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const ACTIVE_TRANS_EXIST = "ACTIVE_TRANS_EXIST";
+	/**
+	 * @var string
+	 */
+	const ADDITIONAL_AUTHENTICATION_REQUIRED_2FA = "ADDITIONAL_AUTHENTICATION_REQUIRED_2FA";
+	/**
+	 * @var string
+	 */
+	const ADDITIONAL_AUTHENTICATION_REQUIRED_SQ = "ADDITIONAL_AUTHENTICATION_REQUIRED_SQ";
 	/**
 	 * @var string
 	 */
@@ -3059,6 +3087,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const BUNDLE_IS_DEPRECATED = "BUNDLE_IS_DEPRECATED";
+	/**
+	 * @var string
+	 */
 	const CALENDAR_PREFS_REQD = "CALENDAR_PREFS_REQD";
 	/**
 	 * @var string
@@ -3072,6 +3104,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const CAMPAIGN_SET_UP_REQD = "CAMPAIGN_SET_UP_REQD";
+	/**
+	 * @var string
+	 */
+	const CANNOT_RESET_PASSWORD = "CANNOT_RESET_PASSWORD";
 	/**
 	 * @var string
 	 */
@@ -3111,6 +3147,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CANT_CHANGE_IP_ADDRESS = "CANT_CHANGE_IP_ADDRESS";
+	/**
+	 * @var string
+	 */
 	const CANT_CHANGE_LEAD_SOURCE_CAT = "CANT_CHANGE_LEAD_SOURCE_CAT";
 	/**
 	 * @var string
@@ -3136,6 +3176,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const CANT_CHANGE_VSOE_ALLOCTN = "CANT_CHANGE_VSOE_ALLOCTN";
+	/**
+	 * @var string
+	 */
+	const CANT_CHG_POSTED_BILL_VRNC = "CANT_CHG_POSTED_BILL_VRNC";
 	/**
 	 * @var string
 	 */
@@ -3167,11 +3211,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CANT_CREATE_PO = "CANT_CREATE_PO";
+	/**
+	 * @var string
+	 */
 	const CANT_CREATE_SHIP_LABEL = "CANT_CREATE_SHIP_LABEL";
 	/**
 	 * @var string
 	 */
-	const CANT_CREATE_USER = "CANT_CREATE_USER";
+	const CANT_CREATE_WORK_ORD = "CANT_CREATE_WORK_ORD";
 	/**
 	 * @var string
 	 */
@@ -3439,6 +3487,14 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CANT_DEL_REALIZED_GAINLOSS = "CANT_DEL_REALIZED_GAINLOSS";
+	/**
+	 * @var string
+	 */
+	const CANT_DEL_TRANS_RVRSL = "CANT_DEL_TRANS_RVRSL";
+	/**
+	 * @var string
+	 */
 	const CANT_DIVIDE_BY_ZERO = "CANT_DIVIDE_BY_ZERO";
 	/**
 	 * @var string
@@ -3499,6 +3555,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CANT_FIND_SAVED_IMPORT = "CANT_FIND_SAVED_IMPORT";
+	/**
+	 * @var string
+	 */
 	const CANT_FIND_SOURCE_AMORTZN_ACCT = "CANT_FIND_SOURCE_AMORTZN_ACCT";
 	/**
 	 * @var string
@@ -3531,6 +3591,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CANT_LOOKUP_FLD = "CANT_LOOKUP_FLD";
+	/**
+	 * @var string
+	 */
 	const CANT_MAKE_CONTACT_PRIVATE = "CANT_MAKE_CONTACT_PRIVATE";
 	/**
 	 * @var string
@@ -3539,11 +3603,31 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CANT_MERGE_EMPLS = "CANT_MERGE_EMPLS";
+	/**
+	 * @var string
+	 */
 	const CANT_MODIFY_APPRVD_TIME = "CANT_MODIFY_APPRVD_TIME";
 	/**
 	 * @var string
 	 */
+	const CANT_MODIFY_FULFILL_STATUS = "CANT_MODIFY_FULFILL_STATUS";
+	/**
+	 * @var string
+	 */
+	const CANT_MODIFY_ISSUE_STATUS = "CANT_MODIFY_ISSUE_STATUS";
+	/**
+	 * @var string
+	 */
+	const CANT_MODIFY_LOCKED_FLD = "CANT_MODIFY_LOCKED_FLD";
+	/**
+	 * @var string
+	 */
 	const CANT_MODIFY_PARENT = "CANT_MODIFY_PARENT";
+	/**
+	 * @var string
+	 */
+	const CANT_MODIFY_REV_REC = "CANT_MODIFY_REV_REC";
 	/**
 	 * @var string
 	 */
@@ -3556,6 +3640,14 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const CANT_MODIFY_TEGATA = "CANT_MODIFY_TEGATA";
+	/**
+	 * @var string
+	 */
+	const CANT_MODIFY_VOID_TRANS = "CANT_MODIFY_VOID_TRANS";
+	/**
+	 * @var string
+	 */
+	const CANT_MOVE_REALIZED_GAINLOSS = "CANT_MOVE_REALIZED_GAINLOSS";
 	/**
 	 * @var string
 	 */
@@ -3584,6 +3676,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const CANT_REMOVE_ACH_PAY_METHOD = "CANT_REMOVE_ACH_PAY_METHOD";
+	/**
+	 * @var string
+	 */
+	const CANT_REMOVE_APPROVAL = "CANT_REMOVE_APPROVAL";
 	/**
 	 * @var string
 	 */
@@ -3643,6 +3739,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CANT_SET_INTERNALID = "CANT_SET_INTERNALID";
+	/**
+	 * @var string
+	 */
 	const CANT_SET_STATUS = "CANT_SET_STATUS";
 	/**
 	 * @var string
@@ -3655,6 +3755,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CANT_UPDATE_ACCTNG_PRDS = "CANT_UPDATE_ACCTNG_PRDS";
+	/**
+	 * @var string
+	 */
 	const CANT_UPDATE_AMT = "CANT_UPDATE_AMT";
 	/**
 	 * @var string
@@ -3664,6 +3768,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const CANT_UPDATE_FLDR = "CANT_UPDATE_FLDR";
+	/**
+	 * @var string
+	 */
+	const CANT_UPDATE_LINKED_TRANS_LINES = "CANT_UPDATE_LINKED_TRANS_LINES";
 	/**
 	 * @var string
 	 */
@@ -3747,6 +3855,14 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CERT_AUTH_EXPD = "CERT_AUTH_EXPD";
+	/**
+	 * @var string
+	 */
+	const CERT_EXPD = "CERT_EXPD";
+	/**
+	 * @var string
+	 */
 	const CERT_UNAVAILABLE = "CERT_UNAVAILABLE";
 	/**
 	 * @var string
@@ -3771,11 +3887,11 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
-	const CLASS_NOT_FOUND = "CLASS_NOT_FOUND";
+	const CLASS_OR_DEPT_OR_CUST_REQD = "CLASS_OR_DEPT_OR_CUST_REQD";
 	/**
 	 * @var string
 	 */
-	const CLASS_OR_DEPT_OR_CUST_REQD = "CLASS_OR_DEPT_OR_CUST_REQD";
+	const CLEAR_AUTOCALC = "CLEAR_AUTOCALC";
 	/**
 	 * @var string
 	 */
@@ -3808,6 +3924,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const COMPANY_DISABLED = "COMPANY_DISABLED";
+	/**
+	 * @var string
+	 */
+	const COMPANY_FLD_REQD = "COMPANY_FLD_REQD";
 	/**
 	 * @var string
 	 */
@@ -3887,6 +4007,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const CSV_DELIMITER_ERROR = "CSV_DELIMITER_ERROR";
+	/**
+	 * @var string
+	 */
 	const CUST_ARLEADY_HAS_ACCT = "CUST_ARLEADY_HAS_ACCT";
 	/**
 	 * @var string
@@ -3924,6 +4048,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const DATE_PARAM_REQD = "DATE_PARAM_REQD";
+	/**
+	 * @var string
+	 */
+	const DATE_PRD_MISMATCH = "DATE_PRD_MISMATCH";
 	/**
 	 * @var string
 	 */
@@ -3991,6 +4119,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const DOMAIN_IN_USE = "DOMAIN_IN_USE";
+	/**
+	 * @var string
+	 */
 	const DOMAIN_WEBSITE_REQD = "DOMAIN_WEBSITE_REQD";
 	/**
 	 * @var string
@@ -4027,10 +4159,6 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
-	const DUPLICATE_USER_NAME = "DUPLICATE_USER_NAME";
-	/**
-	 * @var string
-	 */
 	const DUP_ACCT_NAME = "DUP_ACCT_NAME";
 	/**
 	 * @var string
@@ -4048,6 +4176,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const DUP_BIN = "DUP_BIN";
+	/**
+	 * @var string
+	 */
+	const DUP_BUNDLE_IN_ACCT = "DUP_BUNDLE_IN_ACCT";
 	/**
 	 * @var string
 	 */
@@ -4191,6 +4323,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const DUP_SOURCE_ACCT = "DUP_SOURCE_ACCT";
+	/**
+	 * @var string
+	 */
 	const DUP_TAX_CODE = "DUP_TAX_CODE";
 	/**
 	 * @var string
@@ -4219,11 +4355,19 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const EBAY_FEE_ERROR = "EBAY_FEE_ERROR";
+	/**
+	 * @var string
+	 */
 	const EBAY_TMPLT_ERROR = "EBAY_TMPLT_ERROR";
 	/**
 	 * @var string
 	 */
 	const EDITION_DSNT_SUPRT_WORLDPAY = "EDITION_DSNT_SUPRT_WORLDPAY";
+	/**
+	 * @var string
+	 */
+	const EIN_OR_TIN_REQD = "EIN_OR_TIN_REQD";
 	/**
 	 * @var string
 	 */
@@ -4240,6 +4384,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const EMAIL_REQD_ACCT_PROVISION = "EMAIL_REQD_ACCT_PROVISION";
+	/**
+	 * @var string
+	 */
+	const EMAIL_REQ_HANDLER_ERROR = "EMAIL_REQ_HANDLER_ERROR";
 	/**
 	 * @var string
 	 */
@@ -4375,6 +4523,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const EXTERNALID_REQD = "EXTERNALID_REQD";
+	/**
+	 * @var string
+	 */
 	const EXT_CAT_LINK_SETUP_REQD = "EXT_CAT_LINK_SETUP_REQD";
 	/**
 	 * @var string
@@ -4463,11 +4615,11 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
-	const FEDEX_USER_ERROR = "FEDEX_USER_ERROR";
+	const FEDEX_USD_EXCHANGE_RATE_REQD = "FEDEX_USD_EXCHANGE_RATE_REQD";
 	/**
 	 * @var string
 	 */
-	const FEDEX_USD_EXCHANGE_RATE_REQD = "FEDEX_USD_EXCHANGE_RATE_REQD";
+	const FEDEX_USER_ERROR = "FEDEX_USER_ERROR";
 	/**
 	 * @var string
 	 */
@@ -4536,6 +4688,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const FINANCE_CHARGE_SETUP_REQD = "FINANCE_CHARGE_SETUP_REQD";
+	/**
+	 * @var string
+	 */
+	const FINANCE_CHARGE_SET_PREFS = "FINANCE_CHARGE_SET_PREFS";
 	/**
 	 * @var string
 	 */
@@ -4627,6 +4783,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const GIFT_CERT_INVALID_NUM = "GIFT_CERT_INVALID_NUM";
+	/**
+	 * @var string
+	 */
 	const GIFT_CERT_IN_USE = "GIFT_CERT_IN_USE";
 	/**
 	 * @var string
@@ -4656,6 +4816,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const ILLEGAL_PERIOD_STRUCTURE = "ILLEGAL_PERIOD_STRUCTURE";
+	/**
+	 * @var string
+	 */
+	const INACTIVE_CC_PROFILE = "INACTIVE_CC_PROFILE";
 	/**
 	 * @var string
 	 */
@@ -4691,11 +4855,19 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INFINITE_LOOP_DETECTED = "INFINITE_LOOP_DETECTED";
+	/**
+	 * @var string
+	 */
 	const INITIALIZE_ARG_REQD = "INITIALIZE_ARG_REQD";
 	/**
 	 * @var string
 	 */
 	const INITIALIZE_AUXREF_REQD = "INITIALIZE_AUXREF_REQD";
+	/**
+	 * @var string
+	 */
+	const INSTALL_SCRIPT_ERROR = "INSTALL_SCRIPT_ERROR";
 	/**
 	 * @var string
 	 */
@@ -4891,6 +5063,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_CERT_AUTH = "INVALID_CERT_AUTH";
+	/**
+	 * @var string
+	 */
 	const INVALID_CHANGE_LIST = "INVALID_CHANGE_LIST";
 	/**
 	 * @var string
@@ -4927,7 +5103,23 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_COLUMN_VALUE = "INVALID_COLUMN_VALUE";
+	/**
+	 * @var string
+	 */
+	const INVALID_CONTENT_TYPE = "INVALID_CONTENT_TYPE";
+	/**
+	 * @var string
+	 */
 	const INVALID_COSTING_METHOD = "INVALID_COSTING_METHOD";
+	/**
+	 * @var string
+	 */
+	const INVALID_CRNCY_EXCH_RATE = "INVALID_CRNCY_EXCH_RATE";
+	/**
+	 * @var string
+	 */
+	const INVALID_CRYPT_KEY = "INVALID_CRYPT_KEY";
 	/**
 	 * @var string
 	 */
@@ -4984,6 +5176,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const INVALID_DATA = "INVALID_DATA";
+	/**
+	 * @var string
+	 */
+	const INVALID_DATA_FORMAT = "INVALID_DATA_FORMAT";
 	/**
 	 * @var string
 	 */
@@ -5104,6 +5300,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const INVALID_FILE = "INVALID_FILE";
+	/**
+	 * @var string
+	 */
+	const INVALID_FILE_ENCODING = "INVALID_FILE_ENCODING";
 	/**
 	 * @var string
 	 */
@@ -5279,6 +5479,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_KEY_PASSWORD_REQD = "INVALID_KEY_PASSWORD_REQD";
+	/**
+	 * @var string
+	 */
 	const INVALID_LINE_ID = "INVALID_LINE_ID";
 	/**
 	 * @var string
@@ -5347,6 +5551,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_NAME = "INVALID_NAME";
+	/**
+	 * @var string
+	 */
 	const INVALID_NEXUS = "INVALID_NEXUS";
 	/**
 	 * @var string
@@ -5368,6 +5576,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const INVALID_ONLINE_FORM_URL = "INVALID_ONLINE_FORM_URL";
+	/**
+	 * @var string
+	 */
+	const INVALID_OPENID_DOMAIN = "INVALID_OPENID_DOMAIN";
 	/**
 	 * @var string
 	 */
@@ -5411,7 +5623,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_PARTNER_CODE = "INVALID_PARTNER_CODE";
+	/**
+	 * @var string
+	 */
 	const INVALID_PARTNER_ID = "INVALID_PARTNER_ID";
+	/**
+	 * @var string
+	 */
+	const INVALID_PASSWORD = "INVALID_PASSWORD";
 	/**
 	 * @var string
 	 */
@@ -5624,6 +5844,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const INVALID_RESULT_SUMMARY_FUNC = "INVALID_RESULT_SUMMARY_FUNC";
+	/**
+	 * @var string
+	 */
+	const INVALID_RETURN_DATA_OBJECT = "INVALID_RETURN_DATA_OBJECT";
 	/**
 	 * @var string
 	 */
@@ -6011,6 +6235,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const INVALID_WS_VERSION = "INVALID_WS_VERSION";
+	/**
+	 * @var string
+	 */
 	const INVALID_YEAR = "INVALID_YEAR";
 	/**
 	 * @var string
@@ -6036,6 +6264,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const INVLAID_BOOLEAN_VALUE = "INVLAID_BOOLEAN_VALUE";
+	/**
+	 * @var string
+	 */
+	const IP_REQUEST = "IP_REQUEST";
 	/**
 	 * @var string
 	 */
@@ -6075,6 +6307,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const ITEM_QTY_AMT_MISMATCH = "ITEM_QTY_AMT_MISMATCH";
+	/**
+	 * @var string
+	 */
 	const ITEM_TYP_REQS_UNIT = "ITEM_TYP_REQS_UNIT";
 	/**
 	 * @var string
@@ -6084,6 +6320,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const JE_LINE_MISSING_REQD_DATA = "JE_LINE_MISSING_REQD_DATA";
+	/**
+	 * @var string
+	 */
+	const JE_MAX_ONE_LINE = "JE_MAX_ONE_LINE";
 	/**
 	 * @var string
 	 */
@@ -6123,7 +6363,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const LINKED_ENTITIES_DONT_MATCH = "LINKED_ENTITIES_DONT_MATCH";
+	/**
+	 * @var string
+	 */
 	const LINKED_ITEMS_DONT_MATCH = "LINKED_ITEMS_DONT_MATCH";
+	/**
+	 * @var string
+	 */
+	const LINK_LINES_TO_ONE_ORD = "LINK_LINES_TO_ONE_ORD";
 	/**
 	 * @var string
 	 */
@@ -6223,15 +6471,11 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
-	const MAX_MERGE_LIMIT_EXCEEDED = "MAX_MERGE_LIMIT_EXCEEDED";
-	/**
-	 * @var string
-	 */
-	const MAX_MERGE_RCRDS_EXCEEDED = "MAX_MERGE_RCRDS_EXCEEDED";
-	/**
-	 * @var string
-	 */
 	const MAX_RCRDS_EXCEEDED = "MAX_RCRDS_EXCEEDED";
+	/**
+	 * @var string
+	 */
+	const MAX_VALUES_EXCEEDED = "MAX_VALUES_EXCEEDED";
 	/**
 	 * @var string
 	 */
@@ -6307,6 +6551,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const MISSING_CRNCY_EXCH_RATE = "MISSING_CRNCY_EXCH_RATE";
+	/**
+	 * @var string
+	 */
 	const MISSING_ENUM = "MISSING_ENUM";
 	/**
 	 * @var string
@@ -6367,6 +6615,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const MUST_DEFINE_BASE_UNIT = "MUST_DEFINE_BASE_UNIT";
+	/**
+	 * @var string
+	 */
 	const MUST_RESUBMIT_RCRD = "MUST_RESUBMIT_RCRD";
 	/**
 	 * @var string
@@ -6387,6 +6639,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const NEED_BILL_VARIANCE_ACCT = "NEED_BILL_VARIANCE_ACCT";
+	/**
+	 * @var string
+	 */
 	const NEGATIVE_PAYMENT_DISALLWD = "NEGATIVE_PAYMENT_DISALLWD";
 	/**
 	 * @var string
@@ -6404,6 +6660,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const NONMATCHING_EMAILS = "NONMATCHING_EMAILS";
+	/**
+	 * @var string
+	 */
+	const NONUNIQUE_INDEX_VALUE = "NONUNIQUE_INDEX_VALUE";
 	/**
 	 * @var string
 	 */
@@ -6515,6 +6775,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const ONE_PAY_ITEM_PER_EMPL = "ONE_PAY_ITEM_PER_EMPL";
+	/**
+	 * @var string
+	 */
 	const ONE_POSITIVE_VALUE_REQD = "ONE_POSITIVE_VALUE_REQD";
 	/**
 	 * @var string
@@ -6528,6 +6792,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const ONLINE_BANK_FILE_REQD = "ONLINE_BANK_FILE_REQD";
+	/**
+	 * @var string
+	 */
+	const ONLINE_BILL_PAY_DUP = "ONLINE_BILL_PAY_DUP";
 	/**
 	 * @var string
 	 */
@@ -6591,11 +6859,31 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const OPENID_DOMAIN_IN_USE = "OPENID_DOMAIN_IN_USE";
+	/**
+	 * @var string
+	 */
+	const OPENID_NOT_ENABLED = "OPENID_NOT_ENABLED";
+	/**
+	 * @var string
+	 */
+	const OPRTN_UNAVAILBL_TO_GATEWAY = "OPRTN_UNAVAILBL_TO_GATEWAY";
+	/**
+	 * @var string
+	 */
 	const ORDER_DSNT_EXIST = "ORDER_DSNT_EXIST";
 	/**
 	 * @var string
 	 */
 	const ORD_ALREADY_APPRVD = "ORD_ALREADY_APPRVD";
+	/**
+	 * @var string
+	 */
+	const ORD_UNAVAILBL_TO_FULFILL = "ORD_UNAVAILBL_TO_FULFILL";
+	/**
+	 * @var string
+	 */
+	const OTHER_PMT_AUTH_IN_PROGRESS = "OTHER_PMT_AUTH_IN_PROGRESS";
 	/**
 	 * @var string
 	 */
@@ -6643,11 +6931,19 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const PARSING_ERROR = "PARSING_ERROR";
+	/**
+	 * @var string
+	 */
 	const PARTIAL_FULFILL_RCEIV_DISALLWD = "PARTIAL_FULFILL_RCEIV_DISALLWD";
 	/**
 	 * @var string
 	 */
 	const PARTNER_ACCESS_DENIED = "PARTNER_ACCESS_DENIED";
+	/**
+	 * @var string
+	 */
+	const PARTNER_ACCT_NOT_LINKED = "PARTNER_ACCT_NOT_LINKED";
 	/**
 	 * @var string
 	 */
@@ -6727,6 +7023,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const PAY_HOLD_ON_SO = "PAY_HOLD_ON_SO";
+	/**
+	 * @var string
+	 */
 	const PERMISSION_VIOLATION = "PERMISSION_VIOLATION";
 	/**
 	 * @var string
@@ -6763,7 +7063,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const POSITIVE_BIN_QTY_REQD = "POSITIVE_BIN_QTY_REQD";
+	/**
+	 * @var string
+	 */
 	const POSITIVE_QTY_REQD = "POSITIVE_QTY_REQD";
+	/**
+	 * @var string
+	 */
+	const POSITIVE_UNITCOST_REQD = "POSITIVE_UNITCOST_REQD";
 	/**
 	 * @var string
 	 */
@@ -6852,6 +7160,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const RCRD_ID_NOT_INT = "RCRD_ID_NOT_INT";
+	/**
+	 * @var string
+	 */
+	const RCRD_LOCKED_BY_WF = "RCRD_LOCKED_BY_WF";
 	/**
 	 * @var string
 	 */
@@ -7019,6 +7331,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const SHIPFROM_ADDRESS_NOT_SET = "SHIPFROM_ADDRESS_NOT_SET";
+	/**
+	 * @var string
+	 */
 	const SHIPMNT_INSURANCE_NOT_AVAILABLE = "SHIPMNT_INSURANCE_NOT_AVAILABLE";
 	/**
 	 * @var string
@@ -7051,6 +7367,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const SITEMAP_GEN_ERROR = "SITEMAP_GEN_ERROR";
+	/**
+	 * @var string
+	 */
 	const SITE_DOMAIN_NAME_REQD = "SITE_DOMAIN_NAME_REQD";
 	/**
 	 * @var string
@@ -7075,7 +7395,19 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const SSS_CONNECTION_TIME_OUT = "SSS_CONNECTION_TIME_OUT";
+	/**
+	 * @var string
+	 */
 	const SSS_DEBUG_DISALLWD = "SSS_DEBUG_DISALLWD";
+	/**
+	 * @var string
+	 */
+	const SSS_DRIP_EMAIL_RAN_OUT_OF_COUPON_CODES = "SSS_DRIP_EMAIL_RAN_OUT_OF_COUPON_CODES";
+	/**
+	 * @var string
+	 */
+	const SSS_DUP_DRIP_EMAIL = "SSS_DUP_DRIP_EMAIL";
 	/**
 	 * @var string
 	 */
@@ -7096,6 +7428,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const SSS_INVALID_CC_EMAIL = "SSS_INVALID_CC_EMAIL";
+	/**
+	 * @var string
+	 */
+	const SSS_INVALID_CMPGN_EVENT_ID = "SSS_INVALID_CMPGN_EVENT_ID";
 	/**
 	 * @var string
 	 */
@@ -7123,7 +7459,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const SSS_INVALID_LOCK_WAIT_TIME = "SSS_INVALID_LOCK_WAIT_TIME";
+	/**
+	 * @var string
+	 */
 	const SSS_INVALID_LOG_TYPE = "SSS_INVALID_LOG_TYPE";
+	/**
+	 * @var string
+	 */
+	const SSS_INVALID_PORTLET_INTERVAL = "SSS_INVALID_PORTLET_INTERVAL";
 	/**
 	 * @var string
 	 */
@@ -7159,6 +7503,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const SSS_INVALID_SUBMIT_OPTION = "SSS_INVALID_SUBMIT_OPTION";
+	/**
+	 * @var string
+	 */
 	const SSS_INVALID_TYPE_ARG = "SSS_INVALID_TYPE_ARG";
 	/**
 	 * @var string
@@ -7172,6 +7520,14 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const SSS_INVALID_URL_CATEGORY = "SSS_INVALID_URL_CATEGORY";
+	/**
+	 * @var string
+	 */
+	const SSS_INVALID_WF_RCRD_TYPE = "SSS_INVALID_WF_RCRD_TYPE";
+	/**
+	 * @var string
+	 */
+	const SSS_MEMORY_USAGE_EXCEEDED = "SSS_MEMORY_USAGE_EXCEEDED";
 	/**
 	 * @var string
 	 */
@@ -7195,7 +7551,19 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const SSS_STACK_FRAME_DEPTH_EXCEEDED = "SSS_STACK_FRAME_DEPTH_EXCEEDED";
+	/**
+	 * @var string
+	 */
 	const SSS_TIME_LIMIT_EXCEEDED = "SSS_TIME_LIMIT_EXCEEDED";
+	/**
+	 * @var string
+	 */
+	const SSS_TRANSACTION_REQD = "SSS_TRANSACTION_REQD";
+	/**
+	 * @var string
+	 */
+	const SSS_TRANS_IN_PROGRESS = "SSS_TRANS_IN_PROGRESS";
 	/**
 	 * @var string
 	 */
@@ -7319,6 +7687,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const TIMEOUT_THE_RECORD_DOESNT_EXIST_ANYMORE = "TIMEOUT_THE_RECORD_DOESNT_EXIST_ANYMORE";
+	/**
+	 * @var string
+	 */
 	const TIME_ENTRY_DISALLWD = "TIME_ENTRY_DISALLWD";
 	/**
 	 * @var string
@@ -7328,6 +7700,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const TRANSACTION_DELETED = "TRANSACTION_DELETED";
+	/**
+	 * @var string
+	 */
+	const TRANSORD_SHIP_REC_MISMATCH = "TRANSORD_SHIP_REC_MISMATCH";
 	/**
 	 * @var string
 	 */
@@ -7403,6 +7779,10 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const TRANS_PRCSSNG_ERROR = "TRANS_PRCSSNG_ERROR";
+	/**
+	 * @var string
+	 */
 	const TRANS_UNBALNCD = "TRANS_UNBALNCD";
 	/**
 	 * @var string
@@ -7424,6 +7804,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const TRAN_PRD_CLOSED = "TRAN_PRD_CLOSED";
+	/**
+	 * @var string
+	 */
+	const TWO_FA_AUTH_REQD = "TWO_FA_AUTH_REQD";
 	/**
 	 * @var string
 	 */
@@ -7579,15 +7963,15 @@ class StatusDetailCodeType {
 	/**
 	 * @var string
 	 */
+	const UPS_USER_ERROR = "UPS_USER_ERROR";
+	/**
+	 * @var string
+	 */
 	const UPS_VOID_ERROR = "UPS_VOID_ERROR";
 	/**
 	 * @var string
 	 */
 	const UPS_XML_ERROR = "UPS_XML_ERROR";
-	/**
-	 * @var string
-	 */
-	const UPS_USER_ERROR = "UPS_USER_ERROR";
 	/**
 	 * @var string
 	 */
@@ -7752,6 +8136,10 @@ class StatusDetailCodeType {
 	 * @var string
 	 */
 	const WARNING = "WARNING";
+	/**
+	 * @var string
+	 */
+	const WF_EXEC_USAGE_LIMIT_EXCEEDED = "WF_EXEC_USAGE_LIMIT_EXCEEDED";
 	/**
 	 * @var string
 	 */
@@ -11157,11 +11545,17 @@ if (!class_exists("WriteResponseList")) {
 class WriteResponseList {
 	/**
 	 * @access public
+	 * @var Status
+	 */
+	public $status;
+	/**
+	 * @access public
 	 * @var WriteResponse[]
 	 */
 	public $writeResponse;
 
 	static $paramtypesmap = array(
+		"status" => "Status",
 		"writeResponse" => "WriteResponse[]",
 	);
 }}
@@ -11173,11 +11567,17 @@ if (!class_exists("ReadResponseList")) {
 class ReadResponseList {
 	/**
 	 * @access public
+	 * @var Status
+	 */
+	public $status;
+	/**
+	 * @access public
 	 * @var ReadResponse[]
 	 */
 	public $readResponse;
 
 	static $paramtypesmap = array(
+		"status" => "Status",
 		"readResponse" => "ReadResponse[]",
 	);
 }}
@@ -14075,11 +14475,15 @@ class PostingPeriodDate {
 	/**
 	 * @var string
 	 */
-	const _firstQtrOfLastFy = "_firstQtrOfLastFy";
+	const _firstFiscalQuarterOfLastFy = "_firstFiscalQuarterOfLastFy";
 	/**
 	 * @var string
 	 */
-	const _firstQtrOfThisFy = "_firstQtrOfThisFy";
+	const _firstFiscalQuarterOfThisFy = "_firstFiscalQuarterOfThisFy";
+	/**
+	 * @var string
+	 */
+	const _fiscalQuarterBeforeLast = "_fiscalQuarterBeforeLast";
 	/**
 	 * @var string
 	 */
@@ -14087,11 +14491,23 @@ class PostingPeriodDate {
 	/**
 	 * @var string
 	 */
-	const _fourthQtrOfLastFy = "_fourthQtrOfLastFy";
+	const _fourthFiscalQuarterOfLastFy = "_fourthFiscalQuarterOfLastFy";
 	/**
 	 * @var string
 	 */
-	const _fourthQtrOfThisFy = "_fourthQtrOfThisFy";
+	const _fourthFiscalQuarterOfThisFy = "_fourthFiscalQuarterOfThisFy";
+	/**
+	 * @var string
+	 */
+	const _lastFiscalQuarter = "_lastFiscalQuarter";
+	/**
+	 * @var string
+	 */
+	const _lastFiscalQuarterOneFiscalYearAgo = "_lastFiscalQuarterOneFiscalYearAgo";
+	/**
+	 * @var string
+	 */
+	const _lastFiscalQuarterToPeriod = "_lastFiscalQuarterToPeriod";
 	/**
 	 * @var string
 	 */
@@ -14099,23 +14515,27 @@ class PostingPeriodDate {
 	/**
 	 * @var string
 	 */
+	const _lastFiscalYearToPeriod = "_lastFiscalYearToPeriod";
+	/**
+	 * @var string
+	 */
 	const _lastPeriod = "_lastPeriod";
 	/**
 	 * @var string
 	 */
-	const _lastPeriodOneQtrAgo = "_lastPeriodOneQtrAgo";
+	const _lastPeriodOneFiscalQuarterAgo = "_lastPeriodOneFiscalQuarterAgo";
 	/**
 	 * @var string
 	 */
-	const _lastPeriodOneYearAgo = "_lastPeriodOneYearAgo";
+	const _lastPeriodOneFiscalYearAgo = "_lastPeriodOneFiscalYearAgo";
 	/**
 	 * @var string
 	 */
-	const _lastQtrOfOneYearAgo = "_lastQtrOfOneYearAgo";
+	const _lastRolling18periods = "_lastRolling18periods";
 	/**
 	 * @var string
 	 */
-	const _lastQuarter = "_lastQuarter";
+	const _lastRolling6fiscalQuarters = "_lastRolling6fiscalQuarters";
 	/**
 	 * @var string
 	 */
@@ -14123,7 +14543,15 @@ class PostingPeriodDate {
 	/**
 	 * @var string
 	 */
-	const _quarterBeforeLast = "_quarterBeforeLast";
+	const _sameFiscalQuarterOfLastFy = "_sameFiscalQuarterOfLastFy";
+	/**
+	 * @var string
+	 */
+	const _sameFiscalQuarterOfLastFyToPeriod = "_sameFiscalQuarterOfLastFyToPeriod";
+	/**
+	 * @var string
+	 */
+	const _samePeriodOfLastFiscalQuarter = "_samePeriodOfLastFiscalQuarter";
 	/**
 	 * @var string
 	 */
@@ -14131,27 +14559,27 @@ class PostingPeriodDate {
 	/**
 	 * @var string
 	 */
-	const _samePeriodOfLastQtr = "_samePeriodOfLastQtr";
+	const _secondFiscalQuarterOfLastFy = "_secondFiscalQuarterOfLastFy";
 	/**
 	 * @var string
 	 */
-	const _sameQtrOfLastFy = "_sameQtrOfLastFy";
+	const _secondFiscalQuarterOfThisFy = "_secondFiscalQuarterOfThisFy";
 	/**
 	 * @var string
 	 */
-	const _secondQtrOfLastFy = "_secondQtrOfLastFy";
+	const _thirdFiscalQuarterOfLastFy = "_thirdFiscalQuarterOfLastFy";
 	/**
 	 * @var string
 	 */
-	const _secondQtrOfThisFy = "_secondQtrOfThisFy";
+	const _thirdFiscalQuarterOfThisFy = "_thirdFiscalQuarterOfThisFy";
 	/**
 	 * @var string
 	 */
-	const _thirdQtrOfLastFy = "_thirdQtrOfLastFy";
+	const _thisFiscalQuarter = "_thisFiscalQuarter";
 	/**
 	 * @var string
 	 */
-	const _thirdQtrOfThisFy = "_thirdQtrOfThisFy";
+	const _thisFiscalQuarterToPeriod = "_thisFiscalQuarterToPeriod";
 	/**
 	 * @var string
 	 */
@@ -14159,11 +14587,11 @@ class PostingPeriodDate {
 	/**
 	 * @var string
 	 */
-	const _thisPeriod = "_thisPeriod";
+	const _thisFiscalYearToPeriod = "_thisFiscalYearToPeriod";
 	/**
 	 * @var string
 	 */
-	const _thisQuarter = "_thisQuarter";
+	const _thisPeriod = "_thisPeriod";
 }}
 
 if (!class_exists("PermissionLevel")) {
@@ -14507,6 +14935,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _accounting = "_accounting";
+	/**
+	 * @var string
+	 */
 	const _accountingBook = "_accountingBook";
 	/**
 	 * @var string
@@ -14647,6 +15079,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _billOfDistribution = "_billOfDistribution";
+	/**
+	 * @var string
+	 */
 	const _billOfMaterialsInquiry = "_billOfMaterialsInquiry";
 	/**
 	 * @var string
@@ -14672,6 +15108,14 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _binWorksheet = "_binWorksheet";
+	/**
+	 * @var string
+	 */
+	const _blanketPurchaseOrder = "_blanketPurchaseOrder";
+	/**
+	 * @var string
+	 */
+	const _blanketPurchaseOrderApproval = "_blanketPurchaseOrderApproval";
 	/**
 	 * @var string
 	 */
@@ -15027,6 +15471,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _deletedRecords = "_deletedRecords";
+	/**
+	 * @var string
+	 */
 	const _deleteEvent = "_deleteEvent";
 	/**
 	 * @var string
@@ -15052,6 +15500,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _distributeInventory = "_distributeInventory";
+	/**
+	 * @var string
+	 */
+	const _distributionNetwork = "_distributionNetwork";
 	/**
 	 * @var string
 	 */
@@ -15203,6 +15655,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _features = "_features";
+	/**
+	 * @var string
+	 */
 	const _financeCharge = "_financeCharge";
 	/**
 	 * @var string
@@ -15319,19 +15775,11 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _importQuickBooksQBWFile = "_importQuickBooksQBWFile";
-	/**
-	 * @var string
-	 */
 	const _importQuickenQIFFile = "_importQuickenQIFFile";
 	/**
 	 * @var string
 	 */
 	const _importStateSalesTax = "_importStateSalesTax";
-	/**
-	 * @var string
-	 */
-	const _importXMLDocument = "_importXMLDocument";
 	/**
 	 * @var string
 	 */
@@ -15372,6 +15820,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _invoice = "_invoice";
+	/**
+	 * @var string
+	 */
+	const _invoiceApproval = "_invoiceApproval";
 	/**
 	 * @var string
 	 */
@@ -15576,10 +16028,6 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _notesTab = "_notesTab";
-	/**
-	 * @var string
-	 */
-	const _odbc55 = "_odbc55";
 	/**
 	 * @var string
 	 */
@@ -15795,6 +16243,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _printShipmentDocuments = "_printShipmentDocuments";
+	/**
+	 * @var string
+	 */
 	const _processGSTRefund = "_processGSTRefund";
 	/**
 	 * @var string
@@ -15835,6 +16287,10 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
+	const _publicTemplateCategories = "_publicTemplateCategories";
+	/**
+	 * @var string
+	 */
 	const _publishDashboards = "_publishDashboards";
 	/**
 	 * @var string
@@ -15856,6 +16312,14 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _publishSearch = "_publishSearch";
+	/**
+	 * @var string
+	 */
+	const _purchaseContract = "_purchaseContract";
+	/**
+	 * @var string
+	 */
+	const _purchaseContractApproval = "_purchaseContractApproval";
 	/**
 	 * @var string
 	 */
@@ -15908,10 +16372,6 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _relatedItems = "_relatedItems";
-	/**
-	 * @var string
-	 */
-	const _remoteXML = "_remoteXML";
 	/**
 	 * @var string
 	 */
@@ -15984,6 +16444,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _revenueRecognitionSchedules = "_revenueRecognitionSchedules";
+	/**
+	 * @var string
+	 */
+	const _roles = "_roles";
 	/**
 	 * @var string
 	 */
@@ -16139,15 +16603,23 @@ class PermissionCode {
 	/**
 	 * @var string
 	 */
-	const _setUpXMLImport = "_setUpXMLImport";
-	/**
-	 * @var string
-	 */
 	const _setUpYearStatus = "_setUpYearStatus";
 	/**
 	 * @var string
 	 */
 	const _shippingItems = "_shippingItems";
+	/**
+	 * @var string
+	 */
+	const _shippingPartnerPackage = "_shippingPartnerPackage";
+	/**
+	 * @var string
+	 */
+	const _shippingPartnerRegistration = "_shippingPartnerRegistration";
+	/**
+	 * @var string
+	 */
+	const _shippingPartnerShipment = "_shippingPartnerShipment";
 	/**
 	 * @var string
 	 */
@@ -16160,6 +16632,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _statementCharge = "_statementCharge";
+	/**
+	 * @var string
+	 */
+	const _statisticalAccountRegisters = "_statisticalAccountRegisters";
 	/**
 	 * @var string
 	 */
@@ -16288,6 +16764,10 @@ class PermissionCode {
 	 * @var string
 	 */
 	const _telephonyIntegration = "_telephonyIntegration";
+	/**
+	 * @var string
+	 */
+	const _templateCategories = "_templateCategories";
 	/**
 	 * @var string
 	 */
@@ -16612,149 +17092,97 @@ class RecurrenceDowim {
 	const _last = "_last";
 }}
 
-if (!class_exists("ShipAddress")) {
+if (!class_exists("Address")) {
 /**
- * ShipAddress
+ * Address
  */
-class ShipAddress {
+class Address extends Record {
 	/**
 	 * @access public
 	 * @var string
 	 */
-	public $shipAttention;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipPhone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipCity;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipState;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipZip;
+	public $internalId;
 	/**
 	 * @access public
 	 * @var Country
 	 */
-	public $shipCountry;
+	public $country;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $attention;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $addressee;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $addrPhone;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $addr1;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $addr2;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $addr3;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $city;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $state;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $zip;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $addrText;
 	/**
 	 * @access public
 	 * @var boolean
 	 */
-	public $shipIsResidential;
+	public $override;
+	/**
+	 * @access public
+	 * @var CustomFieldList
+	 */
+	public $customFieldList;
 
 	static $paramtypesmap = array(
-		"shipAttention" => "string",
-		"shipAddressee" => "string",
-		"shipPhone" => "string",
-		"shipAddr1" => "string",
-		"shipAddr2" => "string",
-		"shipAddr3" => "string",
-		"shipCity" => "string",
-		"shipState" => "string",
-		"shipZip" => "string",
-		"shipCountry" => "Country",
-		"shipIsResidential" => "boolean",
-	);
-}}
-
-if (!class_exists("BillAddress")) {
-/**
- * BillAddress
- */
-class BillAddress {
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billAttention;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billAddressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billPhone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billAddr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billAddr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billAddr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billCity;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billState;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billZip;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $billCountry;
-
-	static $paramtypesmap = array(
-		"billAttention" => "string",
-		"billAddressee" => "string",
-		"billPhone" => "string",
-		"billAddr1" => "string",
-		"billAddr2" => "string",
-		"billAddr3" => "string",
-		"billCity" => "string",
-		"billState" => "string",
-		"billZip" => "string",
-		"billCountry" => "Country",
+		"internalId" => "string",
+		"country" => "Country",
+		"attention" => "string",
+		"addressee" => "string",
+		"addrPhone" => "string",
+		"addr1" => "string",
+		"addr2" => "string",
+		"addr3" => "string",
+		"city" => "string",
+		"state" => "string",
+		"zip" => "string",
+		"addrText" => "string",
+		"override" => "boolean",
+		"customFieldList" => "CustomFieldList",
 	);
 }}
 
@@ -22590,11 +23018,6 @@ class EmployeeSearchBasic extends SearchRecordBasic {
 	public $title;
 	/**
 	 * @access public
-	 * @var SearchMultiSelectField
-	 */
-	public $type;
-	/**
-	 * @access public
 	 * @var SearchBooleanField
 	 */
 	public $usePerquest;
@@ -22733,7 +23156,6 @@ class EmployeeSearchBasic extends SearchRecordBasic {
 		"supportRep" => "SearchBooleanField",
 		"timeApprover" => "SearchMultiSelectField",
 		"title" => "SearchStringField",
-		"type" => "SearchMultiSelectField",
 		"usePerquest" => "SearchBooleanField",
 		"useTimeData" => "SearchBooleanField",
 		"visaExpDate" => "SearchDateField",
@@ -23353,11 +23775,6 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 	public $title;
 	/**
 	 * @access public
-	 * @var SearchColumnSelectField[]
-	 */
-	public $type;
-	/**
-	 * @access public
 	 * @var SearchColumnBooleanField[]
 	 */
 	public $usePerquest;
@@ -23518,7 +23935,6 @@ class EmployeeSearchRowBasic extends SearchRowBasic {
 		"supervisor" => "SearchColumnSelectField[]",
 		"timeApprover" => "SearchColumnSelectField[]",
 		"title" => "SearchColumnStringField[]",
-		"type" => "SearchColumnSelectField[]",
 		"usePerquest" => "SearchColumnBooleanField[]",
 		"useTimeData" => "SearchColumnBooleanField[]",
 		"visaExpDate" => "SearchColumnDateField[]",
@@ -24527,6 +24943,11 @@ class NoteSearchBasic extends SearchRecordBasic {
 	 * @var SearchStringField
 	 */
 	public $title;
+	/**
+	 * @access public
+	 * @var SearchCustomFieldList
+	 */
+	public $customFieldList;
 
 	static $paramtypesmap = array(
 		"author" => "SearchMultiSelectField",
@@ -24539,6 +24960,7 @@ class NoteSearchBasic extends SearchRecordBasic {
 		"noteDate" => "SearchDateField",
 		"noteType" => "SearchMultiSelectField",
 		"title" => "SearchStringField",
+		"customFieldList" => "SearchCustomFieldList",
 	);
 }}
 
@@ -24587,6 +25009,11 @@ class NoteSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnStringField[]
 	 */
 	public $title;
+	/**
+	 * @access public
+	 * @var SearchColumnCustomFieldList
+	 */
+	public $customFieldList;
 
 	static $paramtypesmap = array(
 		"author" => "SearchColumnSelectField[]",
@@ -24597,6 +25024,7 @@ class NoteSearchRowBasic extends SearchRowBasic {
 		"noteDate" => "SearchColumnDateField[]",
 		"noteType" => "SearchColumnStringField[]",
 		"title" => "SearchColumnStringField[]",
+		"customFieldList" => "SearchColumnCustomFieldList",
 	);
 }}
 
@@ -24983,6 +25411,26 @@ if (!class_exists("RevRecScheduleSearchBasic")) {
 class RevRecScheduleSearchBasic extends SearchRecordBasic {
 	/**
 	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $accountingBook;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $amorStatus;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $amortizedAmount;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $amorType;
+	/**
+	 * @access public
 	 * @var SearchDoubleField
 	 */
 	public $amount;
@@ -24990,27 +25438,22 @@ class RevRecScheduleSearchBasic extends SearchRecordBasic {
 	 * @access public
 	 * @var SearchMultiSelectField
 	 */
-	public $defRev;
+	public $currency;
 	/**
 	 * @access public
-	 * @var SearchStringField
+	 * @var SearchDoubleField
 	 */
-	public $entity;
-	/**
-	 * @access public
-	 * @var SearchMultiSelectField
-	 */
-	public $externalId;
-	/**
-	 * @access public
-	 * @var SearchStringField
-	 */
-	public $externalIdString;
+	public $deferredAmount;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
 	 */
-	public $incomeAcct;
+	public $destAcct;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $initialAmt;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
@@ -25023,14 +25466,34 @@ class RevRecScheduleSearchBasic extends SearchRecordBasic {
 	public $internalIdNumber;
 	/**
 	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $isRecognized;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $jeDoc;
 	/**
 	 * @access public
-	 * @var SearchMultiSelectField
+	 * @var SearchStringField
 	 */
 	public $name;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $pctComplete;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $pctRecognition;
+	/**
+	 * @access public
+	 * @var SearchLongField
+	 */
+	public $periodOffset;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
@@ -25038,35 +25501,78 @@ class RevRecScheduleSearchBasic extends SearchRecordBasic {
 	public $postPeriod;
 	/**
 	 * @access public
-	 * @var SearchMultiSelectField
-	 */
-	public $srcDoc;
-	/**
-	 * @access public
 	 * @var SearchDateField
 	 */
-	public $srcDocDate;
+	public $schedDate;
+	/**
+	 * @access public
+	 * @var SearchLongField
+	 */
+	public $scheduleNumber;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $scheduleNumberText;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $sourceAcct;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $srcTranPostPeriod;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $srcTranType;
+	/**
+	 * @access public
+	 * @var SearchLongField
+	 */
+	public $startOffset;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $templateName;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $useForeignAmounts;
 
 	static $paramtypesmap = array(
+		"accountingBook" => "SearchMultiSelectField",
+		"amorStatus" => "SearchEnumMultiSelectField",
+		"amortizedAmount" => "SearchDoubleField",
+		"amorType" => "SearchEnumMultiSelectField",
 		"amount" => "SearchDoubleField",
-		"defRev" => "SearchMultiSelectField",
-		"entity" => "SearchStringField",
-		"externalId" => "SearchMultiSelectField",
-		"externalIdString" => "SearchStringField",
-		"incomeAcct" => "SearchMultiSelectField",
+		"currency" => "SearchMultiSelectField",
+		"deferredAmount" => "SearchDoubleField",
+		"destAcct" => "SearchMultiSelectField",
+		"initialAmt" => "SearchDoubleField",
 		"internalId" => "SearchMultiSelectField",
 		"internalIdNumber" => "SearchLongField",
+		"isRecognized" => "SearchBooleanField",
 		"jeDoc" => "SearchMultiSelectField",
-		"name" => "SearchMultiSelectField",
+		"name" => "SearchStringField",
+		"pctComplete" => "SearchDoubleField",
+		"pctRecognition" => "SearchDoubleField",
+		"periodOffset" => "SearchLongField",
 		"postPeriod" => "SearchMultiSelectField",
-		"srcDoc" => "SearchMultiSelectField",
-		"srcDocDate" => "SearchDateField",
+		"schedDate" => "SearchDateField",
+		"scheduleNumber" => "SearchLongField",
+		"scheduleNumberText" => "SearchStringField",
+		"sourceAcct" => "SearchMultiSelectField",
 		"srcTranPostPeriod" => "SearchMultiSelectField",
+		"srcTranType" => "SearchMultiSelectField",
+		"startOffset" => "SearchLongField",
+		"templateName" => "SearchStringField",
+		"useForeignAmounts" => "SearchBooleanField",
 	);
 }}
 
@@ -25077,6 +25583,31 @@ if (!class_exists("RevRecScheduleSearchRowBasic")) {
 class RevRecScheduleSearchRowBasic extends SearchRowBasic {
 	/**
 	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $accountingBook;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $amorStatus;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $amorTemplate;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $amortizedAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $amorType;
+	/**
+	 * @access public
 	 * @var SearchColumnDoubleField[]
 	 */
 	public $amount;
@@ -25084,27 +25615,32 @@ class RevRecScheduleSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
-	public $defRev;
+	public $currency;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $deferredAmount;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
-	public $entity;
+	public $destAcct;
 	/**
 	 * @access public
-	 * @var SearchColumnStringField[]
+	 * @var SearchColumnDoubleField[]
 	 */
-	public $externalId;
+	public $initialAmt;
 	/**
 	 * @access public
-	 * @var SearchColumnStringField[]
-	 */
-	public $incomeAcct;
-	/**
-	 * @access public
-	 * @var SearchColumnSelectField[]
+	 * @var SearchColumnLongField[]
 	 */
 	public $internalId;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $isRecognized;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -25112,9 +25648,9 @@ class RevRecScheduleSearchRowBasic extends SearchRowBasic {
 	public $jeDoc;
 	/**
 	 * @access public
-	 * @var SearchColumnStringField[]
+	 * @var SearchColumnLongField[]
 	 */
-	public $jeDocUrl;
+	public $lineSequenceNumber;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -25127,34 +25663,100 @@ class RevRecScheduleSearchRowBasic extends SearchRowBasic {
 	public $nameUrl;
 	/**
 	 * @access public
-	 * @var SearchColumnStringField[]
+	 * @var SearchColumnDoubleField[]
 	 */
-	public $postPeriod;
+	public $pctComplete;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $pctRecognition;
+	/**
+	 * @access public
+	 * @var SearchColumnLongField[]
+	 */
+	public $periodOffset;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $recurAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $recurFxAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $schedDate;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
-	public $srcDoc;
+	public $scheduleNumber;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $sourceAcct;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
 	public $srcDocLine;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $srcTran;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $srcTranPostPeriod;
+	/**
+	 * @access public
+	 * @var SearchColumnLongField[]
+	 */
+	public $startOffset;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $useForeignAmounts;
 
 	static $paramtypesmap = array(
+		"accountingBook" => "SearchColumnSelectField[]",
+		"amorStatus" => "SearchColumnEnumSelectField[]",
+		"amorTemplate" => "SearchColumnStringField[]",
+		"amortizedAmount" => "SearchColumnDoubleField[]",
+		"amorType" => "SearchColumnEnumSelectField[]",
 		"amount" => "SearchColumnDoubleField[]",
-		"defRev" => "SearchColumnStringField[]",
-		"entity" => "SearchColumnStringField[]",
-		"externalId" => "SearchColumnStringField[]",
-		"incomeAcct" => "SearchColumnStringField[]",
-		"internalId" => "SearchColumnSelectField[]",
+		"currency" => "SearchColumnStringField[]",
+		"deferredAmount" => "SearchColumnDoubleField[]",
+		"destAcct" => "SearchColumnStringField[]",
+		"initialAmt" => "SearchColumnDoubleField[]",
+		"internalId" => "SearchColumnLongField[]",
+		"isRecognized" => "SearchColumnBooleanField[]",
 		"jeDoc" => "SearchColumnStringField[]",
-		"jeDocUrl" => "SearchColumnStringField[]",
+		"lineSequenceNumber" => "SearchColumnLongField[]",
 		"name" => "SearchColumnStringField[]",
 		"nameUrl" => "SearchColumnStringField[]",
-		"postPeriod" => "SearchColumnStringField[]",
-		"srcDoc" => "SearchColumnStringField[]",
+		"pctComplete" => "SearchColumnDoubleField[]",
+		"pctRecognition" => "SearchColumnDoubleField[]",
+		"periodOffset" => "SearchColumnLongField[]",
+		"recurAmount" => "SearchColumnDoubleField[]",
+		"recurFxAmount" => "SearchColumnDoubleField[]",
+		"schedDate" => "SearchColumnDateField[]",
+		"scheduleNumber" => "SearchColumnStringField[]",
+		"sourceAcct" => "SearchColumnStringField[]",
 		"srcDocLine" => "SearchColumnStringField[]",
+		"srcTran" => "SearchColumnStringField[]",
+		"srcTranPostPeriod" => "SearchColumnStringField[]",
+		"startOffset" => "SearchColumnLongField[]",
+		"useForeignAmounts" => "SearchColumnBooleanField[]",
 	);
 }}
 
@@ -26059,6 +26661,11 @@ class TransactionSearchBasic extends SearchRecordBasic {
 	public $authCode;
 	/**
 	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $autoCalculateLag;
+	/**
+	 * @access public
 	 * @var SearchEnumMultiSelectField
 	 */
 	public $avsStreetMatch;
@@ -26161,6 +26768,11 @@ class TransactionSearchBasic extends SearchRecordBasic {
 	 * @access public
 	 * @var SearchBooleanField
 	 */
+	public $bookSpecificTransaction;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
 	public $buildEntireAssembly;
 	/**
 	 * @access public
@@ -26172,6 +26784,11 @@ class TransactionSearchBasic extends SearchRecordBasic {
 	 * @var SearchDoubleField
 	 */
 	public $built;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $catchUpPeriod;
 	/**
 	 * @access public
 	 * @var SearchStringField
@@ -27169,6 +27786,11 @@ class TransactionSearchBasic extends SearchRecordBasic {
 	public $salesTeamRole;
 	/**
 	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $schedulingMethod;
+	/**
+	 * @access public
 	 * @var SearchStringField
 	 */
 	public $serialNumber;
@@ -27541,6 +28163,7 @@ class TransactionSearchBasic extends SearchRecordBasic {
 		"applyingTransaction" => "SearchMultiSelectField",
 		"approvalStatus" => "SearchEnumMultiSelectField",
 		"authCode" => "SearchStringField",
+		"autoCalculateLag" => "SearchBooleanField",
 		"avsStreetMatch" => "SearchEnumMultiSelectField",
 		"avsZipMatch" => "SearchEnumMultiSelectField",
 		"billable" => "SearchBooleanField",
@@ -27561,9 +28184,11 @@ class TransactionSearchBasic extends SearchRecordBasic {
 		"binNumber" => "SearchStringField",
 		"binNumberQuantity" => "SearchDoubleField",
 		"bomQuantity" => "SearchDoubleField",
+		"bookSpecificTransaction" => "SearchBooleanField",
 		"buildEntireAssembly" => "SearchBooleanField",
 		"buildVariance" => "SearchDoubleField",
 		"built" => "SearchDoubleField",
+		"catchUpPeriod" => "SearchMultiSelectField",
 		"ccCustomerCode" => "SearchStringField",
 		"ccExpireDate" => "SearchDateField",
 		"ccName" => "SearchStringField",
@@ -27763,6 +28388,7 @@ class TransactionSearchBasic extends SearchRecordBasic {
 		"salesRep" => "SearchMultiSelectField",
 		"salesTeamMember" => "SearchMultiSelectField",
 		"salesTeamRole" => "SearchMultiSelectField",
+		"schedulingMethod" => "SearchEnumMultiSelectField",
 		"serialNumber" => "SearchStringField",
 		"serialNumberCost" => "SearchDoubleField",
 		"serialNumberCostAdjustment" => "SearchDoubleField",
@@ -27953,6 +28579,11 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 	public $authCode;
 	/**
 	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $autoCalculateLag;
+	/**
+	 * @access public
 	 * @var SearchColumnEnumSelectField[]
 	 */
 	public $avsStreetMatch;
@@ -28081,6 +28712,11 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnDoubleField[]
 	 */
 	public $built;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $catchUpPeriod;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -29098,6 +29734,11 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 	public $salesTeamRole;
 	/**
 	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $schedulingMethod;
+	/**
+	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
 	public $serialNumber;
@@ -29475,6 +30116,7 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 		"applyingTransaction" => "SearchColumnSelectField[]",
 		"approvalStatus" => "SearchColumnEnumSelectField[]",
 		"authCode" => "SearchColumnStringField[]",
+		"autoCalculateLag" => "SearchColumnBooleanField[]",
 		"avsStreetMatch" => "SearchColumnEnumSelectField[]",
 		"avsZipMatch" => "SearchColumnEnumSelectField[]",
 		"billable" => "SearchColumnBooleanField[]",
@@ -29501,6 +30143,7 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 		"buildEntireAssembly" => "SearchColumnBooleanField[]",
 		"buildVariance" => "SearchColumnDoubleField[]",
 		"built" => "SearchColumnDoubleField[]",
+		"catchUpPeriod" => "SearchColumnStringField[]",
 		"ccCustomerCode" => "SearchColumnStringField[]",
 		"ccExpDate" => "SearchColumnDateField[]",
 		"ccHolderName" => "SearchColumnStringField[]",
@@ -29704,6 +30347,7 @@ class TransactionSearchRowBasic extends SearchRowBasic {
 		"salesRep" => "SearchColumnSelectField[]",
 		"salesTeamMember" => "SearchColumnSelectField[]",
 		"salesTeamRole" => "SearchColumnSelectField[]",
+		"schedulingMethod" => "SearchColumnEnumSelectField[]",
 		"serialNumber" => "SearchColumnStringField[]",
 		"serialNumberCost" => "SearchColumnDoubleField[]",
 		"serialNumberCostAdjustment" => "SearchColumnDoubleField[]",
@@ -30015,6 +30659,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 	public $defaultShippingMethod;
 	/**
 	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
 	 * @var SearchDoubleField
 	 */
 	public $demandModifier;
@@ -30043,6 +30692,16 @@ class ItemSearchBasic extends SearchRecordBasic {
 	 * @var SearchStringField
 	 */
 	public $displayName;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $distributionCategory;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $distributionNetwork;
 	/**
 	 * @access public
 	 * @var SearchBooleanField
@@ -30128,6 +30787,11 @@ class ItemSearchBasic extends SearchRecordBasic {
 	 * @var SearchLongField
 	 */
 	public $forwardConsumptionDays;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $fraudRisk;
 	/**
 	 * @access public
 	 * @var SearchBooleanField
@@ -30710,6 +31374,21 @@ class ItemSearchBasic extends SearchRecordBasic {
 	public $primaryCategory;
 	/**
 	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $purchaseUnit;
@@ -30743,6 +31422,21 @@ class ItemSearchBasic extends SearchRecordBasic {
 	 * @var SearchMultiSelectField
 	 */
 	public $quantityPricingSchedule;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $receiptQuantityDiff;
 	/**
 	 * @access public
 	 * @var SearchLongField
@@ -31131,12 +31825,15 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"daysBeforeExpiration" => "SearchDoubleField",
 		"defaultReturnCost" => "SearchDoubleField",
 		"defaultShippingMethod" => "SearchMultiSelectField",
+		"deferRevRec" => "SearchBooleanField",
 		"demandModifier" => "SearchDoubleField",
 		"demandSource" => "SearchEnumMultiSelectField",
 		"demandTimeFence" => "SearchLongField",
 		"department" => "SearchMultiSelectField",
 		"displayIneBayStore" => "SearchBooleanField",
 		"displayName" => "SearchStringField",
+		"distributionCategory" => "SearchMultiSelectField",
+		"distributionNetwork" => "SearchMultiSelectField",
 		"dontShowPrice" => "SearchBooleanField",
 		"eBayItemDescription" => "SearchStringField",
 		"eBayItemSubtitle" => "SearchStringField",
@@ -31154,6 +31851,7 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"feedName" => "SearchStringField",
 		"fixedLotSize" => "SearchDoubleField",
 		"forwardConsumptionDays" => "SearchLongField",
+		"fraudRisk" => "SearchEnumMultiSelectField",
 		"froogleProductFeed" => "SearchBooleanField",
 		"fxCost" => "SearchDoubleField",
 		"giftCertAuthCode" => "SearchStringField",
@@ -31270,6 +31968,9 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"pricesIncludeTax" => "SearchBooleanField",
 		"pricingGroup" => "SearchMultiSelectField",
 		"primaryCategory" => "SearchLongField",
+		"purchaseOrderAmount" => "SearchDoubleField",
+		"purchaseOrderQuantity" => "SearchDoubleField",
+		"purchaseOrderQuantityDiff" => "SearchDoubleField",
 		"purchaseUnit" => "SearchMultiSelectField",
 		"quantityAvailable" => "SearchDoubleField",
 		"quantityBackOrdered" => "SearchDoubleField",
@@ -31277,6 +31978,9 @@ class ItemSearchBasic extends SearchRecordBasic {
 		"quantityOnHand" => "SearchDoubleField",
 		"quantityOnOrder" => "SearchDoubleField",
 		"quantityPricingSchedule" => "SearchMultiSelectField",
+		"receiptAmount" => "SearchDoubleField",
+		"receiptQuantity" => "SearchDoubleField",
+		"receiptQuantityDiff" => "SearchDoubleField",
 		"reorderMultiple" => "SearchLongField",
 		"reorderPoint" => "SearchDoubleField",
 		"rescheduleInDays" => "SearchLongField",
@@ -31610,6 +32314,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	public $deferredRevenueAccount;
 	/**
 	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
 	 * @var SearchColumnDoubleField[]
 	 */
 	public $demandModifier;
@@ -31643,6 +32352,16 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnStringField[]
 	 */
 	public $displayName;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $distributionCategory;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $distributionNetwork;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -31728,6 +32447,11 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnLongField[]
 	 */
 	public $forwardConsumptionDays;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $fraudRisk;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -32355,6 +33079,21 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	public $purchaseDescription;
 	/**
 	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
 	 * @var SearchColumnSelectField[]
 	 */
 	public $purchasePriceVarianceAcct;
@@ -32393,6 +33132,21 @@ class ItemSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnSelectField[]
 	 */
 	public $quantityPricingSchedule;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $receiptQuantityDiff;
 	/**
 	 * @access public
 	 * @var SearchColumnLongField[]
@@ -32841,6 +33595,7 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"defaultShippingMethod" => "SearchColumnStringField[]",
 		"deferredExpenseAccount" => "SearchColumnSelectField[]",
 		"deferredRevenueAccount" => "SearchColumnSelectField[]",
+		"deferRevRec" => "SearchColumnBooleanField[]",
 		"demandModifier" => "SearchColumnDoubleField[]",
 		"demandSource" => "SearchColumnEnumSelectField[]",
 		"demandTimeFence" => "SearchColumnLongField[]",
@@ -32848,6 +33603,8 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"departmentnohierarchy" => "SearchColumnSelectField[]",
 		"displayIneBayStore" => "SearchColumnBooleanField[]",
 		"displayName" => "SearchColumnStringField[]",
+		"distributionCategory" => "SearchColumnSelectField[]",
+		"distributionNetwork" => "SearchColumnSelectField[]",
 		"dontShowPrice" => "SearchColumnBooleanField[]",
 		"eBayItemDescription" => "SearchColumnStringField[]",
 		"eBayItemSubtitle" => "SearchColumnStringField[]",
@@ -32865,6 +33622,7 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"feedName" => "SearchColumnStringField[]",
 		"fixedLotSize" => "SearchColumnDoubleField[]",
 		"forwardConsumptionDays" => "SearchColumnLongField[]",
+		"fraudRisk" => "SearchColumnEnumSelectField[]",
 		"froogleProductFeed" => "SearchColumnBooleanField[]",
 		"fxCost" => "SearchColumnDoubleField[]",
 		"gainLossAccount" => "SearchColumnSelectField[]",
@@ -32990,6 +33748,9 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"prodPriceVarianceAcct" => "SearchColumnSelectField[]",
 		"prodQtyVarianceAcct" => "SearchColumnSelectField[]",
 		"purchaseDescription" => "SearchColumnStringField[]",
+		"purchaseOrderAmount" => "SearchColumnDoubleField[]",
+		"purchaseOrderQuantity" => "SearchColumnDoubleField[]",
+		"purchaseOrderQuantityDiff" => "SearchColumnDoubleField[]",
 		"purchasePriceVarianceAcct" => "SearchColumnSelectField[]",
 		"purchaseUnit" => "SearchColumnSelectField[]",
 		"quantityAvailable" => "SearchColumnDoubleField[]",
@@ -32998,6 +33759,9 @@ class ItemSearchRowBasic extends SearchRowBasic {
 		"quantityOnHand" => "SearchColumnDoubleField[]",
 		"quantityOnOrder" => "SearchColumnDoubleField[]",
 		"quantityPricingSchedule" => "SearchColumnSelectField[]",
+		"receiptAmount" => "SearchColumnDoubleField[]",
+		"receiptQuantity" => "SearchColumnDoubleField[]",
+		"receiptQuantityDiff" => "SearchColumnDoubleField[]",
 		"reorderMultiple" => "SearchColumnLongField[]",
 		"reOrderPoint" => "SearchColumnDoubleField[]",
 		"rescheduleInDays" => "SearchColumnLongField[]",
@@ -34250,6 +35014,36 @@ class VendorSearchBasic extends SearchRecordBasic {
 	public $printTransactions;
 	/**
 	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var SearchStringField
 	 */
 	public $salutation;
@@ -34367,6 +35161,12 @@ class VendorSearchBasic extends SearchRecordBasic {
 		"phone" => "SearchStringField",
 		"phoneticName" => "SearchStringField",
 		"printTransactions" => "SearchBooleanField",
+		"purchaseOrderAmount" => "SearchDoubleField",
+		"purchaseOrderQuantity" => "SearchDoubleField",
+		"purchaseOrderQuantityDiff" => "SearchDoubleField",
+		"receiptAmount" => "SearchDoubleField",
+		"receiptQuantity" => "SearchDoubleField",
+		"receiptQuantityDiff" => "SearchDoubleField",
 		"salutation" => "SearchStringField",
 		"shipAddress" => "SearchStringField",
 		"state" => "SearchStringField",
@@ -34774,6 +35574,36 @@ class VendorSearchRowBasic extends SearchRowBasic {
 	public $printTransactions;
 	/**
 	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
 	public $salutation;
@@ -34986,6 +35816,12 @@ class VendorSearchRowBasic extends SearchRowBasic {
 		"phoneticName" => "SearchColumnStringField[]",
 		"printOnCheckAs" => "SearchColumnStringField[]",
 		"printTransactions" => "SearchColumnBooleanField[]",
+		"purchaseOrderAmount" => "SearchColumnDoubleField[]",
+		"purchaseOrderQuantity" => "SearchColumnDoubleField[]",
+		"purchaseOrderQuantityDiff" => "SearchColumnDoubleField[]",
+		"receiptAmount" => "SearchColumnDoubleField[]",
+		"receiptQuantity" => "SearchColumnDoubleField[]",
+		"receiptQuantityDiff" => "SearchColumnDoubleField[]",
 		"salutation" => "SearchColumnStringField[]",
 		"shipAddress" => "SearchColumnStringField[]",
 		"shipAddress1" => "SearchColumnStringField[]",
@@ -35967,6 +36803,36 @@ class SubsidiarySearchBasic extends SearchRecordBasic {
 	public $phone;
 	/**
 	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var SearchStringField
 	 */
 	public $state;
@@ -36015,6 +36881,12 @@ class SubsidiarySearchBasic extends SearchRecordBasic {
 		"name" => "SearchStringField",
 		"nameNoHierarchy" => "SearchStringField",
 		"phone" => "SearchStringField",
+		"purchaseOrderAmount" => "SearchDoubleField",
+		"purchaseOrderQuantity" => "SearchDoubleField",
+		"purchaseOrderQuantityDiff" => "SearchDoubleField",
+		"receiptAmount" => "SearchDoubleField",
+		"receiptQuantity" => "SearchDoubleField",
+		"receiptQuantityDiff" => "SearchDoubleField",
 		"state" => "SearchStringField",
 		"taxIdNum" => "SearchStringField",
 		"tranPrefix" => "SearchStringField",
@@ -36176,6 +37048,36 @@ class SubsidiarySearchRowBasic extends SearchRowBasic {
 	public $phone;
 	/**
 	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
 	public $state;
@@ -36235,6 +37137,12 @@ class SubsidiarySearchRowBasic extends SearchRowBasic {
 		"name" => "SearchColumnStringField[]",
 		"nameNoHierarchy" => "SearchColumnStringField[]",
 		"phone" => "SearchColumnStringField[]",
+		"purchaseOrderAmount" => "SearchColumnDoubleField[]",
+		"purchaseOrderQuantity" => "SearchColumnDoubleField[]",
+		"purchaseOrderQuantityDiff" => "SearchColumnDoubleField[]",
+		"receiptAmount" => "SearchColumnDoubleField[]",
+		"receiptQuantity" => "SearchColumnDoubleField[]",
+		"receiptQuantityDiff" => "SearchColumnDoubleField[]",
 		"state" => "SearchColumnStringField[]",
 		"taxIdNum" => "SearchColumnStringField[]",
 		"tranPrefix" => "SearchColumnStringField[]",
@@ -42590,6 +43498,31 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	public $accountNumber;
 	/**
 	 * @access public
+	 * @var SearchStringField
+	 */
+	public $address;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $addressee;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $addressLabel;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $addressPhone;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $attention;
+	/**
+	 * @access public
 	 * @var SearchBooleanField
 	 */
 	public $availableOffline;
@@ -42598,6 +43531,11 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @var SearchDoubleField
 	 */
 	public $balance;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $billAddress;
 	/**
 	 * @access public
 	 * @var SearchDoubleField
@@ -42652,7 +43590,22 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @access public
 	 * @var SearchMultiSelectField
 	 */
+	public $ccState;
+	/**
+	 * @access public
+	 * @var SearchDateField
+	 */
+	public $ccStateFrom;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
 	public $ccType;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $city;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
@@ -42662,7 +43615,37 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @access public
 	 * @var SearchStringField
 	 */
+	public $comments;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
 	public $companyName;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $consolBalance;
+	/**
+	 * @access public
+	 * @var SearchLongField
+	 */
+	public $consolDaysOverdue;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $consolDepositBalance;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $consolOverdueBalance;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $consolUnbilledOrders;
 	/**
 	 * @access public
 	 * @var SearchStringField
@@ -42678,6 +43661,21 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @var SearchDateField
 	 */
 	public $conversionDate;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $country;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $county;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $creditHold;
 	/**
 	 * @access public
 	 * @var SearchBooleanField
@@ -42710,9 +43708,19 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	public $dateClosed;
 	/**
 	 * @access public
+	 * @var SearchDateField
+	 */
+	public $dateCreated;
+	/**
+	 * @access public
 	 * @var SearchLongField
 	 */
 	public $daysOverdue;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $defaultOrderPriority;
 	/**
 	 * @access public
 	 * @var SearchDoubleField
@@ -42725,6 +43733,21 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	public $deptBought;
 	/**
 	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $drAccount;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $email;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $emailPreference;
+	/**
+	 * @access public
 	 * @var SearchBooleanField
 	 */
 	public $emailTransactions;
@@ -42733,6 +43756,11 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @var SearchDateField
 	 */
 	public $endDate;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $entityId;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
@@ -42748,6 +43776,21 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @var SearchBooleanField
 	 */
 	public $explicitConversion;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $externalId;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $externalIdString;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $fax;
 	/**
 	 * @access public
 	 * @var SearchBooleanField
@@ -42772,6 +43815,41 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @access public
 	 * @var SearchMultiSelectField
 	 */
+	public $fxAccount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $fxBalance;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $fxConsolBalance;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $fxConsolUnbilledOrders;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $fxUnbilledOrders;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $giveAccess;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $globalSubscriptionStatus;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
 	public $group;
 	/**
 	 * @access public
@@ -42785,9 +43863,39 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	public $hasDuplicates;
 	/**
 	 * @access public
+	 * @var SearchStringField
+	 */
+	public $image;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $internalId;
+	/**
+	 * @access public
+	 * @var SearchLongField
+	 */
+	public $internalIdNumber;
+	/**
+	 * @access public
 	 * @var SearchBooleanField
 	 */
 	public $isBudgetApproved;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $isDefaultBilling;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $isDefaultShipping;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $isInactive;
 	/**
 	 * @access public
 	 * @var SearchBooleanField
@@ -42825,9 +43933,29 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	public $itemsOrdered;
 	/**
 	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $language;
+	/**
+	 * @access public
+	 * @var SearchDateField
+	 */
+	public $lastModifiedDate;
+	/**
+	 * @access public
 	 * @var SearchStringField
 	 */
 	public $lastName;
+	/**
+	 * @access public
+	 * @var SearchDateField
+	 */
+	public $lastOrderDate;
+	/**
+	 * @access public
+	 * @var SearchDateField
+	 */
+	public $lastSaleDate;
 	/**
 	 * @access public
 	 * @var SearchDateField
@@ -42838,6 +43966,11 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @var SearchMultiSelectField
 	 */
 	public $leadSource;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $level;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
@@ -42858,6 +43991,11 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @var SearchStringField
 	 */
 	public $middleName;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $monthlyClosing;
 	/**
 	 * @access public
 	 * @var SearchBooleanField
@@ -42925,6 +44063,21 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	public $pec;
 	/**
 	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $permission;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $phone;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $phoneticName;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $priceLevel;
@@ -42953,6 +44106,11 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	 * @var SearchBooleanField
 	 */
 	public $pstExempt;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $receivablesAccount;
 	/**
 	 * @access public
 	 * @var SearchDateField
@@ -42995,6 +44153,11 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	public $salutation;
 	/**
 	 * @access public
+	 * @var SearchStringField
+	 */
+	public $shipAddress;
+	/**
+	 * @access public
 	 * @var SearchBooleanField
 	 */
 	public $shipComplete;
@@ -43015,9 +44178,19 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	public $startDate;
 	/**
 	 * @access public
+	 * @var SearchStringField
+	 */
+	public $state;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $subsidBought;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $subsidiary;
 	/**
 	 * @access public
 	 * @var SearchBooleanField
@@ -43060,14 +44233,25 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 	public $webLead;
 	/**
 	 * @access public
+	 * @var SearchStringField
+	 */
+	public $zipCode;
+	/**
+	 * @access public
 	 * @var SearchCustomFieldList
 	 */
 	public $customFieldList;
 
 	static $paramtypesmap = array(
 		"accountNumber" => "SearchStringField",
+		"address" => "SearchStringField",
+		"addressee" => "SearchStringField",
+		"addressLabel" => "SearchStringField",
+		"addressPhone" => "SearchStringField",
+		"attention" => "SearchStringField",
 		"availableOffline" => "SearchBooleanField",
 		"balance" => "SearchDoubleField",
+		"billAddress" => "SearchStringField",
 		"boughtAmount" => "SearchDoubleField",
 		"boughtDate" => "SearchDateField",
 		"buyingReason" => "SearchMultiSelectField",
@@ -43078,34 +44262,68 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 		"ccExpDate" => "SearchDateField",
 		"ccHolderName" => "SearchStringField",
 		"ccNumber" => "SearchStringField",
+		"ccState" => "SearchMultiSelectField",
+		"ccStateFrom" => "SearchDateField",
 		"ccType" => "SearchMultiSelectField",
+		"city" => "SearchStringField",
 		"classBought" => "SearchMultiSelectField",
+		"comments" => "SearchStringField",
 		"companyName" => "SearchStringField",
+		"consolBalance" => "SearchDoubleField",
+		"consolDaysOverdue" => "SearchLongField",
+		"consolDepositBalance" => "SearchDoubleField",
+		"consolOverdueBalance" => "SearchDoubleField",
+		"consolUnbilledOrders" => "SearchDoubleField",
 		"contact" => "SearchStringField",
 		"contribution" => "SearchLongField",
 		"conversionDate" => "SearchDateField",
+		"country" => "SearchEnumMultiSelectField",
+		"county" => "SearchStringField",
+		"creditHold" => "SearchEnumMultiSelectField",
 		"creditHoldOverride" => "SearchBooleanField",
 		"creditLimit" => "SearchDoubleField",
 		"currency" => "SearchMultiSelectField",
 		"custStage" => "SearchMultiSelectField",
 		"custStatus" => "SearchMultiSelectField",
 		"dateClosed" => "SearchDateField",
+		"dateCreated" => "SearchDateField",
 		"daysOverdue" => "SearchLongField",
+		"defaultOrderPriority" => "SearchDoubleField",
 		"depositBalance" => "SearchDoubleField",
 		"deptBought" => "SearchMultiSelectField",
+		"drAccount" => "SearchMultiSelectField",
+		"email" => "SearchStringField",
+		"emailPreference" => "SearchEnumMultiSelectField",
 		"emailTransactions" => "SearchBooleanField",
 		"endDate" => "SearchDateField",
+		"entityId" => "SearchStringField",
 		"entityStatus" => "SearchMultiSelectField",
 		"estimatedBudget" => "SearchDoubleField",
 		"explicitConversion" => "SearchBooleanField",
+		"externalId" => "SearchMultiSelectField",
+		"externalIdString" => "SearchStringField",
+		"fax" => "SearchStringField",
 		"faxTransactions" => "SearchBooleanField",
 		"firstName" => "SearchStringField",
 		"firstOrderDate" => "SearchDateField",
 		"firstSaleDate" => "SearchDateField",
+		"fxAccount" => "SearchMultiSelectField",
+		"fxBalance" => "SearchDoubleField",
+		"fxConsolBalance" => "SearchDoubleField",
+		"fxConsolUnbilledOrders" => "SearchDoubleField",
+		"fxUnbilledOrders" => "SearchDoubleField",
+		"giveAccess" => "SearchBooleanField",
+		"globalSubscriptionStatus" => "SearchEnumMultiSelectField",
 		"group" => "SearchMultiSelectField",
 		"groupPricingLevel" => "SearchMultiSelectField",
 		"hasDuplicates" => "SearchBooleanField",
+		"image" => "SearchStringField",
+		"internalId" => "SearchMultiSelectField",
+		"internalIdNumber" => "SearchLongField",
 		"isBudgetApproved" => "SearchBooleanField",
+		"isDefaultBilling" => "SearchBooleanField",
+		"isDefaultShipping" => "SearchBooleanField",
+		"isInactive" => "SearchBooleanField",
 		"isPerson" => "SearchBooleanField",
 		"isReportedLead" => "SearchBooleanField",
 		"isShipAddress" => "SearchBooleanField",
@@ -43113,13 +44331,19 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 		"itemPricingUnitPrice" => "SearchDoubleField",
 		"itemsBought" => "SearchMultiSelectField",
 		"itemsOrdered" => "SearchMultiSelectField",
+		"language" => "SearchEnumMultiSelectField",
+		"lastModifiedDate" => "SearchDateField",
 		"lastName" => "SearchStringField",
+		"lastOrderDate" => "SearchDateField",
+		"lastSaleDate" => "SearchDateField",
 		"leadDate" => "SearchDateField",
 		"leadSource" => "SearchMultiSelectField",
+		"level" => "SearchEnumMultiSelectField",
 		"locationBought" => "SearchMultiSelectField",
 		"manualCreditHold" => "SearchBooleanField",
 		"merchantAccount" => "SearchMultiSelectField",
 		"middleName" => "SearchStringField",
+		"monthlyClosing" => "SearchEnumMultiSelectField",
 		"onCreditHold" => "SearchBooleanField",
 		"orderedAmount" => "SearchDoubleField",
 		"orderedDate" => "SearchDateField",
@@ -43133,12 +44357,16 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 		"partnerRole" => "SearchMultiSelectField",
 		"partnerTeamMember" => "SearchMultiSelectField",
 		"pec" => "SearchStringField",
+		"permission" => "SearchEnumMultiSelectField",
+		"phone" => "SearchStringField",
+		"phoneticName" => "SearchStringField",
 		"priceLevel" => "SearchMultiSelectField",
 		"pricingGroup" => "SearchMultiSelectField",
 		"pricingItem" => "SearchMultiSelectField",
 		"printTransactions" => "SearchBooleanField",
 		"prospectDate" => "SearchDateField",
 		"pstExempt" => "SearchBooleanField",
+		"receivablesAccount" => "SearchMultiSelectField",
 		"reminderDate" => "SearchDateField",
 		"resaleNumber" => "SearchStringField",
 		"role" => "SearchMultiSelectField",
@@ -43147,11 +44375,14 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 		"salesTeamMember" => "SearchMultiSelectField",
 		"salesTeamRole" => "SearchMultiSelectField",
 		"salutation" => "SearchStringField",
+		"shipAddress" => "SearchStringField",
 		"shipComplete" => "SearchBooleanField",
 		"shippingItem" => "SearchMultiSelectField",
 		"stage" => "SearchMultiSelectField",
 		"startDate" => "SearchDateField",
+		"state" => "SearchStringField",
 		"subsidBought" => "SearchMultiSelectField",
+		"subsidiary" => "SearchMultiSelectField",
 		"taxable" => "SearchBooleanField",
 		"terms" => "SearchMultiSelectField",
 		"territory" => "SearchMultiSelectField",
@@ -43160,6 +44391,7 @@ class OriginatingLeadSearchBasic extends SearchRecordBasic {
 		"url" => "SearchStringField",
 		"vatRegNumber" => "SearchStringField",
 		"webLead" => "SearchBooleanField",
+		"zipCode" => "SearchStringField",
 		"customFieldList" => "SearchCustomFieldList",
 	);
 }}
@@ -43178,7 +44410,67 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
+	public $address;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $address1;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $address2;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $address3;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $addressee;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $addressInternalId;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $addressLabel;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $addressPhone;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
 	public $altContact;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $altEmail;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $altName;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $altPhone;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $attention;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -43194,6 +44486,61 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnStringField[]
 	 */
 	public $billAddress;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billAddress1;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billAddress2;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billAddress3;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billAddressee;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billAttention;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billCity;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $billCountry;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billCountryCode;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billPhone;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billState;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $billZipCode;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -43233,7 +44580,22 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
+	public $ccInternalId;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
 	public $ccNumber;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $ccState;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $ccStateFrom;
 	/**
 	 * @access public
 	 * @var SearchColumnSelectField[]
@@ -43243,7 +44605,42 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
+	public $city;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $comments;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
 	public $companyName;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $consolBalance;
+	/**
+	 * @access public
+	 * @var SearchColumnLongField[]
+	 */
+	public $consolDaysOverdue;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $consolDepositBalance;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $consolOverdueBalance;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $consolUnbilledOrders;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -43266,6 +44663,21 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	public $conversionDate;
 	/**
 	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $country;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $countryCode;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $creditHold;
+	/**
+	 * @access public
 	 * @var SearchColumnBooleanField[]
 	 */
 	public $creditHoldOverride;
@@ -43286,6 +44698,11 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	public $dateClosed;
 	/**
 	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $dateCreated;
+	/**
+	 * @access public
 	 * @var SearchColumnLongField[]
 	 */
 	public $daysOverdue;
@@ -43293,7 +44710,27 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @access public
 	 * @var SearchColumnDoubleField[]
 	 */
+	public $defaultOrderPriority;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
 	public $depositBalance;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $drAccount;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $email;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $emailPreference;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -43304,6 +44741,16 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnDateField[]
 	 */
 	public $endDate;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $entityId;
+	/**
+	 * @access public
+	 * @var SearchColumnLongField[]
+	 */
+	public $entityNumber;
 	/**
 	 * @access public
 	 * @var SearchColumnSelectField[]
@@ -43319,6 +44766,16 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnBooleanField[]
 	 */
 	public $explicitConversion;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $externalId;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $fax;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -43341,9 +44798,39 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	public $firstSaleDate;
 	/**
 	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $fxAccount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $fxBalance;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $fxConsolBalance;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $fxConsolUnbilledOrders;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $fxUnbilledOrders;
+	/**
+	 * @access public
 	 * @var SearchColumnBooleanField[]
 	 */
 	public $giveAccess;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $globalSubscriptionStatus;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -43361,9 +44848,34 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	public $homePhone;
 	/**
 	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $image;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $internalId;
+	/**
+	 * @access public
 	 * @var SearchColumnBooleanField[]
 	 */
 	public $isBudgetApproved;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $isDefaultBilling;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $isDefaultShipping;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $isInactive;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -43406,9 +44918,29 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	public $jobType;
 	/**
 	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $language;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $lastModifiedDate;
+	/**
+	 * @access public
 	 * @var SearchColumnStringField[]
 	 */
 	public $lastName;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $lastOrderDate;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $lastSaleDate;
 	/**
 	 * @access public
 	 * @var SearchColumnDateField[]
@@ -43419,6 +44951,11 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnSelectField[]
 	 */
 	public $leadSource;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $level;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -43434,6 +44971,11 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnStringField[]
 	 */
 	public $mobilePhone;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $monthlyClosing;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -43476,6 +45018,21 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	public $pec;
 	/**
 	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $permission;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $phone;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $phoneticName;
+	/**
+	 * @access public
 	 * @var SearchColumnSelectField[]
 	 */
 	public $prefCCProcessor;
@@ -43504,6 +45061,11 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnDateField[]
 	 */
 	public $prospectDate;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $receivablesAccount;
 	/**
 	 * @access public
 	 * @var SearchColumnLongField[]
@@ -43551,14 +45113,69 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	public $shipAddress;
 	/**
 	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipAddress1;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipAddress2;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipAddress3;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipAddressee;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipAttention;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipCity;
+	/**
+	 * @access public
 	 * @var SearchColumnBooleanField[]
 	 */
 	public $shipComplete;
 	/**
 	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $shipCountry;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipCountryCode;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipPhone;
+	/**
+	 * @access public
 	 * @var SearchColumnSelectField[]
 	 */
 	public $shippingItem;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipState;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $shipZip;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -43569,6 +45186,31 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnDateField[]
 	 */
 	public $startDate;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $state;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $subscription;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $subscriptionDate;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $subscriptionStatus;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $subsidiary;
 	/**
 	 * @access public
 	 * @var SearchColumnBooleanField[]
@@ -43616,16 +45258,44 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 	public $webLead;
 	/**
 	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $zipCode;
+	/**
+	 * @access public
 	 * @var SearchColumnCustomFieldList
 	 */
 	public $customFieldList;
 
 	static $paramtypesmap = array(
 		"accountNumber" => "SearchColumnStringField[]",
+		"address" => "SearchColumnStringField[]",
+		"address1" => "SearchColumnStringField[]",
+		"address2" => "SearchColumnStringField[]",
+		"address3" => "SearchColumnStringField[]",
+		"addressee" => "SearchColumnStringField[]",
+		"addressInternalId" => "SearchColumnStringField[]",
+		"addressLabel" => "SearchColumnStringField[]",
+		"addressPhone" => "SearchColumnStringField[]",
 		"altContact" => "SearchColumnStringField[]",
+		"altEmail" => "SearchColumnStringField[]",
+		"altName" => "SearchColumnStringField[]",
+		"altPhone" => "SearchColumnStringField[]",
+		"attention" => "SearchColumnStringField[]",
 		"availableOffline" => "SearchColumnBooleanField[]",
 		"balance" => "SearchColumnDoubleField[]",
 		"billAddress" => "SearchColumnStringField[]",
+		"billAddress1" => "SearchColumnStringField[]",
+		"billAddress2" => "SearchColumnStringField[]",
+		"billAddress3" => "SearchColumnStringField[]",
+		"billAddressee" => "SearchColumnStringField[]",
+		"billAttention" => "SearchColumnStringField[]",
+		"billCity" => "SearchColumnStringField[]",
+		"billCountry" => "SearchColumnEnumSelectField[]",
+		"billCountryCode" => "SearchColumnStringField[]",
+		"billPhone" => "SearchColumnStringField[]",
+		"billState" => "SearchColumnStringField[]",
+		"billZipCode" => "SearchColumnStringField[]",
 		"buyingReason" => "SearchColumnStringField[]",
 		"buyingTimeFrame" => "SearchColumnStringField[]",
 		"category" => "SearchColumnSelectField[]",
@@ -43633,33 +45303,66 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 		"ccDefault" => "SearchColumnBooleanField[]",
 		"ccExpDate" => "SearchColumnDateField[]",
 		"ccHolderName" => "SearchColumnStringField[]",
+		"ccInternalId" => "SearchColumnStringField[]",
 		"ccNumber" => "SearchColumnStringField[]",
+		"ccState" => "SearchColumnSelectField[]",
+		"ccStateFrom" => "SearchColumnDateField[]",
 		"ccType" => "SearchColumnSelectField[]",
+		"city" => "SearchColumnStringField[]",
+		"comments" => "SearchColumnStringField[]",
 		"companyName" => "SearchColumnStringField[]",
+		"consolBalance" => "SearchColumnDoubleField[]",
+		"consolDaysOverdue" => "SearchColumnLongField[]",
+		"consolDepositBalance" => "SearchColumnDoubleField[]",
+		"consolOverdueBalance" => "SearchColumnDoubleField[]",
+		"consolUnbilledOrders" => "SearchColumnDoubleField[]",
 		"contact" => "SearchColumnStringField[]",
 		"contribution" => "SearchColumnDoubleField[]",
 		"contributionPrimary" => "SearchColumnDoubleField[]",
 		"conversionDate" => "SearchColumnDateField[]",
+		"country" => "SearchColumnEnumSelectField[]",
+		"countryCode" => "SearchColumnStringField[]",
+		"creditHold" => "SearchColumnEnumSelectField[]",
 		"creditHoldOverride" => "SearchColumnBooleanField[]",
 		"creditLimit" => "SearchColumnDoubleField[]",
 		"currency" => "SearchColumnSelectField[]",
 		"dateClosed" => "SearchColumnDateField[]",
+		"dateCreated" => "SearchColumnDateField[]",
 		"daysOverdue" => "SearchColumnLongField[]",
+		"defaultOrderPriority" => "SearchColumnDoubleField[]",
 		"depositBalance" => "SearchColumnDoubleField[]",
+		"drAccount" => "SearchColumnStringField[]",
+		"email" => "SearchColumnStringField[]",
+		"emailPreference" => "SearchColumnEnumSelectField[]",
 		"emailTransactions" => "SearchColumnBooleanField[]",
 		"endDate" => "SearchColumnDateField[]",
+		"entityId" => "SearchColumnStringField[]",
+		"entityNumber" => "SearchColumnLongField[]",
 		"entityStatus" => "SearchColumnSelectField[]",
 		"estimatedBudget" => "SearchColumnDoubleField[]",
 		"explicitConversion" => "SearchColumnBooleanField[]",
+		"externalId" => "SearchColumnSelectField[]",
+		"fax" => "SearchColumnStringField[]",
 		"faxTransactions" => "SearchColumnBooleanField[]",
 		"firstName" => "SearchColumnStringField[]",
 		"firstOrderDate" => "SearchColumnDateField[]",
 		"firstSaleDate" => "SearchColumnDateField[]",
+		"fxAccount" => "SearchColumnStringField[]",
+		"fxBalance" => "SearchColumnDoubleField[]",
+		"fxConsolBalance" => "SearchColumnDoubleField[]",
+		"fxConsolUnbilledOrders" => "SearchColumnDoubleField[]",
+		"fxUnbilledOrders" => "SearchColumnDoubleField[]",
 		"giveAccess" => "SearchColumnBooleanField[]",
+		"globalSubscriptionStatus" => "SearchColumnEnumSelectField[]",
 		"groupPricingLevel" => "SearchColumnStringField[]",
 		"hasDuplicates" => "SearchColumnBooleanField[]",
 		"homePhone" => "SearchColumnStringField[]",
+		"image" => "SearchColumnSelectField[]",
+		"internalId" => "SearchColumnSelectField[]",
 		"isBudgetApproved" => "SearchColumnBooleanField[]",
+		"isDefaultBilling" => "SearchColumnBooleanField[]",
+		"isDefaultShipping" => "SearchColumnBooleanField[]",
+		"isInactive" => "SearchColumnBooleanField[]",
 		"isPerson" => "SearchColumnBooleanField[]",
 		"isShipAddress" => "SearchColumnBooleanField[]",
 		"itemPricingLevel" => "SearchColumnStringField[]",
@@ -43668,12 +45371,18 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 		"jobProjectedEnd" => "SearchColumnDateField[]",
 		"jobStartDate" => "SearchColumnDateField[]",
 		"jobType" => "SearchColumnSelectField[]",
+		"language" => "SearchColumnEnumSelectField[]",
+		"lastModifiedDate" => "SearchColumnDateField[]",
 		"lastName" => "SearchColumnStringField[]",
+		"lastOrderDate" => "SearchColumnDateField[]",
+		"lastSaleDate" => "SearchColumnDateField[]",
 		"leadDate" => "SearchColumnDateField[]",
 		"leadSource" => "SearchColumnSelectField[]",
+		"level" => "SearchColumnEnumSelectField[]",
 		"manualCreditHold" => "SearchColumnBooleanField[]",
 		"middleName" => "SearchColumnStringField[]",
 		"mobilePhone" => "SearchColumnStringField[]",
+		"monthlyClosing" => "SearchColumnEnumSelectField[]",
 		"onCreditHold" => "SearchColumnBooleanField[]",
 		"overdueBalance" => "SearchColumnDoubleField[]",
 		"parent" => "SearchColumnSelectField[]",
@@ -43682,12 +45391,16 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 		"partnerRole" => "SearchColumnStringField[]",
 		"partnerTeamMember" => "SearchColumnSelectField[]",
 		"pec" => "SearchColumnStringField[]",
+		"permission" => "SearchColumnEnumSelectField[]",
+		"phone" => "SearchColumnStringField[]",
+		"phoneticName" => "SearchColumnStringField[]",
 		"prefCCProcessor" => "SearchColumnSelectField[]",
 		"priceLevel" => "SearchColumnSelectField[]",
 		"pricingGroup" => "SearchColumnStringField[]",
 		"pricingItem" => "SearchColumnStringField[]",
 		"printTransactions" => "SearchColumnBooleanField[]",
 		"prospectDate" => "SearchColumnDateField[]",
+		"receivablesAccount" => "SearchColumnStringField[]",
 		"reminderDays" => "SearchColumnLongField[]",
 		"resaleNumber" => "SearchColumnStringField[]",
 		"role" => "SearchColumnStringField[]",
@@ -43697,10 +45410,26 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 		"salesTeamRole" => "SearchColumnSelectField[]",
 		"salutation" => "SearchColumnStringField[]",
 		"shipAddress" => "SearchColumnStringField[]",
+		"shipAddress1" => "SearchColumnStringField[]",
+		"shipAddress2" => "SearchColumnStringField[]",
+		"shipAddress3" => "SearchColumnStringField[]",
+		"shipAddressee" => "SearchColumnStringField[]",
+		"shipAttention" => "SearchColumnStringField[]",
+		"shipCity" => "SearchColumnStringField[]",
 		"shipComplete" => "SearchColumnBooleanField[]",
+		"shipCountry" => "SearchColumnEnumSelectField[]",
+		"shipCountryCode" => "SearchColumnStringField[]",
+		"shipPhone" => "SearchColumnStringField[]",
 		"shippingItem" => "SearchColumnSelectField[]",
+		"shipState" => "SearchColumnStringField[]",
+		"shipZip" => "SearchColumnStringField[]",
 		"stage" => "SearchColumnStringField[]",
 		"startDate" => "SearchColumnDateField[]",
+		"state" => "SearchColumnEnumSelectField[]",
+		"subscription" => "SearchColumnSelectField[]",
+		"subscriptionDate" => "SearchColumnDateField[]",
+		"subscriptionStatus" => "SearchColumnBooleanField[]",
+		"subsidiary" => "SearchColumnSelectField[]",
 		"taxable" => "SearchColumnBooleanField[]",
 		"taxItem" => "SearchColumnSelectField[]",
 		"terms" => "SearchColumnSelectField[]",
@@ -43710,6 +45439,7 @@ class OriginatingLeadSearchRowBasic extends SearchRowBasic {
 		"url" => "SearchColumnStringField[]",
 		"vatRegNumber" => "SearchColumnStringField[]",
 		"webLead" => "SearchColumnBooleanField[]",
+		"zipCode" => "SearchColumnStringField[]",
 		"customFieldList" => "SearchColumnCustomFieldList",
 	);
 }}
@@ -46039,6 +47769,11 @@ if (!class_exists("ManufacturingRoutingSearchBasic")) {
 class ManufacturingRoutingSearchBasic extends SearchRecordBasic {
 	/**
 	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $autoCalculateLag;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $externalId;
@@ -46077,6 +47812,21 @@ class ManufacturingRoutingSearchBasic extends SearchRecordBasic {
 	 * @var SearchMultiSelectField
 	 */
 	public $item;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $lagAmount;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $lagType;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $lagUnits;
 	/**
 	 * @access public
 	 * @var SearchMultiSelectField
@@ -46134,6 +47884,7 @@ class ManufacturingRoutingSearchBasic extends SearchRecordBasic {
 	public $customFieldList;
 
 	static $paramtypesmap = array(
+		"autoCalculateLag" => "SearchBooleanField",
 		"externalId" => "SearchMultiSelectField",
 		"externalIdString" => "SearchStringField",
 		"internalId" => "SearchMultiSelectField",
@@ -46142,6 +47893,9 @@ class ManufacturingRoutingSearchBasic extends SearchRecordBasic {
 		"isInactive" => "SearchBooleanField",
 		"subsidiary" => "SearchMultiSelectField",
 		"item" => "SearchMultiSelectField",
+		"lagAmount" => "SearchDoubleField",
+		"lagType" => "SearchEnumMultiSelectField",
+		"lagUnits" => "SearchStringField",
 		"location" => "SearchMultiSelectField",
 		"manufacturingCostTemplate" => "SearchMultiSelectField",
 		"manufacturingWorkCenter" => "SearchMultiSelectField",
@@ -46161,6 +47915,11 @@ if (!class_exists("ManufacturingRoutingSearchRowBasic")) {
  * ManufacturingRoutingSearchRowBasic
  */
 class ManufacturingRoutingSearchRowBasic extends SearchRowBasic {
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $autoCalculateLag;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -46191,6 +47950,21 @@ class ManufacturingRoutingSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnSelectField[]
 	 */
 	public $item;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $lagAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $lagType;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $lagUnits;
 	/**
 	 * @access public
 	 * @var SearchColumnSelectField[]
@@ -46248,12 +48022,16 @@ class ManufacturingRoutingSearchRowBasic extends SearchRowBasic {
 	public $customFieldList;
 
 	static $paramtypesmap = array(
+		"autoCalculateLag" => "SearchColumnBooleanField[]",
 		"externalId" => "SearchColumnStringField[]",
 		"internalId" => "SearchColumnSelectField[]",
 		"isDefault" => "SearchColumnBooleanField[]",
 		"isInactive" => "SearchColumnBooleanField[]",
 		"subsidiary" => "SearchColumnSelectField[]",
 		"item" => "SearchColumnSelectField[]",
+		"lagAmount" => "SearchColumnDoubleField[]",
+		"lagType" => "SearchColumnEnumSelectField[]",
+		"lagUnits" => "SearchColumnStringField[]",
 		"location" => "SearchColumnSelectField[]",
 		"manufacturingCostTemplate" => "SearchColumnSelectField[]",
 		"manufacturingWorkCenter" => "SearchColumnSelectField[]",
@@ -46333,6 +48111,21 @@ class ManufacturingOperationTaskSearchBasic extends SearchRecordBasic {
 	 * @var SearchLongField
 	 */
 	public $laborResources;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $lagAmount;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $lagType;
+	/**
+	 * @access public
+	 * @var SearchStringField
+	 */
+	public $lagUnits;
 	/**
 	 * @access public
 	 * @var SearchLongField
@@ -46422,6 +48215,9 @@ class ManufacturingOperationTaskSearchBasic extends SearchRecordBasic {
 		"internalId" => "SearchMultiSelectField",
 		"internalIdNumber" => "SearchLongField",
 		"laborResources" => "SearchLongField",
+		"lagAmount" => "SearchDoubleField",
+		"lagType" => "SearchEnumMultiSelectField",
+		"lagUnits" => "SearchStringField",
 		"machineResources" => "SearchLongField",
 		"manufacturingCostTemplate" => "SearchMultiSelectField",
 		"manufacturingWorkCenter" => "SearchMultiSelectField",
@@ -46495,6 +48291,21 @@ class ManufacturingOperationTaskSearchRowBasic extends SearchRowBasic {
 	 * @var SearchColumnLongField[]
 	 */
 	public $laborResources;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $lagAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $lagType;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $lagUnits;
 	/**
 	 * @access public
 	 * @var SearchColumnLongField[]
@@ -46592,6 +48403,9 @@ class ManufacturingOperationTaskSearchRowBasic extends SearchRowBasic {
 		"inputQuantity" => "SearchColumnDoubleField[]",
 		"internalId" => "SearchColumnSelectField[]",
 		"laborResources" => "SearchColumnLongField[]",
+		"lagAmount" => "SearchColumnDoubleField[]",
+		"lagType" => "SearchColumnEnumSelectField[]",
+		"lagUnits" => "SearchColumnStringField[]",
 		"machineResources" => "SearchColumnLongField[]",
 		"manufacturingCostTemplate" => "SearchColumnSelectField[]",
 		"manufacturingWorkCenter" => "SearchColumnSelectField[]",
@@ -47195,6 +49009,11 @@ if (!class_exists("BillingScheduleSearchBasic")) {
 class BillingScheduleSearchBasic extends SearchRecordBasic {
 	/**
 	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $applyToSubtotal;
+	/**
+	 * @access public
 	 * @var SearchMultiSelectField
 	 */
 	public $externalId;
@@ -47270,6 +49089,7 @@ class BillingScheduleSearchBasic extends SearchRecordBasic {
 	public $type;
 
 	static $paramtypesmap = array(
+		"applyToSubtotal" => "SearchBooleanField",
 		"externalId" => "SearchMultiSelectField",
 		"externalIdString" => "SearchStringField",
 		"frequency" => "SearchEnumMultiSelectField",
@@ -47293,6 +49113,11 @@ if (!class_exists("BillingScheduleSearchRowBasic")) {
  * BillingScheduleSearchRowBasic
  */
 class BillingScheduleSearchRowBasic extends SearchRowBasic {
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $applyToSubtotal;
 	/**
 	 * @access public
 	 * @var SearchColumnStringField[]
@@ -47360,6 +49185,7 @@ class BillingScheduleSearchRowBasic extends SearchRowBasic {
 	public $type;
 
 	static $paramtypesmap = array(
+		"applyToSubtotal" => "SearchColumnBooleanField[]",
 		"externalId" => "SearchColumnStringField[]",
 		"frequency" => "SearchColumnEnumSelectField[]",
 		"inArrears" => "SearchColumnBooleanField[]",
@@ -48326,6 +50152,368 @@ class TimeSheetSearchRowBasic extends SearchRowBasic {
 	);
 }}
 
+if (!class_exists("AccountingTransactionSearchBasic")) {
+/**
+ * AccountingTransactionSearchBasic
+ */
+class AccountingTransactionSearchBasic extends SearchRecordBasic {
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $account;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $accountingBook;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $accountType;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $altSalesAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $altSalesNetAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $amount;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $bookSpecificTransaction;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $catchUpPeriod;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $creditAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $debitAmount;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $exchangeRate;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $grossAmount;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $internalId;
+	/**
+	 * @access public
+	 * @var SearchLongField
+	 */
+	public $internalIdNumber;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $multiSubsidiary;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $netAmount;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $quantityRevCommitted;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $recognizedRevenue;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $revCommitStatus;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $revenueStatus;
+	/**
+	 * @access public
+	 * @var SearchDateField
+	 */
+	public $revRecEndDate;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $revRecOnRevCommitment;
+	/**
+	 * @access public
+	 * @var SearchDateField
+	 */
+	public $revRecStartDate;
+	/**
+	 * @access public
+	 * @var SearchMultiSelectField
+	 */
+	public $subsidiary;
+	/**
+	 * @access public
+	 * @var SearchBooleanField
+	 */
+	public $tranIsVsoeBundle;
+	/**
+	 * @access public
+	 * @var SearchEnumMultiSelectField
+	 */
+	public $type;
+	/**
+	 * @access public
+	 * @var SearchDoubleField
+	 */
+	public $vsoeAllocation;
+
+	static $paramtypesmap = array(
+		"account" => "SearchMultiSelectField",
+		"accountingBook" => "SearchMultiSelectField",
+		"accountType" => "SearchMultiSelectField",
+		"altSalesAmount" => "SearchDoubleField",
+		"altSalesNetAmount" => "SearchDoubleField",
+		"amount" => "SearchDoubleField",
+		"bookSpecificTransaction" => "SearchBooleanField",
+		"catchUpPeriod" => "SearchMultiSelectField",
+		"creditAmount" => "SearchDoubleField",
+		"debitAmount" => "SearchDoubleField",
+		"deferRevRec" => "SearchBooleanField",
+		"exchangeRate" => "SearchDoubleField",
+		"grossAmount" => "SearchDoubleField",
+		"internalId" => "SearchMultiSelectField",
+		"internalIdNumber" => "SearchLongField",
+		"multiSubsidiary" => "SearchBooleanField",
+		"netAmount" => "SearchDoubleField",
+		"quantityRevCommitted" => "SearchDoubleField",
+		"recognizedRevenue" => "SearchDoubleField",
+		"revCommitStatus" => "SearchEnumMultiSelectField",
+		"revenueStatus" => "SearchEnumMultiSelectField",
+		"revRecEndDate" => "SearchDateField",
+		"revRecOnRevCommitment" => "SearchBooleanField",
+		"revRecStartDate" => "SearchDateField",
+		"subsidiary" => "SearchMultiSelectField",
+		"tranIsVsoeBundle" => "SearchBooleanField",
+		"type" => "SearchEnumMultiSelectField",
+		"vsoeAllocation" => "SearchDoubleField",
+	);
+}}
+
+if (!class_exists("AccountingTransactionSearchRowBasic")) {
+/**
+ * AccountingTransactionSearchRowBasic
+ */
+class AccountingTransactionSearchRowBasic extends SearchRowBasic {
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $account;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $accountingBook;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $accountType;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $altSalesAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $altSalesNetAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $amount;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $baseCurrency;
+	/**
+	 * @access public
+	 * @var SearchColumnStringField[]
+	 */
+	public $catchUpPeriod;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $creditAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $dateCreated;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $debitAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $exchangeRate;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $fxAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $grossAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $internalId;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $lastModifiedDate;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $multiSubsidiary;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $netAmount;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $quantityRevCommitted;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $recognizedRevenue;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $revCommitStatus;
+	/**
+	 * @access public
+	 * @var SearchColumnEnumSelectField[]
+	 */
+	public $revenueStatus;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $revRecEndDate;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $revRecOnRevCommitment;
+	/**
+	 * @access public
+	 * @var SearchColumnDateField[]
+	 */
+	public $revRecStartDate;
+	/**
+	 * @access public
+	 * @var SearchColumnSelectField[]
+	 */
+	public $subsidiary;
+	/**
+	 * @access public
+	 * @var SearchColumnBooleanField[]
+	 */
+	public $tranIsVsoeBundle;
+	/**
+	 * @access public
+	 * @var SearchColumnDoubleField[]
+	 */
+	public $vsoeAllocation;
+
+	static $paramtypesmap = array(
+		"account" => "SearchColumnSelectField[]",
+		"accountingBook" => "SearchColumnSelectField[]",
+		"accountType" => "SearchColumnStringField[]",
+		"altSalesAmount" => "SearchColumnDoubleField[]",
+		"altSalesNetAmount" => "SearchColumnDoubleField[]",
+		"amount" => "SearchColumnDoubleField[]",
+		"baseCurrency" => "SearchColumnStringField[]",
+		"catchUpPeriod" => "SearchColumnStringField[]",
+		"creditAmount" => "SearchColumnDoubleField[]",
+		"dateCreated" => "SearchColumnDateField[]",
+		"debitAmount" => "SearchColumnDoubleField[]",
+		"deferRevRec" => "SearchColumnBooleanField[]",
+		"exchangeRate" => "SearchColumnDoubleField[]",
+		"fxAmount" => "SearchColumnDoubleField[]",
+		"grossAmount" => "SearchColumnDoubleField[]",
+		"internalId" => "SearchColumnSelectField[]",
+		"lastModifiedDate" => "SearchColumnDateField[]",
+		"multiSubsidiary" => "SearchColumnBooleanField[]",
+		"netAmount" => "SearchColumnDoubleField[]",
+		"quantityRevCommitted" => "SearchColumnDoubleField[]",
+		"recognizedRevenue" => "SearchColumnDoubleField[]",
+		"revCommitStatus" => "SearchColumnEnumSelectField[]",
+		"revenueStatus" => "SearchColumnEnumSelectField[]",
+		"revRecEndDate" => "SearchColumnDateField[]",
+		"revRecOnRevCommitment" => "SearchColumnBooleanField[]",
+		"revRecStartDate" => "SearchColumnDateField[]",
+		"subsidiary" => "SearchColumnSelectField[]",
+		"tranIsVsoeBundle" => "SearchColumnBooleanField[]",
+		"vsoeAllocation" => "SearchColumnDoubleField[]",
+	);
+}}
+
 if (!class_exists("CalendarEventAccessLevel")) {
 /**
  * CalendarEventAccessLevel
@@ -49283,6 +51471,11 @@ class CalendarEventSearch extends SearchRecord {
 	public $originatingLeadJoin;
 	/**
 	 * @access public
+	 * @var TimeBillSearchBasic
+	 */
+	public $timeJoin;
+	/**
+	 * @access public
 	 * @var TransactionSearchBasic
 	 */
 	public $transactionJoin;
@@ -49311,6 +51504,7 @@ class CalendarEventSearch extends SearchRecord {
 		"fileJoin" => "FileSearchBasic",
 		"opportunityJoin" => "OpportunitySearchBasic",
 		"originatingLeadJoin" => "OriginatingLeadSearchBasic",
+		"timeJoin" => "TimeBillSearchBasic",
 		"transactionJoin" => "TransactionSearchBasic",
 		"userJoin" => "EmployeeSearchBasic",
 		"userNotesJoin" => "NoteSearchBasic",
@@ -49399,6 +51593,11 @@ class CalendarEventSearchRow extends SearchRow {
 	public $originatingLeadJoin;
 	/**
 	 * @access public
+	 * @var TimeBillSearchRowBasic
+	 */
+	public $timeJoin;
+	/**
+	 * @access public
 	 * @var TransactionSearchRowBasic
 	 */
 	public $transactionJoin;
@@ -49427,6 +51626,7 @@ class CalendarEventSearchRow extends SearchRow {
 		"fileJoin" => "FileSearchRowBasic",
 		"opportunityJoin" => "OpportunitySearchRowBasic",
 		"originatingLeadJoin" => "OriginatingLeadSearchRowBasic",
+		"timeJoin" => "TimeBillSearchRowBasic",
 		"transactionJoin" => "TransactionSearchRowBasic",
 		"userJoin" => "EmployeeSearchRowBasic",
 		"userNotesJoin" => "NoteSearchRowBasic",
@@ -51691,6 +53891,11 @@ class Folder extends Record {
 	public $parent;
 	/**
 	 * @access public
+	 * @var FolderFolderType
+	 */
+	public $folderType;
+	/**
+	 * @access public
 	 * @var RecordRef
 	 */
 	public $class;
@@ -51726,6 +53931,7 @@ class Folder extends Record {
 		"isOnline" => "boolean",
 		"group" => "RecordRef",
 		"parent" => "RecordRef",
+		"folderType" => "FolderFolderType",
 		"class" => "RecordRef",
 		"location" => "RecordRef",
 		"subsidiary" => "RecordRef",
@@ -52703,10 +54909,6 @@ class EntityType {
 	/**
 	 * @var string
 	 */
-	const _projectTemplate = "_projectTemplate";
-	/**
-	 * @var string
-	 */
 	const _vendor = "_vendor";
 }}
 
@@ -53670,87 +55872,21 @@ class ContactAddressbook {
 	public $label;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $attention;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $phone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $city;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $zip;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $country;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addrText;
-	/**
-	 * @access public
-	 * @var boolean
-	 */
-	public $override;
+	public $addressbookAddress;
 	/**
 	 * @access public
 	 * @var string
 	 */
 	public $internalId;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $state;
 
 	static $paramtypesmap = array(
 		"defaultShipping" => "boolean",
 		"defaultBilling" => "boolean",
 		"label" => "string",
-		"attention" => "string",
-		"addressee" => "string",
-		"phone" => "string",
-		"addr1" => "string",
-		"addr2" => "string",
-		"addr3" => "string",
-		"city" => "string",
-		"zip" => "string",
-		"country" => "Country",
-		"addrText" => "string",
-		"override" => "boolean",
+		"addressbookAddress" => "Address",
 		"internalId" => "string",
-		"state" => "string",
 	);
 }}
 
@@ -55111,88 +57247,22 @@ class CustomerAddressbook {
 	public $label;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $attention;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $phone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $city;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $zip;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $country;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addrText;
-	/**
-	 * @access public
-	 * @var boolean
-	 */
-	public $override;
+	public $addressbookAddress;
 	/**
 	 * @access public
 	 * @var string
 	 */
 	public $internalId;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $state;
 
 	static $paramtypesmap = array(
 		"defaultShipping" => "boolean",
 		"defaultBilling" => "boolean",
 		"isResidential" => "boolean",
 		"label" => "string",
-		"attention" => "string",
-		"addressee" => "string",
-		"phone" => "string",
-		"addr1" => "string",
-		"addr2" => "string",
-		"addr3" => "string",
-		"city" => "string",
-		"zip" => "string",
-		"country" => "Country",
-		"addrText" => "string",
-		"override" => "boolean",
+		"addressbookAddress" => "Address",
 		"internalId" => "string",
-		"state" => "string",
 	);
 }}
 
@@ -56384,85 +58454,19 @@ class PartnerAddressbook {
 	 * @access public
 	 * @var string
 	 */
-	public $attention;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $phone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $city;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $zip;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $country;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addrText;
-	/**
-	 * @access public
-	 * @var boolean
-	 */
-	public $override;
-	/**
-	 * @access public
-	 * @var string
-	 */
 	public $internalId;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $state;
+	public $addressbookAddress;
 
 	static $paramtypesmap = array(
 		"defaultShipping" => "boolean",
 		"defaultBilling" => "boolean",
 		"label" => "string",
-		"attention" => "string",
-		"addressee" => "string",
-		"phone" => "string",
-		"addr1" => "string",
-		"addr2" => "string",
-		"addr3" => "string",
-		"city" => "string",
-		"zip" => "string",
-		"country" => "Country",
-		"addrText" => "string",
-		"override" => "boolean",
 		"internalId" => "string",
-		"state" => "string",
+		"addressbookAddress" => "Address",
 	);
 }}
 
@@ -56967,6 +58971,36 @@ class Vendor extends Record {
 	public $laborCost;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var RecordRef
 	 */
 	public $workCalendar;
@@ -57127,6 +59161,12 @@ class Vendor extends Record {
 		"is1099Eligible" => "boolean",
 		"isJobResourceVend" => "boolean",
 		"laborCost" => "float",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"workCalendar" => "RecordRef",
 		"taxIdNum" => "string",
 		"taxItem" => "RecordRef",
@@ -57220,85 +59260,19 @@ class VendorAddressbook {
 	 * @access public
 	 * @var string
 	 */
-	public $attention;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $phone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $city;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $zip;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $country;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addrText;
-	/**
-	 * @access public
-	 * @var boolean
-	 */
-	public $override;
-	/**
-	 * @access public
-	 * @var string
-	 */
 	public $internalId;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $state;
+	public $addressbookAddress;
 
 	static $paramtypesmap = array(
 		"defaultShipping" => "boolean",
 		"defaultBilling" => "boolean",
 		"label" => "string",
-		"attention" => "string",
-		"addressee" => "string",
-		"phone" => "string",
-		"addr1" => "string",
-		"addr2" => "string",
-		"addr3" => "string",
-		"city" => "string",
-		"zip" => "string",
-		"country" => "Country",
-		"addrText" => "string",
-		"override" => "boolean",
 		"internalId" => "string",
-		"state" => "string",
+		"addressbookAddress" => "Address",
 	);
 }}
 
@@ -58347,86 +60321,20 @@ class JobAddressbook {
 	 * @access public
 	 * @var string
 	 */
-	public $attention;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $phone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $city;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $zip;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $country;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addrText;
-	/**
-	 * @access public
-	 * @var boolean
-	 */
-	public $override;
-	/**
-	 * @access public
-	 * @var string
-	 */
 	public $internalId;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $state;
+	public $addressbookAddress;
 
 	static $paramtypesmap = array(
 		"defaultShipping" => "boolean",
 		"defaultBilling" => "boolean",
 		"isResidential" => "boolean",
 		"label" => "string",
-		"attention" => "string",
-		"addressee" => "string",
-		"phone" => "string",
-		"addr1" => "string",
-		"addr2" => "string",
-		"addr3" => "string",
-		"city" => "string",
-		"zip" => "string",
-		"country" => "Country",
-		"addrText" => "string",
-		"override" => "boolean",
 		"internalId" => "string",
-		"state" => "string",
+		"addressbookAddress" => "Address",
 	);
 }}
 
@@ -59980,6 +61888,11 @@ class SupportCaseSearch extends SearchRecord {
 	public $basic;
 	/**
 	 * @access public
+	 * @var EntitySearchBasic
+	 */
+	public $companyJoin;
+	/**
+	 * @access public
 	 * @var ContactSearchBasic
 	 */
 	public $contactJoin;
@@ -60020,6 +61933,11 @@ class SupportCaseSearch extends SearchRecord {
 	public $timeJoin;
 	/**
 	 * @access public
+	 * @var TransactionSearchBasic
+	 */
+	public $transactionJoin;
+	/**
+	 * @access public
 	 * @var EmployeeSearchBasic
 	 */
 	public $userJoin;
@@ -60036,6 +61954,7 @@ class SupportCaseSearch extends SearchRecord {
 
 	static $paramtypesmap = array(
 		"basic" => "SupportCaseSearchBasic",
+		"companyJoin" => "EntitySearchBasic",
 		"contactJoin" => "ContactSearchBasic",
 		"customerJoin" => "CustomerSearchBasic",
 		"employeeJoin" => "EmployeeSearchBasic",
@@ -60044,6 +61963,7 @@ class SupportCaseSearch extends SearchRecord {
 		"itemJoin" => "ItemSearchBasic",
 		"messagesJoin" => "MessageSearchBasic",
 		"timeJoin" => "TimeBillSearchBasic",
+		"transactionJoin" => "TransactionSearchBasic",
 		"userJoin" => "EmployeeSearchBasic",
 		"userNotesJoin" => "NoteSearchBasic",
 		"customSearchJoin" => "CustomSearchJoin[]",
@@ -60096,6 +62016,11 @@ class SupportCaseSearchRow extends SearchRow {
 	public $basic;
 	/**
 	 * @access public
+	 * @var EntitySearchRowBasic
+	 */
+	public $companyJoin;
+	/**
+	 * @access public
 	 * @var ContactSearchRowBasic
 	 */
 	public $contactJoin;
@@ -60136,6 +62061,11 @@ class SupportCaseSearchRow extends SearchRow {
 	public $timeJoin;
 	/**
 	 * @access public
+	 * @var TransactionSearchRowBasic
+	 */
+	public $transactionJoin;
+	/**
+	 * @access public
 	 * @var EmployeeSearchRowBasic
 	 */
 	public $userJoin;
@@ -60152,6 +62082,7 @@ class SupportCaseSearchRow extends SearchRow {
 
 	static $paramtypesmap = array(
 		"basic" => "SupportCaseSearchRowBasic",
+		"companyJoin" => "EntitySearchRowBasic",
 		"contactJoin" => "ContactSearchRowBasic",
 		"customerJoin" => "CustomerSearchRowBasic",
 		"employeeJoin" => "EmployeeSearchRowBasic",
@@ -60160,6 +62091,7 @@ class SupportCaseSearchRow extends SearchRow {
 		"itemJoin" => "ItemSearchRowBasic",
 		"messagesJoin" => "MessageSearchRowBasic",
 		"timeJoin" => "TimeBillSearchRowBasic",
+		"transactionJoin" => "TransactionSearchRowBasic",
 		"userJoin" => "EmployeeSearchRowBasic",
 		"userNotesJoin" => "NoteSearchRowBasic",
 		"customSearchJoin" => "CustomSearchRowBasic[]",
@@ -63212,6 +65144,10 @@ class ItemSupplyType {
 	 * @var string
 	 */
 	const _purchase = "_purchase";
+	/**
+	 * @var string
+	 */
+	const _transfer = "_transfer";
 }}
 
 if (!class_exists("ItemSupplyReplenishmentMethod")) {
@@ -63306,6 +65242,32 @@ class RevRecScheduleAmortizationType {
 	const _variable = "_variable";
 }}
 
+if (!class_exists("RevRecScheduleAmortizationStatus")) {
+/**
+ * RevRecScheduleAmortizationStatus
+ */
+class RevRecScheduleAmortizationStatus {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _notStarted = "_notStarted";
+	/**
+	 * @var string
+	 */
+	const _inProgress = "_inProgress";
+	/**
+	 * @var string
+	 */
+	const _completed = "_completed";
+	/**
+	 * @var string
+	 */
+	const _onHold = "_onHold";
+}}
+
 if (!class_exists("CostCategoryItemCostType")) {
 /**
  * CostCategoryItemCostType
@@ -63314,18 +65276,6 @@ class CostCategoryItemCostType {
 
 	static $paramtypesmap = array(
 	);
-	/**
-	 * @var string
-	 */
-	const _landed = "_landed";
-	/**
-	 * @var string
-	 */
-	const _material = "_material";
-	/**
-	 * @var string
-	 */
-	const _service = "_service";
 	/**
 	 * @var string
 	 */
@@ -63345,6 +65295,10 @@ class CostCategoryItemCostType {
 	/**
 	 * @var string
 	 */
+	const _landed = "_landed";
+	/**
+	 * @var string
+	 */
 	const _machineRun = "_machineRun";
 	/**
 	 * @var string
@@ -63358,6 +65312,18 @@ class CostCategoryItemCostType {
 	 * @var string
 	 */
 	const _machineSetupOverhead = "_machineSetupOverhead";
+	/**
+	 * @var string
+	 */
+	const _material = "_material";
+	/**
+	 * @var string
+	 */
+	const _materialOverhead = "_materialOverhead";
+	/**
+	 * @var string
+	 */
+	const _service = "_service";
 }}
 
 if (!class_exists("ItemAtpMethod")) {
@@ -64088,6 +66054,28 @@ class BillingScheduleRecurrenceMode {
 	const _dowim = "_dowim";
 }}
 
+if (!class_exists("InventoryItemFraudRisk")) {
+/**
+ * InventoryItemFraudRisk
+ */
+class InventoryItemFraudRisk {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _high = "_high";
+	/**
+	 * @var string
+	 */
+	const _low = "_low";
+	/**
+	 * @var string
+	 */
+	const _medium = "_medium";
+}}
+
 if (!class_exists("ClassTranslation")) {
 /**
  * ClassTranslation
@@ -64515,6 +66503,11 @@ class PaymentMethod extends Record {
 	public $isOnline;
 	/**
 	 * @access public
+	 * @var PaymentMethodVisualsList
+	 */
+	public $visualsList;
+	/**
+	 * @access public
 	 * @var boolean
 	 */
 	public $isDebitCard;
@@ -64556,6 +66549,7 @@ class PaymentMethod extends Record {
 		"account" => "RecordRef",
 		"isInactive" => "boolean",
 		"isOnline" => "boolean",
+		"visualsList" => "PaymentMethodVisualsList",
 		"isDebitCard" => "boolean",
 		"merchantAccountsList" => "RecordRefList",
 		"payPalEmailAddress" => "string",
@@ -65371,6 +67365,11 @@ class InventoryItem extends Record {
 	public $salesDescription;
 	/**
 	 * @access public
+	 * @var InventoryItemFraudRisk
+	 */
+	public $fraudRisk;
+	/**
+	 * @access public
 	 * @var boolean
 	 */
 	public $includeChildren;
@@ -65389,6 +67388,11 @@ class InventoryItem extends Record {
 	 * @var RecordRef
 	 */
 	public $dropshipExpenseAccount;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
 	/**
 	 * @access public
 	 * @var boolean
@@ -65579,6 +67583,36 @@ class InventoryItem extends Record {
 	 * @var boolean
 	 */
 	public $roundUpAsComponent;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -65859,6 +67893,16 @@ class InventoryItem extends Record {
 	 * @var float
 	 */
 	public $demandModifier;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $distributionNetwork;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $distributionCategory;
 	/**
 	 * @access public
 	 * @var boolean
@@ -66346,10 +68390,12 @@ class InventoryItem extends Record {
 		"originalItemSubtype" => "ItemSubType",
 		"cogsAccount" => "RecordRef",
 		"salesDescription" => "string",
+		"fraudRisk" => "InventoryItemFraudRisk",
 		"includeChildren" => "boolean",
 		"incomeAccount" => "RecordRef",
 		"taxSchedule" => "RecordRef",
 		"dropshipExpenseAccount" => "RecordRef",
+		"deferRevRec" => "boolean",
 		"isTaxable" => "boolean",
 		"matrixType" => "ItemMatrixType",
 		"assetAccount" => "RecordRef",
@@ -66388,6 +68434,12 @@ class InventoryItem extends Record {
 		"manufacturerZip" => "string",
 		"countryOfManufacture" => "Country",
 		"roundUpAsComponent" => "boolean",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"defaultItemShipMethod" => "RecordRef",
 		"itemCarrier" => "ItemCarrier",
 		"itemShipMethodList" => "RecordRefList",
@@ -66444,6 +68496,8 @@ class InventoryItem extends Record {
 		"seasonalDemand" => "boolean",
 		"safetyStockLevelUnits" => "string",
 		"demandModifier" => "float",
+		"distributionNetwork" => "RecordRef",
+		"distributionCategory" => "RecordRef",
 		"autoReorderPoint" => "boolean",
 		"storeDisplayName" => "string",
 		"storeDisplayThumbnail" => "RecordRef",
@@ -67422,6 +69476,11 @@ class DownloadItem extends Record {
 	public $vsoeDelivered;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $storeDisplayName;
@@ -67603,6 +69662,7 @@ class DownloadItem extends Record {
 		"vsoeDeferral" => "VsoeDeferral",
 		"vsoePermitDiscount" => "VsoePermitDiscount",
 		"vsoeDelivered" => "boolean",
+		"deferRevRec" => "boolean",
 		"storeDisplayName" => "string",
 		"storeDisplayThumbnail" => "RecordRef",
 		"storeDisplayImage" => "RecordRef",
@@ -68251,6 +70311,36 @@ class NonInventoryPurchaseItem extends Record {
 	public $costCategory;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $currency;
@@ -68338,6 +70428,12 @@ class NonInventoryPurchaseItem extends Record {
 		"isFulfillable" => "boolean",
 		"accountingBookDetailList" => "ItemAccountingBookDetailList",
 		"costCategory" => "RecordRef",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"currency" => "string",
 		"itemOptionsList" => "ItemOptionsList",
 		"matrixOptionList" => "MatrixOptionList",
@@ -68682,6 +70778,11 @@ class NonInventorySaleItem extends Record {
 	 * @var boolean
 	 */
 	public $vsoeDelivered;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
 	/**
 	 * @access public
 	 * @var string
@@ -69034,6 +71135,7 @@ class NonInventorySaleItem extends Record {
 		"vsoeDeferral" => "VsoeDeferral",
 		"vsoePermitDiscount" => "VsoePermitDiscount",
 		"vsoeDelivered" => "boolean",
+		"deferRevRec" => "boolean",
 		"storeDisplayName" => "string",
 		"storeDisplayThumbnail" => "RecordRef",
 		"storeDisplayImage" => "RecordRef",
@@ -69169,6 +71271,11 @@ class NonInventoryResaleItem extends Record {
 	 * @var RecordRef
 	 */
 	public $dropshipExpenseAccount;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
 	/**
 	 * @access public
 	 * @var boolean
@@ -69334,6 +71441,36 @@ class NonInventoryResaleItem extends Record {
 	 * @var Country
 	 */
 	public $countryOfManufacture;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
 	/**
 	 * @access public
 	 * @var string
@@ -69810,6 +71947,7 @@ class NonInventoryResaleItem extends Record {
 		"matrixType" => "ItemMatrixType",
 		"taxSchedule" => "RecordRef",
 		"dropshipExpenseAccount" => "RecordRef",
+		"deferRevRec" => "boolean",
 		"isDropShipItem" => "boolean",
 		"isSpecialOrderItem" => "boolean",
 		"shippingCost" => "float",
@@ -69843,6 +71981,12 @@ class NonInventoryResaleItem extends Record {
 		"manufacturerState" => "string",
 		"manufacturerZip" => "string",
 		"countryOfManufacture" => "Country",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"manufacturerTaxId" => "string",
 		"scheduleBNumber" => "string",
 		"scheduleBQuantity" => "integer",
@@ -70075,6 +72219,11 @@ class OtherChargeResaleItem extends Record {
 	public $residual;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
 	 * @var integer
 	 */
 	public $amortizationPeriod;
@@ -70108,6 +72257,36 @@ class OtherChargeResaleItem extends Record {
 	 * @var RecordRef
 	 */
 	public $costCategory;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
 	/**
 	 * @access public
 	 * @var boolean
@@ -70331,6 +72510,7 @@ class OtherChargeResaleItem extends Record {
 		"deferralAccount" => "RecordRef",
 		"amortizationTemplate" => "RecordRef",
 		"residual" => "string",
+		"deferRevRec" => "boolean",
 		"amortizationPeriod" => "integer",
 		"minimumQuantity" => "integer",
 		"minimumQuantityUnits" => "string",
@@ -70338,6 +72518,12 @@ class OtherChargeResaleItem extends Record {
 		"softDescriptor" => "string",
 		"isFulfillable" => "boolean",
 		"costCategory" => "RecordRef",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"pricesIncludeTax" => "boolean",
 		"quantityPricingSchedule" => "RecordRef",
 		"useMarginalRates" => "boolean",
@@ -70557,6 +72743,36 @@ class OtherChargePurchaseItem extends Record {
 	public $overheadType;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $currency;
@@ -70646,6 +72862,12 @@ class OtherChargePurchaseItem extends Record {
 		"accountingBookDetailList" => "ItemAccountingBookDetailList",
 		"costCategory" => "RecordRef",
 		"overheadType" => "ItemOverheadType",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"currency" => "string",
 		"itemOptionsList" => "ItemOptionsList",
 		"matrixOptionList" => "MatrixOptionList",
@@ -70797,6 +73019,11 @@ class ServiceResaleItem extends Record {
 	public $residual;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
 	 * @var integer
 	 */
 	public $amortizationPeriod;
@@ -70845,6 +73072,36 @@ class ServiceResaleItem extends Record {
 	 * @var RecordRef
 	 */
 	public $costCategory;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -71193,6 +73450,7 @@ class ServiceResaleItem extends Record {
 		"deferralAccount" => "RecordRef",
 		"amortizationTemplate" => "RecordRef",
 		"residual" => "string",
+		"deferRevRec" => "boolean",
 		"amortizationPeriod" => "integer",
 		"minimumQuantity" => "integer",
 		"enforceMinQtyInternally" => "boolean",
@@ -71203,6 +73461,12 @@ class ServiceResaleItem extends Record {
 		"overallQuantityPricingType" => "ItemOverallQuantityPricingType",
 		"isFulfillable" => "boolean",
 		"costCategory" => "RecordRef",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"pricingGroup" => "RecordRef",
 		"minimumQuantityUnits" => "string",
 		"vsoePrice" => "float",
@@ -71442,6 +73706,36 @@ class ServicePurchaseItem extends Record {
 	public $costCategory;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $currency;
@@ -71530,6 +73824,12 @@ class ServicePurchaseItem extends Record {
 		"isFulfillable" => "boolean",
 		"accountingBookDetailList" => "ItemAccountingBookDetailList",
 		"costCategory" => "RecordRef",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"currency" => "string",
 		"itemOptionsList" => "ItemOptionsList",
 		"matrixOptionList" => "MatrixOptionList",
@@ -71714,6 +74014,11 @@ class ServiceSaleItem extends Record {
 	 * @var boolean
 	 */
 	public $vsoeDelivered;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
 	/**
 	 * @access public
 	 * @var boolean
@@ -72014,6 +74319,7 @@ class ServiceSaleItem extends Record {
 		"vsoeDeferral" => "VsoeDeferral",
 		"vsoePermitDiscount" => "VsoePermitDiscount",
 		"vsoeDelivered" => "boolean",
+		"deferRevRec" => "boolean",
 		"createJob" => "boolean",
 		"storeDisplayName" => "string",
 		"storeDisplayThumbnail" => "RecordRef",
@@ -72307,6 +74613,11 @@ class OtherChargeSaleItem extends Record {
 	public $vsoeDelivered;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
 	 * @var RecordRefList
 	 */
 	public $subsidiaryList;
@@ -72413,6 +74724,7 @@ class OtherChargeSaleItem extends Record {
 		"vsoeDeferral" => "VsoeDeferral",
 		"vsoePermitDiscount" => "VsoePermitDiscount",
 		"vsoeDelivered" => "boolean",
+		"deferRevRec" => "boolean",
 		"subsidiaryList" => "RecordRefList",
 		"itemOptionsList" => "ItemOptionsList",
 		"matrixOptionList" => "MatrixOptionList",
@@ -73257,64 +75569,14 @@ class Location extends Record {
 	public $tranPrefix;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $attention;
+	public $mainAddress;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $addressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addrPhone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $city;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $state;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $zip;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $country;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addrText;
-	/**
-	 * @access public
-	 * @var boolean
-	 */
-	public $override;
+	public $returnAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -73358,18 +75620,8 @@ class Location extends Record {
 		"subsidiaryList" => "RecordRefList",
 		"isInactive" => "boolean",
 		"tranPrefix" => "string",
-		"attention" => "string",
-		"addressee" => "string",
-		"addrPhone" => "string",
-		"addr1" => "string",
-		"addr2" => "string",
-		"addr3" => "string",
-		"city" => "string",
-		"state" => "string",
-		"zip" => "string",
-		"country" => "Country",
-		"addrText" => "string",
-		"override" => "boolean",
+		"mainAddress" => "Address",
+		"returnAddress" => "Address",
 		"logo" => "RecordRef",
 		"makeInventoryAvailable" => "boolean",
 		"makeInventoryAvailableStore" => "boolean",
@@ -74964,6 +77216,36 @@ class SerializedInventoryItem extends Record {
 	public $roundUpAsComponent;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var RecordRefList
 	 */
 	public $itemShipMethodList;
@@ -75638,6 +77920,12 @@ class SerializedInventoryItem extends Record {
 		"defaultItemShipMethod" => "RecordRef",
 		"itemCarrier" => "ItemCarrier",
 		"roundUpAsComponent" => "boolean",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"itemShipMethodList" => "RecordRefList",
 		"manufacturerTaxId" => "string",
 		"scheduleBNumber" => "string",
@@ -76446,6 +78734,36 @@ class LotNumberedInventoryItem extends Record {
 	public $roundUpAsComponent;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var RecordRefList
 	 */
 	public $itemShipMethodList;
@@ -77141,6 +79459,12 @@ class LotNumberedInventoryItem extends Record {
 		"defaultItemShipMethod" => "RecordRef",
 		"itemCarrier" => "ItemCarrier",
 		"roundUpAsComponent" => "boolean",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"itemShipMethodList" => "RecordRefList",
 		"manufacturerTaxId" => "string",
 		"scheduleBNumber" => "string",
@@ -78083,47 +80407,7 @@ class Subsidiary extends Record {
 	 * @access public
 	 * @var string
 	 */
-	public $attention;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addrPhone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $city;
-	/**
-	 * @access public
-	 * @var string
-	 */
 	public $state;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $zip;
 	/**
 	 * @access public
 	 * @var Country
@@ -78131,54 +80415,19 @@ class Subsidiary extends Record {
 	public $country;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $addrText;
+	public $mainAddress;
 	/**
 	 * @access public
-	 * @var boolean
+	 * @var Address
 	 */
-	public $override;
+	public $shippingAddress;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $shipAddr;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $returnAddr;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $returnAddress1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $returnAddress2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $returnCity;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $returnState;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $returnCountry;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $returnZip;
+	public $returnAddress;
 	/**
 	 * @access public
 	 * @var string
@@ -78216,6 +80465,36 @@ class Subsidiary extends Record {
 	public $currency;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $fax;
@@ -78244,36 +80523,6 @@ class Subsidiary extends Record {
 	 * @var string
 	 */
 	public $consol;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipCity;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipState;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $shipCountry;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipZip;
 	/**
 	 * @access public
 	 * @var string
@@ -78339,26 +80588,11 @@ class Subsidiary extends Record {
 		"logo" => "RecordRef",
 		"tranPrefix" => "string",
 		"pageLogo" => "RecordRef",
-		"attention" => "string",
-		"addressee" => "string",
-		"addrPhone" => "string",
-		"addr1" => "string",
-		"addr2" => "string",
-		"addr3" => "string",
-		"city" => "string",
 		"state" => "string",
-		"zip" => "string",
 		"country" => "Country",
-		"addrText" => "string",
-		"override" => "boolean",
-		"shipAddr" => "string",
-		"returnAddr" => "string",
-		"returnAddress1" => "string",
-		"returnAddress2" => "string",
-		"returnCity" => "string",
-		"returnState" => "string",
-		"returnCountry" => "Country",
-		"returnZip" => "string",
+		"mainAddress" => "Address",
+		"shippingAddress" => "Address",
+		"returnAddress" => "Address",
 		"legalName" => "string",
 		"isElimination" => "boolean",
 		"fiscalCalendar" => "RecordRef",
@@ -78366,18 +80600,18 @@ class Subsidiary extends Record {
 		"allowPayroll" => "boolean",
 		"email" => "string",
 		"currency" => "RecordRef",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"fax" => "string",
 		"edition" => "string",
 		"federalIdNumber" => "string",
 		"addrLanguage" => "string",
 		"nonConsol" => "string",
 		"consol" => "string",
-		"shipAddress1" => "string",
-		"shipAddress2" => "string",
-		"shipCity" => "string",
-		"shipState" => "string",
-		"shipCountry" => "Country",
-		"shipZip" => "string",
 		"state1TaxNumber" => "string",
 		"ssnOrTin" => "string",
 		"interCoAccount" => "RecordRef",
@@ -78899,6 +81133,11 @@ class KitItem extends Record {
 	public $isTaxable;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
 	 * @var RecordRef
 	 */
 	public $salesTaxCode;
@@ -79368,6 +81607,7 @@ class KitItem extends Record {
 		"shippingCost" => "float",
 		"handlingCost" => "float",
 		"isTaxable" => "boolean",
+		"deferRevRec" => "boolean",
 		"salesTaxCode" => "RecordRef",
 		"weight" => "float",
 		"weightUnit" => "RecordRef",
@@ -79787,6 +82027,36 @@ class AssemblyItem extends Record {
 	public $roundUpAsComponent;
 	/**
 	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
+	/**
+	 * @access public
 	 * @var RecordRef
 	 */
 	public $defaultItemShipMethod;
@@ -80012,6 +82282,11 @@ class AssemblyItem extends Record {
 	public $unbuildVarianceAccount;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
 	 * @var RecordRef
 	 */
 	public $dropshipExpenseAccount;
@@ -80095,6 +82370,16 @@ class AssemblyItem extends Record {
 	 * @var float
 	 */
 	public $demandModifier;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $distributionNetwork;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $distributionCategory;
 	/**
 	 * @access public
 	 * @var float
@@ -80471,6 +82756,12 @@ class AssemblyItem extends Record {
 		"effectiveBomControl" => "AssemblyItemEffectiveBomControl",
 		"defaultRevision" => "string",
 		"roundUpAsComponent" => "boolean",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"defaultItemShipMethod" => "RecordRef",
 		"itemCarrier" => "ItemCarrier",
 		"itemShipMethodList" => "RecordRefList",
@@ -80516,6 +82807,7 @@ class AssemblyItem extends Record {
 		"vsoePermitDiscount" => "VsoePermitDiscount",
 		"vsoeDelivered" => "boolean",
 		"unbuildVarianceAccount" => "RecordRef",
+		"deferRevRec" => "boolean",
 		"dropshipExpenseAccount" => "RecordRef",
 		"preferredLocation" => "RecordRef",
 		"totalValue" => "float",
@@ -80533,6 +82825,8 @@ class AssemblyItem extends Record {
 		"cost" => "float",
 		"reorderPoint" => "float",
 		"demandModifier" => "float",
+		"distributionNetwork" => "RecordRef",
+		"distributionCategory" => "RecordRef",
 		"preferredStockLevel" => "float",
 		"autoReorderPoint" => "boolean",
 		"autoPreferredStockLevel" => "boolean",
@@ -80993,6 +83287,36 @@ class SerializedAssemblyItem extends Record {
 	 * @var boolean
 	 */
 	public $roundUpAsComponent;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
 	/**
 	 * @access public
 	 * @var RecordRefList
@@ -81673,6 +83997,12 @@ class SerializedAssemblyItem extends Record {
 		"defaultItemShipMethod" => "RecordRef",
 		"itemCarrier" => "ItemCarrier",
 		"roundUpAsComponent" => "boolean",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"itemShipMethodList" => "RecordRefList",
 		"manufacturerTaxId" => "string",
 		"scheduleBNumber" => "string",
@@ -82156,6 +84486,36 @@ class LotNumberedAssemblyItem extends Record {
 	 * @var boolean
 	 */
 	public $roundUpAsComponent;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $purchaseOrderQuantityDiff;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantity;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptAmount;
+	/**
+	 * @access public
+	 * @var float
+	 */
+	public $receiptQuantityDiff;
 	/**
 	 * @access public
 	 * @var RecordRefList
@@ -82829,6 +85189,12 @@ class LotNumberedAssemblyItem extends Record {
 		"defaultItemShipMethod" => "RecordRef",
 		"itemCarrier" => "ItemCarrier",
 		"roundUpAsComponent" => "boolean",
+		"purchaseOrderQuantity" => "float",
+		"purchaseOrderAmount" => "float",
+		"purchaseOrderQuantityDiff" => "float",
+		"receiptQuantity" => "float",
+		"receiptAmount" => "float",
+		"receiptQuantityDiff" => "float",
 		"itemShipMethodList" => "RecordRefList",
 		"scheduleBNumber" => "string",
 		"scheduleBQuantity" => "integer",
@@ -84920,12 +87286,36 @@ class RevRecScheduleSearch extends SearchRecord {
 	public $basic;
 	/**
 	 * @access public
+	 * @var TransactionSearchBasic
+	 */
+	public $appliedToTransactionJoin;
+	/**
+	 * @access public
+	 * @var CustomerSearchBasic
+	 */
+	public $customerJoin;
+	/**
+	 * @access public
+	 * @var ItemSearchBasic
+	 */
+	public $itemJoin;
+	/**
+	 * @access public
+	 * @var TransactionSearchBasic
+	 */
+	public $transactionJoin;
+	/**
+	 * @access public
 	 * @var EmployeeSearchBasic
 	 */
 	public $userJoin;
 
 	static $paramtypesmap = array(
 		"basic" => "RevRecScheduleSearchBasic",
+		"appliedToTransactionJoin" => "TransactionSearchBasic",
+		"customerJoin" => "CustomerSearchBasic",
+		"itemJoin" => "ItemSearchBasic",
+		"transactionJoin" => "TransactionSearchBasic",
 		"userJoin" => "EmployeeSearchBasic",
 	);
 }}
@@ -84976,12 +87366,36 @@ class RevRecScheduleSearchRow extends SearchRow {
 	public $basic;
 	/**
 	 * @access public
+	 * @var TransactionSearchRowBasic
+	 */
+	public $appliedToTransactionJoin;
+	/**
+	 * @access public
+	 * @var CustomerSearchRowBasic
+	 */
+	public $customerJoin;
+	/**
+	 * @access public
+	 * @var ItemSearchRowBasic
+	 */
+	public $itemJoin;
+	/**
+	 * @access public
+	 * @var TransactionSearchRowBasic
+	 */
+	public $transactionJoin;
+	/**
+	 * @access public
 	 * @var EmployeeSearchRowBasic
 	 */
 	public $userJoin;
 
 	static $paramtypesmap = array(
 		"basic" => "RevRecScheduleSearchRowBasic",
+		"appliedToTransactionJoin" => "TransactionSearchRowBasic",
+		"customerJoin" => "CustomerSearchRowBasic",
+		"itemJoin" => "ItemSearchRowBasic",
+		"transactionJoin" => "TransactionSearchRowBasic",
 		"userJoin" => "EmployeeSearchRowBasic",
 	);
 }}
@@ -86165,6 +88579,11 @@ class BillingSchedule extends Record {
 	public $isPublic;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $applyToSubtotal;
+	/**
+	 * @access public
 	 * @var RecordRef
 	 */
 	public $transaction;
@@ -86224,6 +88643,7 @@ class BillingSchedule extends Record {
 		"inArrears" => "boolean",
 		"recurrenceTerms" => "RecordRef",
 		"isPublic" => "boolean",
+		"applyToSubtotal" => "boolean",
 		"transaction" => "RecordRef",
 		"isInactive" => "boolean",
 		"seriesStartDate" => "dateTime",
@@ -87056,6 +89476,50 @@ class SubsidiaryAccountingBookDetailList {
 
 	static $paramtypesmap = array(
 		"subsidiaryAccountingBookDetail" => "SubsidiaryAccountingBookDetail[]",
+		"replaceAll" => "boolean",
+	);
+}}
+
+if (!class_exists("PaymentMethodVisuals")) {
+/**
+ * PaymentMethodVisuals
+ */
+class PaymentMethodVisuals {
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $flags;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $location;
+
+	static $paramtypesmap = array(
+		"flags" => "string",
+		"location" => "string",
+	);
+}}
+
+if (!class_exists("PaymentMethodVisualsList")) {
+/**
+ * PaymentMethodVisualsList
+ */
+class PaymentMethodVisualsList {
+	/**
+	 * @access public
+	 * @var PaymentMethodVisuals[]
+	 */
+	public $paymentMethodVisuals;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $replaceAll;
+
+	static $paramtypesmap = array(
+		"paymentMethodVisuals" => "PaymentMethodVisuals[]",
 		"replaceAll" => "boolean",
 	);
 }}
@@ -88163,6 +90627,14 @@ class TransactionStatus {
 	/**
 	 * @var string
 	 */
+	const _invoicePendingApproval = "_invoicePendingApproval";
+	/**
+	 * @var string
+	 */
+	const _invoiceRejected = "_invoiceRejected";
+	/**
+	 * @var string
+	 */
 	const _itemFulfillmentPacked = "_itemFulfillmentPacked";
 	/**
 	 * @var string
@@ -88200,6 +90672,10 @@ class TransactionStatus {
 	 * @var string
 	 */
 	const _paycheckCommitted = "_paycheckCommitted";
+	/**
+	 * @var string
+	 */
+	const _paycheckError = "_paycheckError";
 	/**
 	 * @var string
 	 */
@@ -88565,6 +91041,10 @@ class TransactionPaymentEventHoldReason {
 	/**
 	 * @var string
 	 */
+	const _forwardRequested = "_forwardRequested";
+	/**
+	 * @var string
+	 */
 	const _gatewayError = "_gatewayError";
 	/**
 	 * @var string
@@ -88725,7 +91205,15 @@ class TransactionLinkType {
 	/**
 	 * @var string
 	 */
+	const _purchaseContractOrder = "_purchaseContractOrder";
+	/**
+	 * @var string
+	 */
 	const _purchaseOrderRequisition = "_purchaseOrderRequisition";
+	/**
+	 * @var string
+	 */
+	const _purchaseOrderToBlanket = "_purchaseOrderToBlanket";
 	/**
 	 * @var string
 	 */
@@ -89084,6 +91572,54 @@ class TransactionChargeType {
 	const _variableUsage = "_variableUsage";
 }}
 
+if (!class_exists("AccountingTransactionRevCommitStatus")) {
+/**
+ * AccountingTransactionRevCommitStatus
+ */
+class AccountingTransactionRevCommitStatus {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _committed = "_committed";
+	/**
+	 * @var string
+	 */
+	const _partiallyCommitted = "_partiallyCommitted";
+	/**
+	 * @var string
+	 */
+	const _pendingCommitment = "_pendingCommitment";
+}}
+
+if (!class_exists("AccountingTransactionRevenueStatus")) {
+/**
+ * AccountingTransactionRevenueStatus
+ */
+class AccountingTransactionRevenueStatus {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _completed = "_completed";
+	/**
+	 * @var string
+	 */
+	const _inProgress = "_inProgress";
+	/**
+	 * @var string
+	 */
+	const _onRevCommitment = "_onRevCommitment";
+	/**
+	 * @var string
+	 */
+	const _pending = "_pending";
+}}
+
 if (!class_exists("Opportunity")) {
 /**
  * Opportunity
@@ -89296,9 +91832,9 @@ class Opportunity extends Record {
 	public $estGrossProfitPercent;
 	/**
 	 * @access public
-	 * @var BillAddress
+	 * @var Address
 	 */
-	public $transactionBillAddress;
+	public $billingAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -89306,24 +91842,19 @@ class Opportunity extends Record {
 	public $billAddressList;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $billAddress;
+	public $shippingAddress;
 	/**
 	 * @access public
-	 * @var ShipAddress
+	 * @var boolean
 	 */
-	public $transactionShipAddress;
+	public $shipIsResidential;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $shipAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -89452,12 +91983,11 @@ class Opportunity extends Record {
 		"estGrossProfit" => "float",
 		"buyingReason" => "RecordRef",
 		"estGrossProfitPercent" => "float",
-		"transactionBillAddress" => "BillAddress",
+		"billingAddress" => "Address",
 		"billAddressList" => "RecordRef",
-		"billAddress" => "string",
-		"transactionShipAddress" => "ShipAddress",
+		"shippingAddress" => "Address",
+		"shipIsResidential" => "boolean",
 		"shipAddressList" => "RecordRef",
-		"shipAddress" => "string",
 		"class" => "RecordRef",
 		"closeDate" => "dateTime",
 		"createdDate" => "dateTime",
@@ -90310,9 +92840,9 @@ class SalesOrder extends Record {
 	public $message;
 	/**
 	 * @access public
-	 * @var BillAddress
+	 * @var Address
 	 */
-	public $transactionBillAddress;
+	public $billingAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -90320,24 +92850,19 @@ class SalesOrder extends Record {
 	public $billAddressList;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $billAddress;
+	public $shippingAddress;
 	/**
 	 * @access public
-	 * @var ShipAddress
+	 * @var boolean
 	 */
-	public $transactionShipAddress;
+	public $shipIsResidential;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $shipAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress;
 	/**
 	 * @access public
 	 * @var string
@@ -90823,12 +93348,11 @@ class SalesOrder extends Record {
 		"fax" => "string",
 		"messageSel" => "RecordRef",
 		"message" => "string",
-		"transactionBillAddress" => "BillAddress",
+		"billingAddress" => "Address",
 		"billAddressList" => "RecordRef",
-		"billAddress" => "string",
-		"transactionShipAddress" => "ShipAddress",
+		"shippingAddress" => "Address",
+		"shipIsResidential" => "boolean",
 		"shipAddressList" => "RecordRef",
-		"shipAddress" => "string",
 		"fob" => "string",
 		"shipDate" => "dateTime",
 		"actualShipDate" => "dateTime",
@@ -91155,6 +93679,11 @@ class SalesOrderItem {
 	 * @access public
 	 * @var RecordRef
 	 */
+	public $catchUpPeriod;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
 	public $billingSchedule;
 	/**
 	 * @access public
@@ -91382,6 +93911,7 @@ class SalesOrderItem {
 		"revRecEndDate" => "dateTime",
 		"deferRevRec" => "boolean",
 		"isClosed" => "boolean",
+		"catchUpPeriod" => "RecordRef",
 		"billingSchedule" => "RecordRef",
 		"fromJob" => "boolean",
 		"grossAmt" => "float",
@@ -91512,6 +94042,11 @@ class TransactionSearch extends SearchRecord {
 	public $accountingPeriodJoin;
 	/**
 	 * @access public
+	 * @var AccountingTransactionSearchBasic
+	 */
+	public $accountingTransactionJoin;
+	/**
+	 * @access public
 	 * @var TransactionSearchBasic
 	 */
 	public $appliedToTransactionJoin;
@@ -91535,6 +94070,11 @@ class TransactionSearch extends SearchRecord {
 	 * @var PhoneCallSearchBasic
 	 */
 	public $callJoin;
+	/**
+	 * @access public
+	 * @var SupportCaseSearchBasic
+	 */
+	public $caseJoin;
 	/**
 	 * @access public
 	 * @var ClassificationSearchBasic
@@ -91702,6 +94242,11 @@ class TransactionSearch extends SearchRecord {
 	public $revisionJoin;
 	/**
 	 * @access public
+	 * @var RevRecScheduleSearchBasic
+	 */
+	public $revRecScheduleJoin;
+	/**
+	 * @access public
 	 * @var TransactionSearchBasic
 	 */
 	public $rgPostingTransactionJoin;
@@ -91760,11 +94305,13 @@ class TransactionSearch extends SearchRecord {
 		"basic" => "TransactionSearchBasic",
 		"accountJoin" => "AccountSearchBasic",
 		"accountingPeriodJoin" => "AccountingPeriodSearchBasic",
+		"accountingTransactionJoin" => "AccountingTransactionSearchBasic",
 		"appliedToTransactionJoin" => "TransactionSearchBasic",
 		"applyingTransactionJoin" => "TransactionSearchBasic",
 		"billingTransactionJoin" => "TransactionSearchBasic",
 		"binNumberJoin" => "BinSearchBasic",
 		"callJoin" => "PhoneCallSearchBasic",
+		"caseJoin" => "SupportCaseSearchBasic",
 		"classJoin" => "ClassificationSearchBasic",
 		"cogsPurchaseJoin" => "TransactionSearchBasic",
 		"cogsSaleJoin" => "TransactionSearchBasic",
@@ -91798,6 +94345,7 @@ class TransactionSearch extends SearchRecord {
 		"requestorJoin" => "EmployeeSearchBasic",
 		"revCommittingTransactionJoin" => "TransactionSearchBasic",
 		"revisionJoin" => "ItemRevisionSearchBasic",
+		"revRecScheduleJoin" => "RevRecScheduleSearchBasic",
 		"rgPostingTransactionJoin" => "TransactionSearchBasic",
 		"salesOrderJoin" => "TransactionSearchBasic",
 		"salesRepJoin" => "EmployeeSearchBasic",
@@ -91868,6 +94416,11 @@ class TransactionSearchRow extends SearchRow {
 	public $accountingPeriodJoin;
 	/**
 	 * @access public
+	 * @var AccountingTransactionSearchRowBasic
+	 */
+	public $accountingTransactionJoin;
+	/**
+	 * @access public
 	 * @var TransactionSearchRowBasic
 	 */
 	public $appliedToTransactionJoin;
@@ -91891,6 +94444,11 @@ class TransactionSearchRow extends SearchRow {
 	 * @var PhoneCallSearchRowBasic
 	 */
 	public $callJoin;
+	/**
+	 * @access public
+	 * @var SupportCaseSearchRowBasic
+	 */
+	public $caseJoin;
 	/**
 	 * @access public
 	 * @var ClassificationSearchRowBasic
@@ -92058,6 +94616,11 @@ class TransactionSearchRow extends SearchRow {
 	public $revisionJoin;
 	/**
 	 * @access public
+	 * @var RevRecScheduleSearchRowBasic
+	 */
+	public $revRecScheduleJoin;
+	/**
+	 * @access public
 	 * @var TransactionSearchRowBasic
 	 */
 	public $rgPostingTransactionJoin;
@@ -92116,11 +94679,13 @@ class TransactionSearchRow extends SearchRow {
 		"basic" => "TransactionSearchRowBasic",
 		"accountJoin" => "AccountSearchRowBasic",
 		"accountingPeriodJoin" => "AccountingPeriodSearchRowBasic",
+		"accountingTransactionJoin" => "AccountingTransactionSearchRowBasic",
 		"appliedToTransactionJoin" => "TransactionSearchRowBasic",
 		"applyingTransactionJoin" => "TransactionSearchRowBasic",
 		"billingTransactionJoin" => "TransactionSearchRowBasic",
 		"binNumberJoin" => "BinSearchRowBasic",
 		"callJoin" => "PhoneCallSearchRowBasic",
+		"caseJoin" => "SupportCaseSearchRowBasic",
 		"classJoin" => "ClassificationSearchRowBasic",
 		"cogsPurchaseJoin" => "TransactionSearchRowBasic",
 		"cogsSaleJoin" => "TransactionSearchRowBasic",
@@ -92154,6 +94719,7 @@ class TransactionSearchRow extends SearchRow {
 		"requestorJoin" => "EmployeeSearchRowBasic",
 		"revCommittingTransactionJoin" => "TransactionSearchRowBasic",
 		"revisionJoin" => "ItemRevisionSearchRowBasic",
+		"revRecScheduleJoin" => "RevRecScheduleSearchRowBasic",
 		"rgPostingTransactionJoin" => "TransactionSearchRowBasic",
 		"salesOrderJoin" => "TransactionSearchRowBasic",
 		"salesRepJoin" => "EmployeeSearchRowBasic",
@@ -92215,19 +94781,34 @@ class ItemFulfillment extends Record {
 	public $partner;
 	/**
 	 * @access public
-	 * @var ShipAddress
+	 * @var Address
 	 */
-	public $transactionShipAddress;
+	public $shippingAddress;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $pickedDate;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $packedDate;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $shippedDate;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $shipIsResidential;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $shipAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress;
 	/**
 	 * @access public
 	 * @var ItemFulfillmentShipStatus
@@ -92638,9 +95219,12 @@ class ItemFulfillment extends Record {
 		"createdFrom" => "RecordRef",
 		"createdFromShipGroup" => "integer",
 		"partner" => "RecordRef",
-		"transactionShipAddress" => "ShipAddress",
+		"shippingAddress" => "Address",
+		"pickedDate" => "dateTime",
+		"packedDate" => "dateTime",
+		"shippedDate" => "dateTime",
+		"shipIsResidential" => "boolean",
 		"shipAddressList" => "RecordRef",
-		"shipAddress" => "string",
 		"shipStatus" => "ItemFulfillmentShipStatus",
 		"saturdayDeliveryUps" => "boolean",
 		"sendShipNotifyEmailUps" => "boolean",
@@ -93392,6 +95976,11 @@ class Invoice extends Record {
 	 * @access public
 	 * @var RecordRef
 	 */
+	public $nextApprover;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
 	public $entity;
 	/**
 	 * @access public
@@ -93645,9 +96234,9 @@ class Invoice extends Record {
 	public $message;
 	/**
 	 * @access public
-	 * @var BillAddress
+	 * @var Address
 	 */
-	public $transactionBillAddress;
+	public $billingAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -93655,24 +96244,19 @@ class Invoice extends Record {
 	public $billAddressList;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $billAddress;
+	public $shippingAddress;
 	/**
 	 * @access public
-	 * @var ShipAddress
+	 * @var boolean
 	 */
-	public $transactionShipAddress;
+	public $shipIsResidential;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $shipAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress;
 	/**
 	 * @access public
 	 * @var string
@@ -94025,6 +96609,11 @@ class Invoice extends Record {
 	public $shipGroupList;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $approvalStatus;
+	/**
+	 * @access public
 	 * @var CustomFieldList
 	 */
 	public $customFieldList;
@@ -94043,6 +96632,7 @@ class Invoice extends Record {
 		"createdDate" => "dateTime",
 		"lastModifiedDate" => "dateTime",
 		"customForm" => "RecordRef",
+		"nextApprover" => "RecordRef",
 		"entity" => "RecordRef",
 		"tranDate" => "dateTime",
 		"tranId" => "string",
@@ -94094,12 +96684,11 @@ class Invoice extends Record {
 		"fax" => "string",
 		"messageSel" => "RecordRef",
 		"message" => "string",
-		"transactionBillAddress" => "BillAddress",
+		"billingAddress" => "Address",
 		"billAddressList" => "RecordRef",
-		"billAddress" => "string",
-		"transactionShipAddress" => "ShipAddress",
+		"shippingAddress" => "Address",
+		"shipIsResidential" => "boolean",
 		"shipAddressList" => "RecordRef",
-		"shipAddress" => "string",
 		"fob" => "string",
 		"shipDate" => "dateTime",
 		"shipMethod" => "RecordRef",
@@ -94170,6 +96759,7 @@ class Invoice extends Record {
 		"expCostList" => "InvoiceExpCostList",
 		"timeList" => "InvoiceTimeList",
 		"shipGroupList" => "InvoiceShipGroupList",
+		"approvalStatus" => "RecordRef",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -94414,6 +97004,11 @@ class InvoiceItem {
 	public $excludeFromRateRequest;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $catchUpPeriod;
+	/**
+	 * @access public
 	 * @var float
 	 */
 	public $tax1Amt;
@@ -94569,6 +97164,7 @@ class InvoiceItem {
 		"costEstimateType" => "ItemCostEstimateType",
 		"costEstimate" => "float",
 		"excludeFromRateRequest" => "boolean",
+		"catchUpPeriod" => "RecordRef",
 		"tax1Amt" => "float",
 		"taxCode" => "RecordRef",
 		"taxRate1" => "float",
@@ -95420,9 +98016,9 @@ class CashSale extends Record {
 	public $message;
 	/**
 	 * @access public
-	 * @var BillAddress
+	 * @var Address
 	 */
-	public $transactionBillAddress;
+	public $billingAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -95430,24 +98026,19 @@ class CashSale extends Record {
 	public $billAddressList;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $billAddress;
+	public $shippingAddress;
 	/**
 	 * @access public
-	 * @var ShipAddress
+	 * @var boolean
 	 */
-	public $transactionShipAddress;
+	public $shipIsResidential;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $shipAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress;
 	/**
 	 * @access public
 	 * @var string
@@ -95997,12 +98588,11 @@ class CashSale extends Record {
 		"fax" => "string",
 		"messageSel" => "RecordRef",
 		"message" => "string",
-		"transactionBillAddress" => "BillAddress",
+		"billingAddress" => "Address",
 		"billAddressList" => "RecordRef",
-		"billAddress" => "string",
-		"transactionShipAddress" => "ShipAddress",
+		"shippingAddress" => "Address",
+		"shipIsResidential" => "boolean",
 		"shipAddressList" => "RecordRef",
-		"shipAddress" => "string",
 		"fob" => "string",
 		"shipDate" => "dateTime",
 		"shipMethod" => "RecordRef",
@@ -96324,6 +98914,11 @@ class CashSaleItem {
 	public $excludeFromRateRequest;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $catchUpPeriod;
+	/**
+	 * @access public
 	 * @var float
 	 */
 	public $costEstimate;
@@ -96495,6 +99090,7 @@ class CashSaleItem {
 		"grossAmt" => "float",
 		"costEstimateType" => "ItemCostEstimateType",
 		"excludeFromRateRequest" => "boolean",
+		"catchUpPeriod" => "RecordRef",
 		"costEstimate" => "float",
 		"amountOrdered" => "float",
 		"tax1Amt" => "float",
@@ -97380,9 +99976,9 @@ class Estimate extends Record {
 	public $message;
 	/**
 	 * @access public
-	 * @var BillAddress
+	 * @var Address
 	 */
-	public $transactionBillAddress;
+	public $billingAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -97390,24 +99986,19 @@ class Estimate extends Record {
 	public $billAddressList;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $billAddress;
+	public $shippingAddress;
 	/**
 	 * @access public
-	 * @var ShipAddress
+	 * @var boolean
 	 */
-	public $transactionShipAddress;
+	public $shipIsResidential;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $shipAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress;
 	/**
 	 * @access public
 	 * @var string
@@ -97618,12 +100209,11 @@ class Estimate extends Record {
 		"visibleToCustomer" => "boolean",
 		"messageSel" => "RecordRef",
 		"message" => "string",
-		"transactionBillAddress" => "BillAddress",
+		"billingAddress" => "Address",
 		"billAddressList" => "RecordRef",
-		"billAddress" => "string",
-		"transactionShipAddress" => "ShipAddress",
+		"shippingAddress" => "Address",
+		"shipIsResidential" => "boolean",
 		"shipAddressList" => "RecordRef",
-		"shipAddress" => "string",
 		"fob" => "string",
 		"shipDate" => "dateTime",
 		"shipMethod" => "RecordRef",
@@ -98213,6 +100803,108 @@ class TransactionShipGroup {
 		"shippingRate" => "float",
 		"shippingTaxAmt" => "float",
 		"shippingTax2Amt" => "float",
+	);
+}}
+
+if (!class_exists("AccountingTransactionSearch")) {
+/**
+ * AccountingTransactionSearch
+ */
+class AccountingTransactionSearch extends SearchRecord {
+	/**
+	 * @access public
+	 * @var AccountingTransactionSearchBasic
+	 */
+	public $basic;
+	/**
+	 * @access public
+	 * @var AccountSearchBasic
+	 */
+	public $accountJoin;
+	/**
+	 * @access public
+	 * @var RevRecScheduleSearchBasic
+	 */
+	public $revRecScheduleJoin;
+	/**
+	 * @access public
+	 * @var TransactionSearchBasic
+	 */
+	public $transactionJoin;
+
+	static $paramtypesmap = array(
+		"basic" => "AccountingTransactionSearchBasic",
+		"accountJoin" => "AccountSearchBasic",
+		"revRecScheduleJoin" => "RevRecScheduleSearchBasic",
+		"transactionJoin" => "TransactionSearchBasic",
+	);
+}}
+
+if (!class_exists("AccountingTransactionSearchAdvanced")) {
+/**
+ * AccountingTransactionSearchAdvanced
+ */
+class AccountingTransactionSearchAdvanced extends SearchRecord {
+	/**
+	 * @access public
+	 * @var AccountingTransactionSearch
+	 */
+	public $criteria;
+	/**
+	 * @access public
+	 * @var AccountingTransactionSearchRow
+	 */
+	public $columns;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $savedSearchId;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $savedSearchScriptId;
+
+	static $paramtypesmap = array(
+		"criteria" => "AccountingTransactionSearch",
+		"columns" => "AccountingTransactionSearchRow",
+		"savedSearchId" => "string",
+		"savedSearchScriptId" => "string",
+	);
+}}
+
+if (!class_exists("AccountingTransactionSearchRow")) {
+/**
+ * AccountingTransactionSearchRow
+ */
+class AccountingTransactionSearchRow extends SearchRow {
+	/**
+	 * @access public
+	 * @var AccountingTransactionSearchRowBasic
+	 */
+	public $basic;
+	/**
+	 * @access public
+	 * @var AccountSearchRowBasic
+	 */
+	public $accountJoin;
+	/**
+	 * @access public
+	 * @var RevRecScheduleSearchRowBasic
+	 */
+	public $revRecScheduleJoin;
+	/**
+	 * @access public
+	 * @var TransactionSearchRowBasic
+	 */
+	public $transactionJoin;
+
+	static $paramtypesmap = array(
+		"basic" => "AccountingTransactionSearchRowBasic",
+		"accountJoin" => "AccountSearchRowBasic",
+		"revRecScheduleJoin" => "RevRecScheduleSearchRowBasic",
+		"transactionJoin" => "TransactionSearchRowBasic",
 	);
 }}
 
@@ -99013,6 +101705,11 @@ class PurchaseOrder extends Record {
 	public $entity;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $purchaseContract;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $vatRegNum;
@@ -99118,19 +101815,14 @@ class PurchaseOrder extends Record {
 	public $message;
 	/**
 	 * @access public
-	 * @var BillAddress
+	 * @var Address
 	 */
-	public $transactionBillAddress;
+	public $billingAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $billAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -99158,19 +101850,19 @@ class PurchaseOrder extends Record {
 	public $tax2Total;
 	/**
 	 * @access public
-	 * @var ShipAddress
+	 * @var Address
 	 */
-	public $transactionShipAddress;
+	public $shippingAddress;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $shipIsResidential;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $shipAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress;
 	/**
 	 * @access public
 	 * @var string
@@ -99272,6 +101964,7 @@ class PurchaseOrder extends Record {
 		"lastModifiedDate" => "dateTime",
 		"customForm" => "RecordRef",
 		"entity" => "RecordRef",
+		"purchaseContract" => "RecordRef",
 		"vatRegNum" => "string",
 		"employee" => "RecordRef",
 		"supervisorApproval" => "boolean",
@@ -99293,17 +101986,16 @@ class PurchaseOrder extends Record {
 		"toBeFaxed" => "boolean",
 		"fax" => "string",
 		"message" => "string",
-		"transactionBillAddress" => "BillAddress",
+		"billingAddress" => "Address",
 		"billAddressList" => "RecordRef",
-		"billAddress" => "string",
 		"currency" => "RecordRef",
 		"shipTo" => "RecordRef",
 		"subTotal" => "float",
 		"taxTotal" => "float",
 		"tax2Total" => "float",
-		"transactionShipAddress" => "ShipAddress",
+		"shippingAddress" => "Address",
+		"shipIsResidential" => "boolean",
 		"shipAddressList" => "RecordRef",
-		"shipAddress" => "string",
 		"fob" => "string",
 		"shipDate" => "dateTime",
 		"shipMethod" => "RecordRef",
@@ -99395,6 +102087,11 @@ class PurchaseOrderExpense {
 	 * @access public
 	 * @var RecordRef
 	 */
+	public $createdFrom;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
 	public $taxCode;
 	/**
 	 * @access public
@@ -99435,6 +102132,7 @@ class PurchaseOrderExpense {
 		"customer" => "RecordRef",
 		"isClosed" => "boolean",
 		"isBillable" => "boolean",
+		"createdFrom" => "RecordRef",
 		"taxCode" => "RecordRef",
 		"taxRate1" => "float",
 		"taxRate2" => "float",
@@ -99558,6 +102256,11 @@ class PurchaseOrderItem {
 	public $description;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $purchaseContract;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $rate;
@@ -99623,6 +102326,11 @@ class PurchaseOrderItem {
 	public $isClosed;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $createdFrom;
+	/**
+	 * @access public
 	 * @var RecordRefList
 	 */
 	public $linkedOrderList;
@@ -99650,6 +102358,7 @@ class PurchaseOrderItem {
 		"inventoryDetail" => "InventoryDetail",
 		"serialNumbers" => "string",
 		"description" => "string",
+		"purchaseContract" => "RecordRef",
 		"rate" => "string",
 		"amount" => "float",
 		"options" => "CustomFieldList",
@@ -99663,6 +102372,7 @@ class PurchaseOrderItem {
 		"matchBillToReceipt" => "boolean",
 		"expectedReceiptDate" => "dateTime",
 		"isClosed" => "boolean",
+		"createdFrom" => "RecordRef",
 		"linkedOrderList" => "RecordRefList",
 		"customFieldList" => "CustomFieldList",
 	);
@@ -101695,6 +104405,10 @@ class ChargeStage {
 	/**
 	 * @var string
 	 */
+	const _nonBillable = "_nonBillable";
+	/**
+	 * @var string
+	 */
 	const _processed = "_processed";
 	/**
 	 * @var string
@@ -101947,19 +104661,14 @@ class CashRefund extends Record {
 	public $message;
 	/**
 	 * @access public
-	 * @var BillAddress
+	 * @var Address
 	 */
-	public $transactionBillAddress;
+	public $billingAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $billAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -102286,9 +104995,8 @@ class CashRefund extends Record {
 		"fax" => "string",
 		"messageSel" => "RecordRef",
 		"message" => "string",
-		"transactionBillAddress" => "BillAddress",
+		"billingAddress" => "Address",
 		"billAddressList" => "RecordRef",
-		"billAddress" => "string",
 		"shipMethod" => "RecordRef",
 		"shippingTaxCode" => "RecordRef",
 		"shippingTax1Rate" => "float",
@@ -102485,6 +105193,16 @@ class CashRefundItem {
 	public $revRecEndDate;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $catchUpPeriod;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $deferRevRec;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $giftCertFrom;
@@ -102601,6 +105319,8 @@ class CashRefundItem {
 		"revRecSchedule" => "RecordRef",
 		"revRecStartDate" => "dateTime",
 		"revRecEndDate" => "dateTime",
+		"catchUpPeriod" => "RecordRef",
+		"deferRevRec" => "boolean",
 		"giftCertFrom" => "string",
 		"costEstimateType" => "ItemCostEstimateType",
 		"costEstimate" => "float",
@@ -103579,19 +106299,14 @@ class ReturnAuthorization extends Record {
 	public $message;
 	/**
 	 * @access public
-	 * @var BillAddress
+	 * @var Address
 	 */
-	public $transactionBillAddress;
+	public $billingAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $billAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -103886,9 +106601,8 @@ class ReturnAuthorization extends Record {
 		"toBeFaxed" => "boolean",
 		"messageSel" => "RecordRef",
 		"message" => "string",
-		"transactionBillAddress" => "BillAddress",
+		"billingAddress" => "Address",
 		"billAddressList" => "RecordRef",
-		"billAddress" => "string",
 		"shipAddressList" => "RecordRef",
 		"shipAddress" => "string",
 		"salesGroup" => "RecordRef",
@@ -104042,6 +106756,11 @@ class ReturnAuthorizationItem {
 	 * @var boolean
 	 */
 	public $isDropShipment;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $catchUpPeriod;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -104208,6 +106927,7 @@ class ReturnAuthorizationItem {
 		"deferRevRec" => "boolean",
 		"isClosed" => "boolean",
 		"isDropShipment" => "boolean",
+		"catchUpPeriod" => "RecordRef",
 		"department" => "RecordRef",
 		"costEstimateType" => "ItemCostEstimateType",
 		"costEstimate" => "float",
@@ -104597,19 +107317,14 @@ class CreditMemo extends Record {
 	public $message;
 	/**
 	 * @access public
-	 * @var BillAddress
+	 * @var Address
 	 */
-	public $transactionBillAddress;
+	public $billingAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $billAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $billAddress;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -104847,9 +107562,8 @@ class CreditMemo extends Record {
 		"fax" => "string",
 		"messageSel" => "RecordRef",
 		"message" => "string",
-		"transactionBillAddress" => "BillAddress",
+		"billingAddress" => "Address",
 		"billAddressList" => "RecordRef",
-		"billAddress" => "string",
 		"shipMethod" => "RecordRef",
 		"shippingCost" => "float",
 		"shippingTax1Rate" => "float",
@@ -105170,6 +107884,11 @@ class CreditMemoItem {
 	 * @access public
 	 * @var RecordRef
 	 */
+	public $catchUpPeriod;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
 	public $chargeType;
 	/**
 	 * @access public
@@ -105226,6 +107945,7 @@ class CreditMemoItem {
 		"vsoeDeferral" => "VsoeDeferral",
 		"vsoePermitDiscount" => "VsoePermitDiscount",
 		"vsoeDelivered" => "boolean",
+		"catchUpPeriod" => "RecordRef",
 		"chargeType" => "RecordRef",
 		"chargesList" => "RecordRefList",
 		"customFieldList" => "CustomFieldList",
@@ -106551,6 +109271,16 @@ class Charge extends Record {
 	 * @access public
 	 * @var RecordRef
 	 */
+	public $transaction;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $transactionLine;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
 	public $class;
 	/**
 	 * @access public
@@ -106615,6 +109345,8 @@ class Charge extends Record {
 		"amount" => "float",
 		"billingItem" => "RecordRef",
 		"currency" => "RecordRef",
+		"transaction" => "RecordRef",
+		"transactionLine" => "RecordRef",
 		"class" => "RecordRef",
 		"department" => "RecordRef",
 		"location" => "RecordRef",
@@ -106640,14 +109372,29 @@ class ChargeSearch extends SearchRecord {
 	public $basic;
 	/**
 	 * @access public
+	 * @var TransactionSearchBasic
+	 */
+	public $invoiceJoin;
+	/**
+	 * @access public
 	 * @var JobSearchBasic
 	 */
 	public $jobJoin;
 	/**
 	 * @access public
+	 * @var TransactionSearchBasic
+	 */
+	public $salesOrderJoin;
+	/**
+	 * @access public
 	 * @var TimeBillSearchBasic
 	 */
 	public $timeJoin;
+	/**
+	 * @access public
+	 * @var TransactionSearchBasic
+	 */
+	public $transactionJoin;
 	/**
 	 * @access public
 	 * @var EmployeeSearchBasic
@@ -106661,8 +109408,11 @@ class ChargeSearch extends SearchRecord {
 
 	static $paramtypesmap = array(
 		"basic" => "ChargeSearchBasic",
+		"invoiceJoin" => "TransactionSearchBasic",
 		"jobJoin" => "JobSearchBasic",
+		"salesOrderJoin" => "TransactionSearchBasic",
 		"timeJoin" => "TimeBillSearchBasic",
+		"transactionJoin" => "TransactionSearchBasic",
 		"userJoin" => "EmployeeSearchBasic",
 		"customSearchJoin" => "CustomSearchJoin[]",
 	);
@@ -106714,14 +109464,29 @@ class ChargeSearchRow extends SearchRow {
 	public $basic;
 	/**
 	 * @access public
+	 * @var TransactionSearchRowBasic
+	 */
+	public $invoiceJoin;
+	/**
+	 * @access public
 	 * @var JobSearchRowBasic
 	 */
 	public $jobJoin;
 	/**
 	 * @access public
+	 * @var TransactionSearchRowBasic
+	 */
+	public $salesOrderJoin;
+	/**
+	 * @access public
 	 * @var TimeBillSearchRowBasic
 	 */
 	public $timeJoin;
+	/**
+	 * @access public
+	 * @var TransactionSearchRowBasic
+	 */
+	public $transactionJoin;
 	/**
 	 * @access public
 	 * @var EmployeeSearchRowBasic
@@ -106735,8 +109500,11 @@ class ChargeSearchRow extends SearchRow {
 
 	static $paramtypesmap = array(
 		"basic" => "ChargeSearchRowBasic",
+		"invoiceJoin" => "TransactionSearchRowBasic",
 		"jobJoin" => "JobSearchRowBasic",
+		"salesOrderJoin" => "TransactionSearchRowBasic",
 		"timeJoin" => "TimeBillSearchRowBasic",
+		"transactionJoin" => "TransactionSearchRowBasic",
 		"userJoin" => "EmployeeSearchRowBasic",
 		"customSearchJoin" => "CustomSearchRowBasic[]",
 	);
@@ -108072,6 +110840,24 @@ class WorkOrderOrderStatus {
 	const _undefined = "_undefined";
 }}
 
+if (!class_exists("WorkOrderSchedulingMethod")) {
+/**
+ * WorkOrderSchedulingMethod
+ */
+class WorkOrderSchedulingMethod {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _backward = "_backward";
+	/**
+	 * @var string
+	 */
+	const _forward = "_forward";
+}}
+
 if (!class_exists("InventoryAdjustment")) {
 /**
  * InventoryAdjustment
@@ -108755,19 +111541,19 @@ class TransferOrder extends Record {
 	public $status;
 	/**
 	 * @access public
-	 * @var ShipAddress
+	 * @var Address
 	 */
-	public $transactionShipAddress;
+	public $shippingAddress;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $shipIsResidential;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $shipAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress;
 	/**
 	 * @access public
 	 * @var string
@@ -108803,6 +111589,11 @@ class TransferOrder extends Record {
 	 * @var RecordRef
 	 */
 	public $employee;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $firmed;
 	/**
 	 * @access public
 	 * @var RecordRef
@@ -108921,9 +111712,9 @@ class TransferOrder extends Record {
 		"shippingCost" => "float",
 		"subTotal" => "float",
 		"status" => "string",
-		"transactionShipAddress" => "ShipAddress",
+		"shippingAddress" => "Address",
+		"shipIsResidential" => "boolean",
 		"shipAddressList" => "RecordRef",
-		"shipAddress" => "string",
 		"fob" => "string",
 		"tranDate" => "dateTime",
 		"tranId" => "string",
@@ -108931,6 +111722,7 @@ class TransferOrder extends Record {
 		"orderStatus" => "TransferOrderOrderStatus",
 		"subsidiary" => "RecordRef",
 		"employee" => "RecordRef",
+		"firmed" => "boolean",
 		"department" => "RecordRef",
 		"class" => "RecordRef",
 		"location" => "RecordRef",
@@ -109193,19 +111985,19 @@ class InterCompanyTransferOrder extends Record {
 	public $status;
 	/**
 	 * @access public
-	 * @var ShipAddress
+	 * @var Address
 	 */
-	public $transactionShipAddress;
+	public $shippingAddress;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $shipIsResidential;
 	/**
 	 * @access public
 	 * @var RecordRef
 	 */
 	public $shipAddressList;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $shipAddress;
 	/**
 	 * @access public
 	 * @var string
@@ -109364,9 +112156,9 @@ class InterCompanyTransferOrder extends Record {
 		"shippingCost" => "float",
 		"subTotal" => "float",
 		"status" => "string",
-		"transactionShipAddress" => "ShipAddress",
+		"shippingAddress" => "Address",
+		"shipIsResidential" => "boolean",
 		"shipAddressList" => "RecordRef",
-		"shipAddress" => "string",
 		"fob" => "string",
 		"tranDate" => "dateTime",
 		"tranId" => "string",
@@ -109585,6 +112377,11 @@ class WorkOrder extends Record {
 	public $manufacturingRouting;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $autoCalculateLag;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $status;
@@ -109668,6 +112465,11 @@ class WorkOrder extends Record {
 	 * @var RecordRef
 	 */
 	public $location;
+	/**
+	 * @access public
+	 * @var WorkOrderSchedulingMethod
+	 */
+	public $schedulingMethod;
 	/**
 	 * @access public
 	 * @var SalesTeamList
@@ -109754,6 +112556,7 @@ class WorkOrder extends Record {
 		"lastModifiedDate" => "dateTime",
 		"customForm" => "RecordRef",
 		"manufacturingRouting" => "RecordRef",
+		"autoCalculateLag" => "boolean",
 		"status" => "string",
 		"tranId" => "string",
 		"entity" => "RecordRef",
@@ -109771,6 +112574,7 @@ class WorkOrder extends Record {
 		"class" => "RecordRef",
 		"itemList" => "WorkOrderItemList",
 		"location" => "RecordRef",
+		"schedulingMethod" => "WorkOrderSchedulingMethod",
 		"salesTeamList" => "SalesTeamList",
 		"partnersList" => "PartnersList",
 		"createdFrom" => "RecordRef",
@@ -111455,6 +114259,16 @@ class JournalEntry extends Record {
 	public $parentExpenseAlloc;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $isBookSpecific;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $accountingBook;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $reversalEntry;
@@ -111538,6 +114352,8 @@ class JournalEntry extends Record {
 		"reversalDate" => "dateTime",
 		"reversalDefer" => "boolean",
 		"parentExpenseAlloc" => "RecordRef",
+		"isBookSpecific" => "boolean",
+		"accountingBook" => "RecordRef",
 		"reversalEntry" => "string",
 		"createdFrom" => "RecordRef",
 		"department" => "RecordRef",
@@ -111760,6 +114576,16 @@ class InterCompanyJournalEntry extends Record {
 	public $parentExpenseAlloc;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $isBookSpecific;
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $accountingBook;
+	/**
+	 * @access public
 	 * @var string
 	 */
 	public $reversalEntry;
@@ -111839,6 +114665,8 @@ class InterCompanyJournalEntry extends Record {
 		"reversalDate" => "dateTime",
 		"reversalDefer" => "boolean",
 		"parentExpenseAlloc" => "RecordRef",
+		"isBookSpecific" => "boolean",
+		"accountingBook" => "RecordRef",
 		"reversalEntry" => "string",
 		"createdFrom" => "RecordRef",
 		"department" => "RecordRef",
@@ -118113,6 +120941,10 @@ class EmployeePayFrequency {
 	/**
 	 * @var string
 	 */
+	const _hourly = "_hourly";
+	/**
+	 * @var string
+	 */
 	const _monthly = "_monthly";
 	/**
 	 * @var string
@@ -118960,64 +121792,9 @@ class EmployeeAddressbook {
 	public $label;
 	/**
 	 * @access public
-	 * @var string
+	 * @var Address
 	 */
-	public $attention;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addressee;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $phone;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr1;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr2;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addr3;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $city;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $state;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $zip;
-	/**
-	 * @access public
-	 * @var Country
-	 */
-	public $country;
-	/**
-	 * @access public
-	 * @var string
-	 */
-	public $addrText;
-	/**
-	 * @access public
-	 * @var boolean
-	 */
-	public $override;
+	public $addressbookAddress;
 	/**
 	 * @access public
 	 * @var string
@@ -119028,18 +121805,7 @@ class EmployeeAddressbook {
 		"defaultShipping" => "boolean",
 		"defaultBilling" => "boolean",
 		"label" => "string",
-		"attention" => "string",
-		"addressee" => "string",
-		"phone" => "string",
-		"addr1" => "string",
-		"addr2" => "string",
-		"addr3" => "string",
-		"city" => "string",
-		"state" => "string",
-		"zip" => "string",
-		"country" => "Country",
-		"addrText" => "string",
-		"override" => "boolean",
+		"addressbookAddress" => "Address",
 		"internalId" => "string",
 	);
 }}
@@ -120274,6 +123040,84 @@ class TextFileEncoding {
 	 * @var string
 	 */
 	const _windows1252 = "_windows1252";
+}}
+
+if (!class_exists("FolderFolderType")) {
+/**
+ * FolderFolderType
+ */
+class FolderFolderType {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _appPackages = "_appPackages";
+	/**
+	 * @var string
+	 */
+	const _attachmentsReceived = "_attachmentsReceived";
+	/**
+	 * @var string
+	 */
+	const _attachmentsToSend = "_attachmentsToSend";
+	/**
+	 * @var string
+	 */
+	const _certificates = "_certificates";
+	/**
+	 * @var string
+	 */
+	const _documentsAndFiles = "_documentsAndFiles";
+	/**
+	 * @var string
+	 */
+	const _emailTemplates = "_emailTemplates";
+	/**
+	 * @var string
+	 */
+	const _faxTemplates = "_faxTemplates";
+	/**
+	 * @var string
+	 */
+	const _images = "_images";
+	/**
+	 * @var string
+	 */
+	const _letterTemplates = "_letterTemplates";
+	/**
+	 * @var string
+	 */
+	const _mailMerge = "_mailMerge";
+	/**
+	 * @var string
+	 */
+	const _marketingTemplates = "_marketingTemplates";
+	/**
+	 * @var string
+	 */
+	const _pdfTemplates = "_pdfTemplates";
+	/**
+	 * @var string
+	 */
+	const _suitebundles = "_suitebundles";
+	/**
+	 * @var string
+	 */
+	const _suitecommerceAdvancedSiteTemplates = "_suitecommerceAdvancedSiteTemplates";
+	/**
+	 * @var string
+	 */
+	const _suitescripts = "_suitescripts";
+	/**
+	 * @var string
+	 */
+	const _templates = "_templates";
+	/**
+	 * @var string
+	 */
+	const _webSiteHostingFiles = "_webSiteHostingFiles";
 }}
 
 if (!class_exists("SiteCategoryTranslation")) {
@@ -122829,6 +125673,10 @@ class CampaignResponseCategory {
 	/**
 	 * @var string
 	 */
+	const _failed = "_failed";
+	/**
+	 * @var string
+	 */
 	const _purchased = "_purchased";
 	/**
 	 * @var string
@@ -124779,6 +127627,10 @@ class ItemSupplyPlanOrderType {
 	/**
 	 * @var string
 	 */
+	const _transferOrder = "_transferOrder";
+	/**
+	 * @var string
+	 */
 	const _workOrder = "_workOrder";
 }}
 
@@ -125194,6 +128046,11 @@ class ItemSupplyPlanOrder {
 	public $receiptDate;
 	/**
 	 * @access public
+	 * @var RecordRef
+	 */
+	public $sourceLocation;
+	/**
+	 * @access public
 	 * @var float
 	 */
 	public $quantity;
@@ -125212,6 +128069,7 @@ class ItemSupplyPlanOrder {
 		"orderLineId" => "integer",
 		"orderDate" => "dateTime",
 		"receiptDate" => "dateTime",
+		"sourceLocation" => "RecordRef",
 		"quantity" => "float",
 		"orderCreated" => "boolean",
 		"orderType" => "ItemSupplyPlanOrderType",
@@ -125374,6 +128232,58 @@ class ManufacturingOperationTaskStatus {
 	 * @var string
 	 */
 	const _notStarted = "_notStarted";
+}}
+
+if (!class_exists("ManufacturingOperationTaskPredecessorPredecessorType")) {
+/**
+ * ManufacturingOperationTaskPredecessorPredecessorType
+ */
+class ManufacturingOperationTaskPredecessorPredecessorType {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _finishToFinish = "_finishToFinish";
+	/**
+	 * @var string
+	 */
+	const _finishToStart = "_finishToStart";
+	/**
+	 * @var string
+	 */
+	const _startToFinish = "_startToFinish";
+	/**
+	 * @var string
+	 */
+	const _startToStart = "_startToStart";
+}}
+
+if (!class_exists("ManufacturingLagType")) {
+/**
+ * ManufacturingLagType
+ */
+class ManufacturingLagType {
+
+	static $paramtypesmap = array(
+	);
+	/**
+	 * @var string
+	 */
+	const _quantity = "_quantity";
+	/**
+	 * @var string
+	 */
+	const _quantityPercentage = "_quantityPercentage";
+	/**
+	 * @var string
+	 */
+	const _time = "_time";
+	/**
+	 * @var string
+	 */
+	const _timePercentage = "_timePercentage";
 }}
 
 if (!class_exists("ManufacturingCostTemplate")) {
@@ -125645,6 +128555,11 @@ class ManufacturingRouting extends Record {
 	public $isInactive;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $autoCalculateLag;
+	/**
+	 * @access public
 	 * @var ManufacturingRoutingRoutingStepList
 	 */
 	public $routingStepList;
@@ -125673,6 +128588,7 @@ class ManufacturingRouting extends Record {
 		"memo" => "string",
 		"isDefault" => "boolean",
 		"isInactive" => "boolean",
+		"autoCalculateLag" => "boolean",
 		"routingStepList" => "ManufacturingRoutingRoutingStepList",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
@@ -125725,6 +128641,21 @@ class ManufacturingRoutingRoutingStep {
 	 * @var float
 	 */
 	public $runRate;
+	/**
+	 * @access public
+	 * @var ManufacturingLagType
+	 */
+	public $lagType;
+	/**
+	 * @access public
+	 * @var integer
+	 */
+	public $lagAmount;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $lagUnits;
 
 	static $paramtypesmap = array(
 		"operationSequence" => "integer",
@@ -125735,6 +128666,9 @@ class ManufacturingRoutingRoutingStep {
 		"manufacturingCostTemplate" => "RecordRef",
 		"setupTime" => "float",
 		"runRate" => "float",
+		"lagType" => "ManufacturingLagType",
+		"lagAmount" => "integer",
+		"lagUnits" => "string",
 	);
 }}
 
@@ -125995,6 +128929,11 @@ class ManufacturingOperationTask extends Record {
 	public $endDate;
 	/**
 	 * @access public
+	 * @var boolean
+	 */
+	public $autoCalculateLag;
+	/**
+	 * @access public
 	 * @var integer
 	 */
 	public $machineResources;
@@ -126008,6 +128947,11 @@ class ManufacturingOperationTask extends Record {
 	 * @var ManufacturingCostDetailList
 	 */
 	public $costDetailList;
+	/**
+	 * @access public
+	 * @var ManufacturingOperationTaskPredecessorList
+	 */
+	public $predecessorList;
 	/**
 	 * @access public
 	 * @var CustomFieldList
@@ -126043,9 +128987,11 @@ class ManufacturingOperationTask extends Record {
 		"runRate" => "float",
 		"startDate" => "dateTime",
 		"endDate" => "dateTime",
+		"autoCalculateLag" => "boolean",
 		"machineResources" => "integer",
 		"laborResources" => "integer",
 		"costDetailList" => "ManufacturingCostDetailList",
+		"predecessorList" => "ManufacturingOperationTaskPredecessorList",
 		"customFieldList" => "CustomFieldList",
 		"internalId" => "string",
 		"externalId" => "string",
@@ -126166,6 +129112,80 @@ class ManufacturingOperationTaskSearchRow extends SearchRow {
 	);
 }}
 
+if (!class_exists("ManufacturingOperationTaskPredecessor")) {
+/**
+ * ManufacturingOperationTaskPredecessor
+ */
+class ManufacturingOperationTaskPredecessor {
+	/**
+	 * @access public
+	 * @var RecordRef
+	 */
+	public $task;
+	/**
+	 * @access public
+	 * @var ManufacturingOperationTaskPredecessorPredecessorType
+	 */
+	public $type;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $startDate;
+	/**
+	 * @access public
+	 * @var dateTime
+	 */
+	public $endDate;
+	/**
+	 * @access public
+	 * @var ManufacturingLagType
+	 */
+	public $lagType;
+	/**
+	 * @access public
+	 * @var integer
+	 */
+	public $lagAmount;
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $lagUnits;
+
+	static $paramtypesmap = array(
+		"task" => "RecordRef",
+		"type" => "ManufacturingOperationTaskPredecessorPredecessorType",
+		"startDate" => "dateTime",
+		"endDate" => "dateTime",
+		"lagType" => "ManufacturingLagType",
+		"lagAmount" => "integer",
+		"lagUnits" => "string",
+	);
+}}
+
+if (!class_exists("ManufacturingOperationTaskPredecessorList")) {
+/**
+ * ManufacturingOperationTaskPredecessorList
+ */
+class ManufacturingOperationTaskPredecessorList {
+	/**
+	 * @access public
+	 * @var ManufacturingOperationTaskPredecessor[]
+	 */
+	public $manufacturingOperationTaskPredecessor;
+	/**
+	 * @access public
+	 * @var boolean
+	 */
+	public $replaceAll;
+
+	static $paramtypesmap = array(
+		"manufacturingOperationTaskPredecessor" => "ManufacturingOperationTaskPredecessor[]",
+		"replaceAll" => "boolean",
+	);
+}}
+
 if (!class_exists("NetSuiteService")) {
 /**
  * NetSuiteService
@@ -126173,7 +129193,7 @@ if (!class_exists("NetSuiteService")) {
  */
 class NetSuiteService extends NSPHPClient {
 
-	public $generated_from_endpoint = "2014_1";
+	public $generated_from_endpoint = "2014_2";
 	/**
 	 * Class map for wsdl=>php
 	 * @var array
@@ -126466,8 +129486,7 @@ class NetSuiteService extends NSPHPClient {
 		"RecurrenceFrequency" => "RecurrenceFrequency",
 		"RecurrenceDow" => "RecurrenceDow",
 		"RecurrenceDowim" => "RecurrenceDowim",
-		"ShipAddress" => "ShipAddress",
-		"BillAddress" => "BillAddress",
+		"Address" => "Address",
 		"PresentationItem" => "PresentationItem",
 		"Partners" => "Partners",
 		"LandedCost" => "LandedCost",
@@ -126653,6 +129672,8 @@ class NetSuiteService extends NSPHPClient {
 		"TimeEntrySearchRowBasic" => "TimeEntrySearchRowBasic",
 		"TimeSheetSearchBasic" => "TimeSheetSearchBasic",
 		"TimeSheetSearchRowBasic" => "TimeSheetSearchRowBasic",
+		"AccountingTransactionSearchBasic" => "AccountingTransactionSearchBasic",
+		"AccountingTransactionSearchRowBasic" => "AccountingTransactionSearchRowBasic",
 		"CalendarEventAccessLevel" => "CalendarEventAccessLevel",
 		"CalendarEventAttendeeAttendance" => "CalendarEventAttendeeAttendance",
 		"CalendarEventReminderMinutes" => "CalendarEventReminderMinutes",
@@ -126900,6 +129921,7 @@ class NetSuiteService extends NSPHPClient {
 		"RevRecScheduleRecogIntervalSrc" => "RevRecScheduleRecogIntervalSrc",
 		"RevRecScheduleRecurrenceType" => "RevRecScheduleRecurrenceType",
 		"RevRecScheduleAmortizationType" => "RevRecScheduleAmortizationType",
+		"RevRecScheduleAmortizationStatus" => "RevRecScheduleAmortizationStatus",
 		"CostCategoryItemCostType" => "CostCategoryItemCostType",
 		"ItemAtpMethod" => "ItemAtpMethod",
 		"AssemblyItemEffectiveBomControl" => "AssemblyItemEffectiveBomControl",
@@ -126923,6 +129945,7 @@ class NetSuiteService extends NSPHPClient {
 		"BillingScheduleYearDowimMonth" => "BillingScheduleYearDowimMonth",
 		"BillingScheduleMonthDowim" => "BillingScheduleMonthDowim",
 		"BillingScheduleRecurrenceMode" => "BillingScheduleRecurrenceMode",
+		"InventoryItemFraudRisk" => "InventoryItemFraudRisk",
 		"ClassTranslation" => "ClassTranslation",
 		"ClassTranslationList" => "ClassTranslationList",
 		"ContactCategory" => "ContactCategory",
@@ -127155,6 +130178,8 @@ class NetSuiteService extends NSPHPClient {
 		"ItemAccountingBookDetailList" => "ItemAccountingBookDetailList",
 		"SubsidiaryAccountingBookDetail" => "SubsidiaryAccountingBookDetail",
 		"SubsidiaryAccountingBookDetailList" => "SubsidiaryAccountingBookDetailList",
+		"PaymentMethodVisuals" => "PaymentMethodVisuals",
+		"PaymentMethodVisualsList" => "PaymentMethodVisualsList",
 		"SalesOrderItemCommitInventory" => "SalesOrderItemCommitInventory",
 		"SalesOrderItemCreatePo" => "SalesOrderItemCreatePo",
 		"SalesOrderOrderStatus" => "SalesOrderOrderStatus",
@@ -127193,6 +130218,8 @@ class NetSuiteService extends NSPHPClient {
 		"ItemFulfillmentAncillaryEndorsementFedEx" => "ItemFulfillmentAncillaryEndorsementFedEx",
 		"ItemFulfillmentAccessibilityTypeFedEx" => "ItemFulfillmentAccessibilityTypeFedEx",
 		"TransactionChargeType" => "TransactionChargeType",
+		"AccountingTransactionRevCommitStatus" => "AccountingTransactionRevCommitStatus",
+		"AccountingTransactionRevenueStatus" => "AccountingTransactionRevenueStatus",
 		"Opportunity" => "Opportunity",
 		"OpportunitySalesTeam" => "OpportunitySalesTeam",
 		"OpportunitySalesTeamList" => "OpportunitySalesTeamList",
@@ -127262,6 +130289,9 @@ class NetSuiteService extends NSPHPClient {
 		"GiftCertRedemption" => "GiftCertRedemption",
 		"GiftCertRedemptionList" => "GiftCertRedemptionList",
 		"TransactionShipGroup" => "TransactionShipGroup",
+		"AccountingTransactionSearch" => "AccountingTransactionSearch",
+		"AccountingTransactionSearchAdvanced" => "AccountingTransactionSearchAdvanced",
+		"AccountingTransactionSearchRow" => "AccountingTransactionSearchRow",
 		"PurchaseOrderOrderStatus" => "PurchaseOrderOrderStatus",
 		"TransactionBillVarianceStatus" => "TransactionBillVarianceStatus",
 		"VendorReturnAuthorizationOrderStatus" => "VendorReturnAuthorizationOrderStatus",
@@ -127366,6 +130396,7 @@ class NetSuiteService extends NSPHPClient {
 		"WorkOrderItemItemCreatePo" => "WorkOrderItemItemCreatePo",
 		"WorkOrderItemItemCommitInventory" => "WorkOrderItemItemCommitInventory",
 		"WorkOrderOrderStatus" => "WorkOrderOrderStatus",
+		"WorkOrderSchedulingMethod" => "WorkOrderSchedulingMethod",
 		"InventoryAdjustment" => "InventoryAdjustment",
 		"InventoryAdjustmentInventory" => "InventoryAdjustmentInventory",
 		"InventoryAdjustmentInventoryList" => "InventoryAdjustmentInventoryList",
@@ -127549,6 +130580,7 @@ class NetSuiteService extends NSPHPClient {
 		"FileAttachFrom" => "FileAttachFrom",
 		"FileEncoding" => "FileEncoding",
 		"TextFileEncoding" => "TextFileEncoding",
+		"FolderFolderType" => "FolderFolderType",
 		"SiteCategoryTranslation" => "SiteCategoryTranslation",
 		"SiteCategoryTranslationList" => "SiteCategoryTranslationList",
 		"SiteCategoryPresentationItemList" => "SiteCategoryPresentationItemList",
@@ -127651,6 +130683,8 @@ class NetSuiteService extends NSPHPClient {
 		"ItemSupplyPlanSearchAdvanced" => "ItemSupplyPlanSearchAdvanced",
 		"ItemSupplyPlanSearchRow" => "ItemSupplyPlanSearchRow",
 		"ManufacturingOperationTaskStatus" => "ManufacturingOperationTaskStatus",
+		"ManufacturingOperationTaskPredecessorPredecessorType" => "ManufacturingOperationTaskPredecessorPredecessorType",
+		"ManufacturingLagType" => "ManufacturingLagType",
 		"ManufacturingCostTemplate" => "ManufacturingCostTemplate",
 		"ManufacturingCostDetail" => "ManufacturingCostDetail",
 		"ManufacturingCostDetailList" => "ManufacturingCostDetailList",
@@ -127667,6 +130701,8 @@ class NetSuiteService extends NSPHPClient {
 		"ManufacturingOperationTaskSearch" => "ManufacturingOperationTaskSearch",
 		"ManufacturingOperationTaskSearchAdvanced" => "ManufacturingOperationTaskSearchAdvanced",
 		"ManufacturingOperationTaskSearchRow" => "ManufacturingOperationTaskSearchRow",
+		"ManufacturingOperationTaskPredecessor" => "ManufacturingOperationTaskPredecessor",
+		"ManufacturingOperationTaskPredecessorList" => "ManufacturingOperationTaskPredecessorList",
 	);
 
 	 /*
