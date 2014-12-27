@@ -1,6 +1,6 @@
 {
     "name": "travisghansen/netsuite-php-toolkit",
-    "description": "NetSuite PHP API",
+    "description": "NetSuite PHP API with NAMESPACE support",
     "keywords": [ "netsuite" ],
     "type": "library",
     "license": "LGPL 2.1+",
