@@ -1,0 +1,16 @@
+{
+    "name": "travisghansen/netsuite-php-toolkit",
+    "description": "NetSuite PHP API",
+    "keywords": [ "netsuite" ],
+    "type": "library",
+    "license": "LGPL 2.1+",
+    "authors": [
+    ],
+    "autoload": {
+        "files": [
+            "PHPToolkit/NSconfig.php",
+            "PHPToolkit/NSPHPClient.php",
+            "PHPToolkit/NetSuiteService.php"
+        ]
+    }
+}
