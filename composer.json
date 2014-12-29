@@ -6,11 +6,14 @@
     "license": "LGPL 2.1+",
     "authors": [
     ],
+	"require": {
+		"php": ">=5.3",
+		"ext-soap": "*",
+		"ext-SimpleXML": "*"
+	},
     "autoload": {
-        "files": [
-            "PHPToolkit/NSconfig.php",
-            "PHPToolkit/NSPHPClient.php",
-            "PHPToolkit/NetSuiteService.php"
+        "classmap": [
+            "PHPToolkit/"
         ]
     }
 }
