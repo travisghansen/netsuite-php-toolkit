@@ -12,8 +12,10 @@
 		"ext-SimpleXML": "*"
 	},
     "autoload": {
-        "classmap": [
-            "PHPToolkit/"
+        "files": [
+            "PHPToolkit/NSconfig.php",
+            "PHPToolkit/NSPHPClient.php",
+            "PHPToolkit/NetSuiteService.php"
         ]
     }
 }
