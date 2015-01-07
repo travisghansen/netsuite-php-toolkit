@@ -3,11 +3,7 @@ namespace NetSuite\WebServices;
 
 function class_exists($class_name, $autoload = true)
 {
-    if(strstr(__NAMESPACE__, 0, strlen(__NAMESPACE__)) === FALSE)
-    {
-        $class_name = __NAMESPACE__ . '\\' . $class_name;
-    }
-    return \class_exists($class_name, $autoload);
+    return false;
 }
 
 function arrayValuesAreEmpty ($array)
