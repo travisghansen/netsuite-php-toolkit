@@ -3,7 +3,7 @@
     "description": "NetSuite PHP API",
     "keywords": [ "netsuite" ],
     "type": "library",
-    "license": "LGPL 2.1+",
+    "license": "LGPL-2.1-or-later",
     "authors": [
     ],
 	"require": {
